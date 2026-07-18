@@ -9,6 +9,8 @@ All notable updates to this career repository should be documented here.
 - Created the initial career repository structure.
 - Added starter documentation for resumes, reusable sections, interview preparation, portfolio materials, and application workflows.
 - Added role-specific resume folders for senior backend, lead backend, software architect, platform engineer, and engineering manager tracks.
+- Added AI agent instructions in `AGENTS.md`.
+- Added AI usage workflow and future prompts in `docs/AI_USAGE.md`.
 
 ## Conventions
 

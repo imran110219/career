@@ -19,6 +19,8 @@ The goal is to keep every career asset versioned, reusable, and easy to update b
 | `publications/` | Articles, talks, papers, and external writing references. |
 | `templates/` | Base templates for resumes, cover letters, outreach emails, and follow-ups. |
 | `archive/` | Historical materials that should be preserved but are no longer active. |
+| `AGENTS.md` | Instructions for future AI agents working in this repository. |
+| `docs/AI_USAGE.md` | Practical guide for using AI to maintain and tailor career materials. |
 
 ## Resume Versions
 
@@ -40,6 +42,8 @@ The goal is to keep every career asset versioned, reusable, and easy to update b
 5. Tailor the summary, skills, experience bullets, and project selection to the job description.
 6. Save company-specific notes under `companies/applications/`.
 7. Commit each meaningful update with a clear message.
+
+For AI-assisted updates, start with `AGENTS.md` and `docs/AI_USAGE.md` so future sessions preserve the repository conventions and avoid inventing facts.
 
 ## Job Application Workflow
 
