@@ -13,6 +13,13 @@ Track articles, technical writing, talks, papers, and public references.
 | Link | Canonical public URL. |
 | Summary | One-sentence explanation of topic and value. |
 
+## Publications
+
+| Title | Type | Status |
+| --- | --- | --- |
+| Temporal Relation Extraction using Apriori Algorithm | Academic or technical publication | Add venue, date, and link |
+| An Effective Attendance Monitoring System with Fraud Prevention Technique for Educational Institutions | Academic or technical publication | Add venue, date, and link |
+
 ## Maintenance Checklist
 
 - [ ] Verify all links still work.

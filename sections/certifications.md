@@ -6,7 +6,11 @@ Track active, expired, planned, and in-progress certifications.
 
 | Certification | Provider | Status | Earned | Expires | Verification |
 | --- | --- | --- | --- | --- | --- |
-| Add certification name | Add provider | Planned | TBD | TBD | TBD |
+| Python 3 Tutorial Course | Add provider | Earned | TBD | TBD | TBD |
+| Foundations of IT Security: Core Concepts | Add provider | Earned | TBD | TBD | TBD |
+| Internet History, Technology, and Security | Add provider | Earned | TBD | TBD | TBD |
+| Java Course | Add provider | Earned | TBD | TBD | TBD |
+| Intro to Python for Data Science Course | Add provider | Earned | TBD | TBD | TBD |
 
 ## Status Values
 

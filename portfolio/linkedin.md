@@ -14,7 +14,11 @@ Use this file to maintain LinkedIn positioning and update plans.
 
 ## About Section Draft
 
-Backend-focused software engineer and technical leader with experience designing, building, and operating reliable systems. I work across Java, Spring, PostgreSQL, API design, system architecture, and production operations, with a strong interest in maintainable platforms, clear technical direction, and measurable delivery outcomes.
+I am a Senior Software Engineer with 9+ years of experience designing and building secure, scalable backend systems across healthcare, government, education, and enterprise domains.
+
+My core expertise is in Java, Spring Boot, backend architecture, distributed systems, API design, database modeling, and performance optimization. I have worked on platforms used by thousands of users where reliability, data integrity, and security were non-negotiable.
+
+I have led and mentored engineering teams, contributed to system design decisions, and taken ownership of end-to-end product development from requirement analysis and architecture through deployment and long-term maintenance.
 
 ## Checklist
 

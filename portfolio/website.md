@@ -10,6 +10,14 @@ Use this file to plan and maintain personal website content.
 | Support applications | Give recruiters and hiring managers a quick way to validate experience. |
 | Showcase work | Link to projects, writing, GitHub, and contact channels. |
 
+## Current Public Links
+
+| Channel | Link |
+| --- | --- |
+| Website | www.sadmansobhan.com |
+| LinkedIn | www.linkedin.com/in/sadmansobhan |
+| Medium | medium.com/@imran110219 |
+
 ## Recommended Pages
 
 - Home: concise positioning, key skills, selected work.

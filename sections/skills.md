@@ -6,27 +6,29 @@ Keep this file as the canonical skills inventory. Targeted resumes should only i
 
 | Category | Skills |
 | --- | --- |
-| Languages | Java, SQL, JavaScript, TypeScript, Bash |
-| Backend | Spring Boot, REST APIs, service design, validation, authentication, authorization |
-| Data | PostgreSQL, query optimization, indexing, schema design, migrations, transactions |
-| Architecture | System design, API contracts, modularity, scalability, reliability, integration patterns |
-| Delivery | Git, CI/CD, code review, release planning, test strategy, documentation |
-| Operations | Logging, monitoring, alerting, incident analysis, runbooks, performance tuning |
-| Leadership | Mentoring, technical planning, stakeholder communication, hiring support, design review |
+| Languages | Java, SQL, C#, PHP |
+| Backend | Spring Boot, Spring Cloud, Hibernate, REST APIs, ASP.NET, WordPress |
+| Data | PostgreSQL, SQL Server, database modeling, relational database design, stored procedures, triggers, views |
+| Security | Keycloak, authentication, authorization, data privacy, data integrity |
+| Performance | Redis caching, performance optimization, scalable backend design |
+| Architecture | Distributed systems, system design, API design, backend architecture |
+| Delivery | Agile development, requirement analysis, deployment, long-term maintenance, code review |
+| Leadership | Team mentoring, grooming, planning, stakeholder collaboration, cross-functional delivery |
+| Product Domains | Healthcare, government, education, enterprise platforms, electronic procurement, exam management |
 
 ## Resume Skill Groups
 
 ### Senior Backend Engineer
 
-- Java, Spring Boot, PostgreSQL, REST APIs, database performance, testing, observability.
+- Java, Spring Boot, Hibernate, PostgreSQL, REST APIs, Redis caching, Keycloak, performance optimization.
 
 ### Lead Backend Engineer
 
-- Technical leadership, delivery planning, backend architecture, mentoring, code review, incident follow-up.
+- Technical leadership, delivery planning, backend architecture, mentoring, grooming, code review, stakeholder collaboration.
 
 ### Software Architect
 
-- System design, service boundaries, integration strategy, data modeling, architecture documentation, migration planning.
+- System design, distributed systems, backend architecture, API design, data modeling, authentication, authorization.
 
 ### Platform Engineer
 

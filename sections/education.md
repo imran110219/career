@@ -14,6 +14,14 @@ Degree or Program | Location | Year
 - Thesis, capstone, or major project:
 ```
 
+## Education History
+
+| Institution | Credential | Dates |
+| --- | --- | --- |
+| Khulna University | Bachelor of Science, Computer Science and Engineering | 2011 - 2016 |
+| Shaheed Mashiur Rahman Degree College | Higher Secondary School Certificate, Science | 2008 - 2010 |
+| Jhikargacha M. L. High School | Secondary School Certificate, Science | 2003 - 2008 |
+
 ## Usage Notes
 
 | Resume Context | Recommendation |

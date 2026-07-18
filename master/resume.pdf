@@ -3,40 +3,162 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R] /Count 3 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
-endobj
-5 0 obj
-<< /Length 250 >>
+<< /Length 4906 >>
 stream
-BT
-/F1 18 Tf
-72 740 Td
-(Master Resume) Tj
-/F1 11 Tf
-0 -24 Td
-(Career repository starter PDF.) Tj
-0 -24 Td
-(Replace this generated starter with the reviewed export before applying.) Tj
-0 -24 Td
-(Canonical content lives in master/ and sections/.) Tj
-ET
+BT /F1 18 Tf 54 744 Td (Sadman Sobhan) Tj ET
+BT /F1 9 Tf 54 720 Td (Senior Software Engineer | Backend & Distributed Systems | Java, Spring Boot, PostgreSQL) Tj ET
+BT /F1 9 Tf 54 708 Td (Dhaka, Bangladesh) Tj ET
+BT /F1 9 Tf 54 696 Td (Phone: +8801912070224) Tj ET
+BT /F1 9 Tf 54 684 Td (Email: imran110219@gmail.com) Tj ET
+BT /F1 9 Tf 54 672 Td (LinkedIn: www.linkedin.com/in/sadmansobhan) Tj ET
+BT /F1 9 Tf 54 660 Td (Website: www.sadmansobhan.com) Tj ET
+BT /F1 9 Tf 54 648 Td (Blog: medium.com/@imran110219) Tj ET
+BT /F1 12 Tf 54 632 Td (PROFESSIONAL SUMMARY) Tj ET
+BT /F1 9 Tf 54 615 Td (Senior Software Engineer with 9+ years of experience designing and building secure, scalable) Tj ET
+BT /F1 9 Tf 54 603 Td (backend systems across healthcare, government, education, and enterprise domains. Strong in) Tj ET
+BT /F1 9 Tf 54 591 Td (Java, Spring Boot, backend architecture, distributed systems, API design, database modeling,) Tj ET
+BT /F1 9 Tf 54 579 Td (and performance optimization.) Tj ET
+BT /F1 9 Tf 54 567 Td (Experienced in platforms used by thousands of users where reliability, data integrity, and) Tj ET
+BT /F1 9 Tf 54 555 Td (security are critical. Proven ability to lead and mentor engineering teams, contribute to) Tj ET
+BT /F1 9 Tf 54 543 Td (system design decisions, and own software delivery from requirements and architecture through) Tj ET
+BT /F1 9 Tf 54 531 Td (deployment and long-term maintenance.) Tj ET
+BT /F1 9 Tf 54 519 Td (Currently expanding deeper expertise in DevOps, SRE practices, and cloud-native distributed) Tj ET
+BT /F1 9 Tf 54 507 Td (systems while building health-tech platforms that improve how patients, doctors, and) Tj ET
+BT /F1 9 Tf 54 495 Td (organizations connect in Bangladesh.) Tj ET
+BT /F1 12 Tf 54 479 Td (CORE SKILLS) Tj ET
+BT /F1 8 Tf 54 462 Td (Category  |  Skills) Tj ET
+BT /F1 8 Tf 54 451 Td (Backend  |  Java, Spring Boot, Hibernate, REST APIs, backend architecture, distributed systems) Tj ET
+BT /F1 8 Tf 54 440 Td (Data  |  PostgreSQL, SQL Server, database modeling, query optimization, relational database) Tj ET
+BT /F1 8 Tf 54 429 Td (design) Tj ET
+BT /F1 8 Tf 54 418 Td (Security  |  Keycloak, authentication, authorization, data privacy, data integrity) Tj ET
+BT /F1 8 Tf 54 407 Td (Performance  |  Redis caching, performance optimization, scalable service design) Tj ET
+BT /F1 8 Tf 54 396 Td (Delivery  |  Agile development, requirement analysis, deployment, maintenance, code reviews) Tj ET
+BT /F1 8 Tf 54 385 Td (Leadership  |  Team leadership, mentoring, grooming, planning, stakeholder collaboration) Tj ET
+BT /F1 8 Tf 54 374 Td (Additional  |  Flutter, Crystal Reports, ASP.NET, C#, WordPress, PHP) Tj ET
+BT /F1 12 Tf 54 359 Td (EXPERIENCE) Tj ET
+BT /F1 11 Tf 54 342 Td (Penta Global Ltd. - Senior Software Engineer) Tj ET
+BT /F1 9 Tf 54 327 Td (Dhaka, Bangladesh | August 2023 - Present) Tj ET
+BT /F1 9 Tf 54 315 Td (- Lead and mentor engineering teams across multiple projects through grooming, planning,) Tj ET
+BT /F1 9 Tf 54 303 Td (  implementation guidance, and code reviews.) Tj ET
+BT /F1 9 Tf 54 291 Td (- Design and implement secure, scalable, high-performance backend systems using Java, Spring) Tj ET
+BT /F1 9 Tf 54 279 Td (  Boot, Hibernate, and REST APIs.) Tj ET
+BT /F1 9 Tf 54 267 Td (- Manage authentication and authorization flows with Keycloak and improve application) Tj ET
+BT /F1 9 Tf 54 255 Td (  performance with caching solutions.) Tj ET
+BT /F1 9 Tf 54 243 Td (- Collaborate with cross-functional teams to deliver features aligned with client requirements) Tj ET
+BT /F1 9 Tf 54 231 Td (  and business goals.) Tj ET
+BT /F1 9 Tf 54 219 Td (- Contribute to distributed systems, API development, system architecture, and long-term) Tj ET
+BT /F1 9 Tf 54 207 Td (  maintainability for health-tech and public-impact platforms.) Tj ET
+BT /F1 11 Tf 54 195 Td (Dynamic Solution Innovators Ltd. - Software Engineer) Tj ET
+BT /F1 9 Tf 54 180 Td (Dhaka, Bangladesh | January 2022 - July 2023) Tj ET
+BT /F1 9 Tf 54 168 Td (- Led development of an exam management system using Java, PostgreSQL, Spring Boot, Flutter,) Tj ET
+BT /F1 9 Tf 54 156 Td (  and Crystal Reports.) Tj ET
+BT /F1 9 Tf 54 144 Td (- Analyzed requirements and designed the database schema, creating an efficient and scalable) Tj ET
+BT /F1 9 Tf 54 132 Td (  foundation for the system.) Tj ET
+BT /F1 9 Tf 54 120 Td (- Developed a real-time administrator dashboard that improved data visibility and decision-) Tj ET
+BT /F1 9 Tf 54 108 Td (  making, contributing to a 40% increase in system usage and user satisfaction.) Tj ET
+BT /F1 9 Tf 54 96 Td (- Reduced system response time by 30% by implementing Redis caching and improving backend) Tj ET
+BT /F1 9 Tf 54 84 Td (  performance.) Tj ET
+BT /F1 9 Tf 54 72 Td (- Deployed a production system used by more than 2,500 administrators, 1,000 exam) Tj ET
+BT /F1 9 Tf 54 60 Td (  invigilators, and 1,000 examinees.) Tj ET
 endstream
 endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4334 >>
+stream
+BT /F1 9 Tf 54 744 Td (- Supported online registration and payment management for nearly 30,000 students,) Tj ET
+BT /F1 9 Tf 54 732 Td (  streamlining a high-volume operational workflow.) Tj ET
+BT /F1 11 Tf 54 720 Td (Dohatec New Media - Java Software Engineer) Tj ET
+BT /F1 9 Tf 54 705 Td (Dhaka, Bangladesh | October 2016 - December 2021) Tj ET
+BT /F1 9 Tf 54 693 Td (- Worked on the National Electronic Government Procurement System, fixing bugs, implementing) Tj ET
+BT /F1 9 Tf 54 681 Td (  features, and analyzing client requirements while preserving data privacy and integrity.) Tj ET
+BT /F1 9 Tf 54 669 Td (- Contributed to electronic government procurement capabilities involving large file uploads,) Tj ET
+BT /F1 9 Tf 54 657 Td (  relational data modeling, and enterprise-grade workflow support.) Tj ET
+BT /F1 9 Tf 54 645 Td (- Applied iterative, agile, and incremental software engineering practices in collaboration) Tj ET
+BT /F1 9 Tf 54 633 Td (  with stakeholders, customers, and product teams.) Tj ET
+BT /F1 9 Tf 54 621 Td (- Helped drive an 80% increase in user engagement over a six-month period through product) Tj ET
+BT /F1 9 Tf 54 609 Td (  improvements and stakeholder-aligned delivery.) Tj ET
+BT /F1 9 Tf 54 597 Td (- Supported long-term software partnerships with government, non-government, and enterprise) Tj ET
+BT /F1 9 Tf 54 585 Td (  organizations.) Tj ET
+BT /F1 11 Tf 54 573 Td (Jaliks Soft IT Limited - .NET Developer) Tj ET
+BT /F1 9 Tf 54 558 Td (Khulna, Bangladesh | February 2016 - June 2016) Tj ET
+BT /F1 9 Tf 54 546 Td (- Implemented new features and resolved bugs in a large-scale education application using) Tj ET
+BT /F1 9 Tf 54 534 Td (  ASP.NET and C#.) Tj ET
+BT /F1 9 Tf 54 522 Td (- Developed and maintained SQL Server databases, including stored procedures, triggers, and) Tj ET
+BT /F1 9 Tf 54 510 Td (  views.) Tj ET
+BT /F1 9 Tf 54 498 Td (- Collaborated with product managers, designers, developers, and other stakeholders to support) Tj ET
+BT /F1 9 Tf 54 486 Td (  successful project delivery.) Tj ET
+BT /F1 9 Tf 54 474 Td (- Conducted code reviews and provided feedback to improve quality and maintainability.) Tj ET
+BT /F1 11 Tf 54 462 Td (Pranon - Student Intern) Tj ET
+BT /F1 9 Tf 54 447 Td (Khulna, Bangladesh | June 2014 - September 2014) Tj ET
+BT /F1 9 Tf 54 435 Td (- Worked as a WordPress developer, implementing features and fixing bugs in an education) Tj ET
+BT /F1 9 Tf 54 423 Td (  application.) Tj ET
+BT /F1 9 Tf 54 411 Td (- Gained hands-on experience with WordPress CMS, PHP, and basic frontend development.) Tj ET
+BT /F1 12 Tf 54 395 Td (EDUCATION) Tj ET
+BT /F1 8 Tf 54 378 Td (Institution  |  Credential  |  Dates) Tj ET
+BT /F1 8 Tf 54 367 Td (Khulna University  |  Bachelor of Science, Computer Science and Engineering  |  2011 - 2016) Tj ET
+BT /F1 8 Tf 54 356 Td (Shaheed Mashiur Rahman Degree College  |  Higher Secondary School Certificate, Science  |  2008) Tj ET
+BT /F1 8 Tf 54 345 Td (- 2010) Tj ET
+BT /F1 8 Tf 54 334 Td (Jhikargacha M. L. High School  |  Secondary School Certificate, Science  |  2003 - 2008) Tj ET
+BT /F1 12 Tf 54 319 Td (PUBLICATIONS) Tj ET
+BT /F1 9 Tf 54 302 Td (- Temporal Relation Extraction using Apriori Algorithm.) Tj ET
+BT /F1 9 Tf 54 290 Td (- An Effective Attendance Monitoring System with Fraud Prevention Technique for Educational) Tj ET
+BT /F1 9 Tf 54 278 Td (  Institutions.) Tj ET
+BT /F1 12 Tf 54 262 Td (CERTIFICATIONS) Tj ET
+BT /F1 9 Tf 54 245 Td (- Python 3 Tutorial Course.) Tj ET
+BT /F1 9 Tf 54 233 Td (- Foundations of IT Security: Core Concepts.) Tj ET
+BT /F1 9 Tf 54 221 Td (- Internet History, Technology, and Security.) Tj ET
+BT /F1 9 Tf 54 209 Td (- Java Course.) Tj ET
+BT /F1 9 Tf 54 197 Td (- Intro to Python for Data Science Course.) Tj ET
+BT /F1 12 Tf 54 181 Td (LANGUAGES) Tj ET
+BT /F1 8 Tf 54 164 Td (Language  |  Proficiency) Tj ET
+BT /F1 8 Tf 54 153 Td (Bangla  |  Native or bilingual) Tj ET
+BT /F1 8 Tf 54 142 Td (English  |  Professional working) Tj ET
+BT /F1 8 Tf 54 131 Td (Hindi  |  Limited working) Tj ET
+BT /F1 12 Tf 54 116 Td (HONORS AND AWARDS) Tj ET
+BT /F1 9 Tf 54 99 Td (- Junior Scholarship.) Tj ET
+BT /F1 9 Tf 54 87 Td (- GPA-5 \(A+\).) Tj ET
+BT /F1 12 Tf 54 71 Td (REVIEW CHECKLIST) Tj ET
+BT /F1 9 Tf 54 54 Td ([ ] Confirm exact employment end date or current duration for Penta Global Ltd.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 446 >>
+stream
+BT /F1 9 Tf 54 744 Td ([ ] Add current health-tech platform name if it is public and safe to disclose.) Tj ET
+BT /F1 9 Tf 54 732 Td ([ ] Add GitHub URL if different from the personal website.) Tj ET
+BT /F1 9 Tf 54 720 Td ([ ] Add measurable impact for Penta Global Ltd. projects.) Tj ET
+BT /F1 9 Tf 54 708 Td ([ ] Add certification providers and completion dates.) Tj ET
+BT /F1 9 Tf 54 696 Td ([ ] Add publication links, venues, and dates.) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
 xref
-0 6
+0 10
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
-0000000115 00000 n 
-0000000241 00000 n 
-0000000311 00000 n 
-trailer << /Size 6 /Root 1 0 R >>
+0000000127 00000 n 
+0000000253 00000 n 
+0000005211 00000 n 
+0000005337 00000 n 
+0000009723 00000 n 
+0000009849 00000 n 
+0000010346 00000 n 
+trailer << /Size 10 /Root 1 0 R >>
 startxref
-612
+10416
 %%EOF

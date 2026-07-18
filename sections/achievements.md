@@ -4,28 +4,31 @@ Use these as source bullets for targeted resumes. Replace broad statements with 
 
 ## Backend Delivery
 
-- Built and maintained backend services supporting business-critical workflows, with emphasis on correctness, traceability, and long-term maintainability.
-- Improved API reliability by strengthening validation, error handling, test coverage, and operational logging.
-- Optimized PostgreSQL-backed workflows by analyzing query plans, refining indexes, and reducing avoidable database load.
+- Led development of an exam management system using Java, PostgreSQL, Spring Boot, Flutter, and Crystal Reports.
+- Reduced system response time by 30% by implementing Redis caching and improving backend performance.
+- Deployed a production system used by more than 2,500 administrators, 1,000 exam invigilators, and 1,000 examinees.
+- Supported online registration and payment management for nearly 30,000 students.
+- Worked on the National Electronic Government Procurement System, implementing features and resolving defects while preserving data privacy and integrity.
+- Designed and implemented secure, scalable backend systems using Java, Spring Boot, Hibernate, and REST APIs.
 
 ## Leadership
 
-- Led technical planning for backend initiatives by clarifying scope, sequencing delivery, identifying risks, and coordinating implementation across contributors.
-- Improved review quality by establishing clearer expectations for API contracts, tests, database migrations, and operational readiness.
-- Mentored engineers through design reviews, debugging sessions, pull request feedback, and implementation planning.
+- Lead and mentor engineering teams across grooming, planning, development, and code review.
+- Collaborate with product teams, customers, stakeholders, and cross-functional contributors to deliver business-aligned features.
+- Applied iterative, agile, and incremental engineering practices that helped increase user engagement by 80% over six months.
 
 ## Architecture
 
-- Designed service boundaries and data models that supported incremental delivery while preserving future scalability.
-- Documented architecture tradeoffs and migration paths to help teams make consistent technical decisions.
-- Reduced delivery risk by decomposing complex initiatives into reversible, measurable implementation steps.
+- Analyzed requirements and designed database schema for a scalable exam management platform.
+- Contributed to distributed systems, API development, backend architecture, and long-term platform maintainability.
+- Managed authentication and authorization with Keycloak for secure backend systems.
 
 ## Metrics Backlog
 
 | Bullet | Metric Needed |
 | --- | --- |
-| API performance improvement | p95 latency before and after. |
-| Database optimization | Query runtime, CPU, or cost reduction. |
-| Reliability work | Error-rate, incident count, or recovery-time reduction. |
-| Delivery process | Cycle time, deployment frequency, or escaped defect rate. |
-| Mentorship | Number of engineers supported and outcomes. |
+| Penta Global health-tech platform | Platform name, user count, reliability metrics, deployment scale. |
+| Keycloak security work | Number of applications/users, authorization model, security impact. |
+| Redis caching improvements | Baseline and final response times beyond the 30% improvement. |
+| Government procurement platform | System scale, transaction volume, availability, major modules owned. |
+| Mentorship | Number of engineers supported and measurable outcomes. |
