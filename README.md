@@ -127,7 +127,6 @@ Use short, specific commit messages. Prefer one logical change per commit.
 
 ## TODO
 
-- [ ] Add the current master resume content.
 - [ ] Export a fresh LinkedIn profile PDF.
 - [ ] Add recent achievements with metrics.
 - [ ] Create the first company application tracker.

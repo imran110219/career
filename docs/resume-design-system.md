@@ -35,7 +35,7 @@ Approved standard for all role-specific and master resume DOCX/PDF exports. The 
 ## Output and Source Rules
 
 - Markdown remains the editable content source; DOCX and PDF are generated artifacts.
-- Use `scripts/build_designed_resume.py` for standard Markdown-driven exports.
+- Use `scripts/build_designed_resume.py` for standard Markdown-driven exports. For a balanced two-page tailored resume, pass `--break-before-experience`.
 - The Senior Backend resume uses its dedicated builder because its approved two-page composition includes curated highlights; it must retain this visual standard.
 - Preserve role-specific output names as `resumes/<role>/resume.docx` and `resumes/<role>/resume.pdf`.
 - Verify A4 size, page count, selectable PDF text, readable extraction order, no blank pages, and visual parity after each export.

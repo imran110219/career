@@ -15,6 +15,7 @@ All notable updates to this career repository should be documented here.
 - Added verified journal citation metadata for the attendance-monitoring publication to the reusable publications inventory.
 - Added verified IEEE conference citation metadata for the temporal-relation-extraction publication.
 - Synced verified publication citations into the master and Senior Backend resume sources.
+- Replaced Lead Backend, Software Architect, Platform Engineer, and Engineering Manager placeholder exports with tailored Markdown sources and approved-design DOCX/PDF resumes.
 
 ## 2026-07-19
 

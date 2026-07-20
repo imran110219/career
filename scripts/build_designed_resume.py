@@ -117,7 +117,7 @@ def add_header(document: Document, name: str, metadata: list[str]):
             divider(line)
 
 
-def build(input_file: Path, docx_file: Path):
+def build(input_file: Path, docx_file: Path, *, break_before_experience: bool = False):
     items = list(blocks(input_file.read_text()))
     document = configure()
     name = next((value for kind, value in items if kind == "title"), "Resume")
@@ -126,6 +126,8 @@ def build(input_file: Path, docx_file: Path):
     add_header(document, name, metadata)
     start = first_section
     for kind, value in items[start:]:
+        if break_before_experience and kind == "section" and value.casefold() == "professional experience":
+            document.add_page_break()
         if kind == "section" and value.casefold() == "review checklist":
             break
         if kind == "section":
@@ -185,8 +187,9 @@ def main():
     parser.add_argument("input", type=Path)
     parser.add_argument("docx", type=Path)
     parser.add_argument("pdf", type=Path)
+    parser.add_argument("--break-before-experience", action="store_true", help="Start Professional Experience on page two for a balanced two-page tailored resume.")
     args = parser.parse_args()
-    build(args.input, args.docx)
+    build(args.input, args.docx, break_before_experience=args.break_before_experience)
     export_pdf(args.docx, args.pdf)
 
 
