@@ -21,6 +21,7 @@ The goal is to keep every career asset versioned, reusable, and easy to update b
 | `archive/` | Historical materials that should be preserved but are no longer active. |
 | `AGENTS.md` | Instructions for future AI agents working in this repository. |
 | `docs/AI_USAGE.md` | Practical guide for using AI to maintain and tailor career materials. |
+| `docs/resume-design-system.md` | Approved reusable visual and ATS design standard for resume exports. |
 
 ## Resume Versions
 

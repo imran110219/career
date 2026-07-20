@@ -10,6 +10,7 @@ All notable updates to this career repository should be documented here.
 - Added a reusable, evidence-based project record for the Dynamic Solution Innovators exam management system.
 - Added microservices to the canonical skills inventory.
 - Added an editable baseline Senior Backend Engineer resume and updated the resume generator to support tailored Markdown sources.
+- Standardized master and role-specific resume exports on the approved single-column A4 design system, with reusable Markdown-to-DOCX/PDF generation guidance.
 
 ## 2026-07-19
 

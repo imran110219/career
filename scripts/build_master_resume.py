@@ -6,6 +6,9 @@ from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Inches, Pt
 
+from build_designed_resume import build as build_designed_docx
+from build_designed_resume import export_pdf as export_designed_pdf
+
 
 ROOT = Path(__file__).resolve().parents[1]
 RESUME_MD = ROOT / "master" / "resume.md"
@@ -230,15 +233,11 @@ def main() -> None:
     parser.add_argument("--docx-output", type=Path, help="Optional destination DOCX path")
     args = parser.parse_args()
 
-    blocks = parse_markdown(args.input.read_text())
-    args.rtf_output.write_text(build_rtf(blocks))
-    build_pdf(blocks, args.pdf_output)
-    if args.docx_output:
-        build_docx(blocks, args.docx_output)
-    print(args.rtf_output)
+    docx_output = args.docx_output or ROOT / "master" / "resume.docx"
+    build_designed_docx(args.input, docx_output)
+    export_designed_pdf(docx_output, args.pdf_output)
     print(args.pdf_output)
-    if args.docx_output:
-        print(args.docx_output)
+    print(docx_output)
 
 
 if __name__ == "__main__":
