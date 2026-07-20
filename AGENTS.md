@@ -126,7 +126,6 @@ Read AGENTS.md and interview/system-design.md. Build a focused interview prepara
 
 ## Open Data Gaps
 
-- [ ] GitHub profile URL.
 - [ ] Current Penta Global project names that are safe to disclose.
 - [ ] Current project scale, user count, SLA, deployment volume, or performance metrics.
 - [ ] Certification providers, dates, and verification links.

@@ -7,6 +7,7 @@ Phone: +8801912070224
 Email: imran110219@gmail.com  
 LinkedIn: www.linkedin.com/in/sadmansobhan  
 Website: www.sadmansobhan.com  
+GitHub: github.com/imran110219
 Blog: medium.com/@imran110219
 
 ## Professional Summary
@@ -116,5 +117,4 @@ Khulna, Bangladesh | June 2014 - September 2014
 ## Review Checklist
 
 - [ ] Confirm exact employment end date or current duration for Penta Global Ltd.
-- [ ] Add GitHub URL if different from the personal website.
 - [ ] Add certification providers and completion dates.

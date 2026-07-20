@@ -225,15 +225,16 @@ def load_resume(source: Path) -> dict:
     degree, institution_and_dates = education.split(", ", 1)
     institution, dates = (part.strip() for part in institution_and_dates.split("|", 1))
     location, phone, email = (part.strip() for part in contact_line.split("|"))
-    linkedin, website = (part.strip().split(": ", 1)[1] for part in link_line.split("|"))
+    links = {label.strip(): value.strip() for label, value in (part.strip().split(": ", 1) for part in link_line.split("|"))}
     return {
         "name": name,
         "target_title": target_title,
         "location": location,
         "phone": phone,
         "email": email,
-        "linkedin": linkedin,
-        "website": website,
+        "linkedin": links["LinkedIn"],
+        "website": links["Website"],
+        "github": links["GitHub"],
         "summary": summary,
         "highlights": bullets("Career Highlights"),
         "skills": skills,
@@ -271,6 +272,8 @@ def build_docx(output: Path, source: Path = RESUME_SOURCE):
     add_hyperlink(links, content["linkedin"].removeprefix("www."), f"https://{content['linkedin']}")
     add_run(links, "  |  ", size=9.4, color=MUTED)
     add_hyperlink(links, content["website"].removeprefix("www."), f"https://{content['website']}")
+    add_run(links, "  |  ", size=9.4, color=MUTED)
+    add_hyperlink(links, content["github"].removeprefix("www."), f"https://{content['github']}")
     set_bottom_border(links)
 
     section_heading(document, "Professional Summary")
