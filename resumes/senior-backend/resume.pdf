@@ -6,37 +6,76 @@ endobj
 << /Type /Pages /Kids [3 0 R] /Count 1 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+<< /Length 4730 >>
+stream
+BT /F1 18 Tf 54 744 Td (Sadman Sobhan) Tj ET
+BT /F1 9 Tf 54 720 Td (Senior Backend Engineer | Java, Spring Boot, PostgreSQL, Microservices) Tj ET
+BT /F1 9 Tf 54 708 Td (Dhaka, Bangladesh | +8801912070224 | imran110219@gmail.com) Tj ET
+BT /F1 9 Tf 54 696 Td (LinkedIn: www.linkedin.com/in/sadmansobhan | Website: www.sadmansobhan.com) Tj ET
+BT /F1 12 Tf 54 680 Td (PROFESSIONAL SUMMARY) Tj ET
+BT /F1 9 Tf 54 663 Td (Senior Software Engineer with 9+ years of experience building secure, scalable backend systems) Tj ET
+BT /F1 9 Tf 54 651 Td (for government, education, healthcare, and enterprise domains. Hands-on with Java, Spring) Tj ET
+BT /F1 9 Tf 54 639 Td (Boot, PostgreSQL, REST APIs, Redis, microservices, and Kubernetes-based deployment;) Tj ET
+BT /F1 9 Tf 54 627 Td (experienced in backend leadership, data modeling, performance improvement, and production) Tj ET
+BT /F1 9 Tf 54 615 Td (delivery.) Tj ET
+BT /F1 12 Tf 54 599 Td (TECHNICAL SKILLS) Tj ET
+BT /F1 9 Tf 54 582 Td (- Backend: Java, Spring Boot, Hibernate, REST APIs, microservices, backend architecture) Tj ET
+BT /F1 9 Tf 54 570 Td (- Data and performance: PostgreSQL, SQL Server, database modeling, Redis caching, query) Tj ET
+BT /F1 9 Tf 54 558 Td (  optimization) Tj ET
+BT /F1 9 Tf 54 546 Td (- Platform and security: Kubernetes, Keycloak, authentication, authorization, data integrity) Tj ET
+BT /F1 9 Tf 54 534 Td (- Delivery: Requirements analysis, Agile development, deployment, code review, mentoring,) Tj ET
+BT /F1 9 Tf 54 522 Td (  stakeholder collaboration) Tj ET
+BT /F1 12 Tf 54 506 Td (PROFESSIONAL EXPERIENCE) Tj ET
+BT /F1 11 Tf 54 489 Td (Penta Global Ltd. - Senior Software Engineer) Tj ET
+BT /F1 9 Tf 54 474 Td (Dhaka, Bangladesh | August 2023 - Present) Tj ET
+BT /F1 9 Tf 54 462 Td (- Serve as backend team lead for an Election Management System, guiding grooming, planning,) Tj ET
+BT /F1 9 Tf 54 450 Td (  implementation, and code reviews within a 30-person development team.) Tj ET
+BT /F1 9 Tf 54 438 Td (- Design and implement secure, scalable Java, Spring Boot, Hibernate, and REST API services) Tj ET
+BT /F1 9 Tf 54 426 Td (  across a microservices architecture of nearly 20 running services.) Tj ET
+BT /F1 9 Tf 54 414 Td (- Help deliver an internal system supporting 50,000 users, alongside a public-facing) Tj ET
+BT /F1 9 Tf 54 402 Td (  application that does not require authentication.) Tj ET
+BT /F1 9 Tf 54 390 Td (- Support deployments to the organization's self-managed data center using Kubernetes and) Tj ET
+BT /F1 9 Tf 54 378 Td (  digitized election-result workflows previously dependent on paperwork and physical result) Tj ET
+BT /F1 9 Tf 54 366 Td (  delivery.) Tj ET
+BT /F1 11 Tf 54 354 Td (Dynamic Solution Innovators Ltd. - Software Engineer) Tj ET
+BT /F1 9 Tf 54 339 Td (Dhaka, Bangladesh | January 2022 - July 2023) Tj ET
+BT /F1 9 Tf 54 327 Td (- Led development of an exam management system using Java, Spring Boot, PostgreSQL, Flutter,) Tj ET
+BT /F1 9 Tf 54 315 Td (  and Crystal Reports; analyzed requirements and designed its database schema.) Tj ET
+BT /F1 9 Tf 54 303 Td (- Reduced system response time by 30% through Redis caching and backend performance) Tj ET
+BT /F1 9 Tf 54 291 Td (  improvements.) Tj ET
+BT /F1 9 Tf 54 279 Td (- Built a real-time administrator dashboard that contributed to a 40% increase in system usage) Tj ET
+BT /F1 9 Tf 54 267 Td (  and user satisfaction.) Tj ET
+BT /F1 9 Tf 54 255 Td (- Deployed a production system used by 2,500+ administrators, 1,000 exam invigilators, and) Tj ET
+BT /F1 9 Tf 54 243 Td (  1,000 examinees; supported registration and payment management for nearly 30,000 students.) Tj ET
+BT /F1 11 Tf 54 231 Td (Dohatec New Media - Java Software Engineer) Tj ET
+BT /F1 9 Tf 54 216 Td (Dhaka, Bangladesh | October 2016 - December 2021) Tj ET
+BT /F1 9 Tf 54 204 Td (- Implemented features and resolved defects for the National Electronic Government Procurement) Tj ET
+BT /F1 9 Tf 54 192 Td (  System while preserving data privacy and integrity.) Tj ET
+BT /F1 9 Tf 54 180 Td (- Contributed to large-file upload capabilities, relational data modeling, and enterprise) Tj ET
+BT /F1 9 Tf 54 168 Td (  workflow features; helped drive an 80% increase in user engagement over six months.) Tj ET
+BT /F1 11 Tf 54 156 Td (Jaliks Soft IT Limited - .NET Developer) Tj ET
+BT /F1 9 Tf 54 141 Td (Khulna, Bangladesh | February 2016 - June 2016) Tj ET
+BT /F1 9 Tf 54 129 Td (- Implemented features and resolved defects for a large-scale education application using) Tj ET
+BT /F1 9 Tf 54 117 Td (  ASP.NET, C#, and SQL Server.) Tj ET
+BT /F1 12 Tf 54 101 Td (EDUCATION) Tj ET
+BT /F1 9 Tf 54 84 Td (Bachelor of Science in Computer Science and Engineering, Khulna University | 2011 - 2016) Tj ET
+endstream
 endobj
 5 0 obj
-<< /Length 267 >>
-stream
-BT
-/F1 18 Tf
-72 740 Td
-(Senior Backend Engineer Resume) Tj
-/F1 11 Tf
-0 -24 Td
-(Career repository starter PDF.) Tj
-0 -24 Td
-(Replace this generated starter with the reviewed export before applying.) Tj
-0 -24 Td
-(Canonical content lives in master/ and sections/.) Tj
-ET
-endstream
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 xref
 0 6
-0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000115 00000 n 
-0000000241 00000 n 
-0000000311 00000 n 
+0000000000 65535 f
+0000000009 00000 n
+0000000058 00000 n
+0000000115 00000 n
+0000000241 00000 n
+0000005023 00000 n
 trailer << /Size 6 /Root 1 0 R >>
 startxref
-629
+5093
 %%EOF
