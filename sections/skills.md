@@ -7,9 +7,9 @@ Keep this file as the canonical skills inventory. Targeted resumes should only i
 | Category | Skills |
 | --- | --- |
 | Languages | Java, SQL, C#, PHP |
-| Backend | Spring Boot, Spring Cloud, Hibernate, REST APIs, ASP.NET, WordPress |
-| Data | PostgreSQL, SQL Server, database modeling, relational database design, stored procedures, triggers, views |
-| Security | Keycloak, authentication, authorization, data privacy, data integrity |
+| Backend | Spring Boot, Spring Cloud, Hibernate, Node.js, Express, REST APIs, EJS, Puppeteer, ASP.NET, WordPress |
+| Data | PostgreSQL, SQL Server, Flyway, database modeling, relational database design, stored procedures, triggers, views |
+| Security | Keycloak, JWT token introspection, role-based authorization, data privacy, data integrity |
 | Performance | Redis caching, performance optimization, scalable backend design |
 | Architecture | Microservices, distributed systems, system design, API design, backend architecture |
 | Delivery | Agile development, requirement analysis, deployment, long-term maintenance, code review |

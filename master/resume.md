@@ -21,9 +21,9 @@ Currently expanding deeper expertise in DevOps, SRE practices, and cloud-native 
 
 | Category | Skills |
 | --- | --- |
-| Backend | Java, Spring Boot, Hibernate, REST APIs, backend architecture, distributed systems |
-| Data | PostgreSQL, SQL Server, database modeling, query optimization, relational database design |
-| Security | Keycloak, authentication, authorization, data privacy, data integrity |
+| Backend | Java, Spring Boot, Hibernate, Node.js, Express, REST APIs, PDF generation, backend architecture, distributed systems |
+| Data | PostgreSQL, SQL Server, Flyway, database modeling, query optimization, relational database design |
+| Security | Keycloak, JWT token introspection, role-based authorization, data privacy, data integrity |
 | Performance | Redis caching, performance optimization, scalable service design |
 | Delivery | Agile development, requirement analysis, deployment, maintenance, code reviews |
 | Leadership | Team leadership, mentoring, grooming, planning, stakeholder collaboration |
@@ -36,10 +36,11 @@ Currently expanding deeper expertise in DevOps, SRE practices, and cloud-native 
 Dhaka, Bangladesh | August 2023 - Present
 
 - Serve as backend team lead for an Election Management System, leading task distribution, grooming, planning, implementation, and code reviews within a 30-person development team.
-- Design and implement secure, scalable backend services using Java, Spring Boot, Hibernate, and REST APIs across a microservices architecture of nearly 25 running services, including candidate-management and reporting services.
+- Led backend delivery for candidate review, nomination lifecycle, verification, status-transition, and payment-linked submission workflows handling sensitive identity, disclosure, and election data.
+- Owned a reporting service that composed data from multiple election services to generate official nomination, candidate, schedule, and result PDF reports.
 - Help deliver an internal system supporting 50,000 users and approximately 100,000 daily requests during election periods, compared with approximately 10,000 requests per day before elections.
 - Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in the organization's self-managed Kubernetes data center.
-- Digitized result-center, voter, candidate, and percentage-calculation workflows for approximately 300 returning officers; strengthened validation and task-specific access controls to prevent unwanted data changes.
+- Digitized result-center, voter, candidate, and percentage-calculation workflows for approximately 300 returning officers; strengthened validation and role-based controls to prevent unwanted data changes.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 

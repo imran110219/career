@@ -17,6 +17,7 @@ All notable updates to this career repository should be documented here.
 - Synced verified publication citations into the master and Senior Backend resume sources.
 - Replaced Lead Backend, Software Architect, Platform Engineer, and Engineering Manager placeholder exports with tailored Markdown sources and approved-design DOCX/PDF resumes.
 - Added verified Penta Global platform scale, election-period traffic, deployment, workflow-digitization, access-control, and critical-service ownership evidence.
+- Added public-safe Penta Global candidate-lifecycle, nomination, reporting, integration, authorization, and API-ownership evidence to reusable experience and skills sources.
 
 ## 2026-07-19
 

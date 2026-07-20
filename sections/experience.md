@@ -22,10 +22,14 @@ Location or Remote | Month YYYY - Month YYYY
 Dhaka, Bangladesh | August 2023 - Present
 
 - Serve as backend team lead for an Election Management System, leading task distribution, grooming, planning, implementation, and code reviews within a 30-person development team.
-- Design and implement Java, Spring Boot, Hibernate, and REST API services across a microservices architecture of nearly 25 running services, including candidate-management and reporting services.
+- Lead backend delivery for candidate review, nomination lifecycle, verification, status-transition, and payment-linked submission workflows handling sensitive identity, disclosure, and election data.
+- Own a reporting service that composes data from multiple election services to generate official nomination, candidate, schedule, and result PDF reports.
+- Design and maintain REST API contracts for multi-step nomination forms, payment completion, candidate data retrieval, final submission, and report generation across a microservices architecture of nearly 25 running services.
 - Help deliver an internal system supporting 50,000 users and approximately 100,000 daily requests during election periods, compared with approximately 10,000 requests per day before elections.
 - Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in the organization's self-managed Kubernetes data center.
-- Digitized result-center, voter, candidate, and percentage-calculation workflows for approximately 300 returning officers; strengthened validation and task-specific access controls to prevent unwanted data changes.
+- Applied Keycloak-backed authentication, role-based authorization, and workflow validation across nomination forms, payment completion, candidate disclosures, final submission, and state transitions.
+- Coordinated SMS, payment, identity-verification, master-data, and reporting integrations; investigated production issues across frontend, backend, QA, DevOps, and dependent-service teams.
+- Digitized result-center, voter, candidate, and percentage-calculation workflows for approximately 300 returning officers; strengthened validation and role-based controls to prevent unwanted data changes.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 

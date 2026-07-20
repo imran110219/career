@@ -18,6 +18,11 @@ Use this file as the complete inventory of career accomplishments. Keep it broad
 - Helped support an internal election-management platform used by 50,000 users, plus a public-facing application that does not require authentication.
 - Supported approximately 100,000 daily requests during election periods, compared with approximately 10,000 requests per day before elections.
 - Led backend task distribution and delivery for critical candidate-management and reporting services within a 30-person development team.
+- Led backend delivery for candidate review, nomination lifecycle, verification, status-transition, and payment-linked submission workflows handling sensitive identity, disclosure, and election data.
+- Owned a reporting service that composed data from multiple election services to generate official nomination, affidavit, funding, candidate, schedule, and result PDF reports.
+- Designed and maintained REST API contracts for multi-step nomination forms, payment completion, candidate data retrieval, final submission, and report generation.
+- Applied Keycloak-backed authentication, role-based authorization, and workflow validation across sensitive operational routes and nomination state transitions.
+- Coordinated SMS, payment, identity-verification, master-data, and reporting integrations while investigating production issues across distributed service chains.
 - Replaced manual result-center, voter, candidate, and percentage-calculation workflows with end-to-end digital system workflows for approximately 300 returning officers.
 - Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in a self-managed Kubernetes data center.
 - Strengthened validation and task-specific access controls after root-level users could introduce unwanted data or expose incorrect data views; quantify the resulting reduction in errors when evidence is available.
