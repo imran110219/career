@@ -21,10 +21,11 @@ Location or Remote | Month YYYY - Month YYYY
 
 Dhaka, Bangladesh | August 2023 - Present
 
-- Lead and mentor engineering teams across multiple projects through grooming, planning, and code reviews.
-- Design and implement secure, scalable, high-performance systems using Java, Spring Boot, Hibernate, and REST APIs.
-- Manage authentication and authorization with Keycloak and optimize performance with caching solutions.
-- Collaborate with cross-functional teams to deliver features aligned with client requirements and business goals.
+- Serve as backend team lead for an Election Management System, guiding grooming, planning, implementation, and code reviews within a 30-person development team.
+- Design and implement Java, Spring Boot, Hibernate, and REST API services across a microservices architecture of nearly 20 running services.
+- Help deliver an internal system supporting 50,000 users, alongside a public-facing application that does not require authentication.
+- Support deployments to the organization's self-managed data center using Kubernetes.
+- Digitized election-result workflows that previously relied on paperwork and physical result delivery.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 

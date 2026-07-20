@@ -35,11 +35,11 @@ Currently expanding deeper expertise in DevOps, SRE practices, and cloud-native 
 
 Dhaka, Bangladesh | August 2023 - Present
 
-- Lead and mentor engineering teams across multiple projects through grooming, planning, implementation guidance, and code reviews.
-- Design and implement secure, scalable, high-performance backend systems using Java, Spring Boot, Hibernate, and REST APIs.
-- Manage authentication and authorization flows with Keycloak and improve application performance with caching solutions.
-- Collaborate with cross-functional teams to deliver features aligned with client requirements and business goals.
-- Contribute to distributed systems, API development, system architecture, and long-term maintainability for health-tech and public-impact platforms.
+- Serve as backend team lead for an Election Management System, guiding grooming, planning, implementation, and code reviews within a 30-person development team.
+- Design and implement secure, scalable backend services using Java, Spring Boot, Hibernate, and REST APIs across a microservices architecture of nearly 20 running services.
+- Help deliver an internal system supporting 50,000 users, alongside a public-facing application that does not require authentication.
+- Support deployments to the organization's self-managed data center using Kubernetes.
+- Digitized election-result workflows that previously depended on paperwork and physical result delivery, enabling end-to-end processing in the system.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 
@@ -115,8 +115,6 @@ Khulna, Bangladesh | June 2014 - September 2014
 ## Review Checklist
 
 - [ ] Confirm exact employment end date or current duration for Penta Global Ltd.
-- [ ] Add current health-tech platform name if it is public and safe to disclose.
 - [ ] Add GitHub URL if different from the personal website.
-- [ ] Add measurable impact for Penta Global Ltd. projects.
 - [ ] Add certification providers and completion dates.
 - [ ] Add publication links, venues, and dates.

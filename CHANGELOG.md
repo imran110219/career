@@ -2,6 +2,15 @@
 
 All notable updates to this career repository should be documented here.
 
+## 2026-07-20
+
+### Changed
+
+- Added public-safe Election Management System scope, scale, architecture, deployment, workflow-digitization, and backend-leadership evidence to the canonical career materials.
+- Added a reusable, evidence-based project record for the Dynamic Solution Innovators exam management system.
+- Added microservices to the canonical skills inventory.
+- Added an editable baseline Senior Backend Engineer resume and updated the resume generator to support tailored Markdown sources.
+
 ## 2026-07-19
 
 ### Added

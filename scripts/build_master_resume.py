@@ -1,5 +1,10 @@
+import argparse
 from pathlib import Path
 from textwrap import wrap
+
+from docx import Document
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.shared import Inches, Pt
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -10,6 +15,10 @@ PDF_OUT = ROOT / "master" / "resume.pdf"
 
 def rtf_escape(value: str) -> str:
     return value.replace("\\", "\\\\").replace("{", "\\{").replace("}", "\\}")
+
+
+def display_text(value: str) -> str:
+    return value.replace("**", "").replace("`", "")
 
 
 def parse_markdown(text: str) -> list[tuple[str, str]]:
@@ -52,7 +61,7 @@ def build_rtf(blocks: list[tuple[str, str]]) -> str:
     ]
 
     for kind, raw_text in blocks:
-        text = rtf_escape(raw_text)
+        text = rtf_escape(display_text(raw_text))
         if kind == "title":
             rtf.append(r"\pard\qc\b\fs34\cf2 " + text + r"\b0\cf0\par")
         elif kind == "h1":
@@ -103,6 +112,7 @@ def build_pdf(blocks: list[tuple[str, str]], output: Path) -> None:
         y -= leading
 
     for kind, text in blocks:
+        text = display_text(text)
         if kind == "title":
             add_line(text, 18, 24)
         elif kind == "h1":
@@ -158,21 +168,77 @@ def build_pdf(blocks: list[tuple[str, str]], output: Path) -> None:
 
     xref = len(pdf)
     pdf.extend(f"xref\n0 {len(objects) + 1}\n".encode())
-    pdf.extend(b"0000000000 65535 f \n")
+    pdf.extend(b"0000000000 65535 f\n")
     for offset in offsets[1:]:
-        pdf.extend(f"{offset:010d} 00000 n \n".encode())
+        pdf.extend(f"{offset:010d} 00000 n\n".encode())
     pdf.extend(
         f"trailer << /Size {len(objects) + 1} /Root 1 0 R >>\nstartxref\n{xref}\n%%EOF\n".encode()
     )
     output.write_bytes(pdf)
 
 
+def build_docx(blocks: list[tuple[str, str]], output: Path) -> None:
+    document = Document()
+    section = document.sections[0]
+    section.top_margin = Inches(0.55)
+    section.bottom_margin = Inches(0.55)
+    section.left_margin = Inches(0.65)
+    section.right_margin = Inches(0.65)
+
+    normal = document.styles["Normal"]
+    normal.font.name = "Calibri"
+    normal.font.size = Pt(9.5)
+    normal.paragraph_format.space_after = Pt(3)
+
+    for kind, raw_text in blocks:
+        value = display_text(raw_text)
+        if kind == "title":
+            paragraph = document.add_paragraph()
+            paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            run = paragraph.add_run(value)
+            run.bold = True
+            run.font.size = Pt(16)
+        elif kind == "h1":
+            paragraph = document.add_paragraph()
+            paragraph.paragraph_format.space_before = Pt(7)
+            paragraph.paragraph_format.space_after = Pt(2)
+            run = paragraph.add_run(value.upper())
+            run.bold = True
+            run.font.size = Pt(11)
+        elif kind == "h2":
+            paragraph = document.add_paragraph()
+            paragraph.paragraph_format.space_before = Pt(4)
+            paragraph.paragraph_format.space_after = Pt(1)
+            run = paragraph.add_run(value)
+            run.bold = True
+            run.font.size = Pt(10)
+        elif kind == "bullet":
+            paragraph = document.add_paragraph(style="List Bullet")
+            paragraph.paragraph_format.space_after = Pt(1)
+            paragraph.add_run(value)
+        else:
+            document.add_paragraph(value)
+
+    document.save(output)
+
+
 def main() -> None:
-    blocks = parse_markdown(RESUME_MD.read_text())
-    RTF_OUT.write_text(build_rtf(blocks))
-    build_pdf(blocks, PDF_OUT)
-    print(RTF_OUT)
-    print(PDF_OUT)
+    parser = argparse.ArgumentParser(description="Build a resume PDF and intermediate RTF from Markdown.")
+    parser.add_argument("input", nargs="?", type=Path, default=RESUME_MD, help="Markdown resume source")
+    parser.add_argument("--pdf-output", type=Path, default=PDF_OUT, help="Destination PDF path")
+    parser.add_argument("--rtf-output", type=Path, default=RTF_OUT, help="Destination intermediate RTF path")
+    parser.add_argument("--docx-output", type=Path, help="Optional destination DOCX path")
+    args = parser.parse_args()
+
+    blocks = parse_markdown(args.input.read_text())
+    args.rtf_output.write_text(build_rtf(blocks))
+    build_pdf(blocks, args.pdf_output)
+    if args.docx_output:
+        build_docx(blocks, args.docx_output)
+    print(args.rtf_output)
+    print(args.pdf_output)
+    if args.docx_output:
+        print(args.docx_output)
 
 
 if __name__ == "__main__":

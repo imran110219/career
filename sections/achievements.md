@@ -4,6 +4,10 @@ Use these as source bullets for targeted resumes. Replace broad statements with 
 
 ## Backend Delivery
 
+- Delivered backend services for an Election Management System built as nearly 20 microservices using Java, Spring Boot, Hibernate, and REST APIs.
+- Helped support an internal election-management platform used by 50,000 users and a public-facing application without authentication.
+- Replaced paper-based and physically delivered election results with end-to-end digital workflows.
+- Supported deployment of the platform to a self-managed data center using Kubernetes.
 - Led development of an exam management system using Java, PostgreSQL, Spring Boot, Flutter, and Crystal Reports.
 - Reduced system response time by 30% by implementing Redis caching and improving backend performance.
 - Deployed a production system used by more than 2,500 administrators, 1,000 exam invigilators, and 1,000 examinees.
@@ -13,6 +17,7 @@ Use these as source bullets for targeted resumes. Replace broad statements with 
 
 ## Leadership
 
+- Served as backend team lead within a 30-person development team, guiding grooming, planning, implementation, and code reviews.
 - Lead and mentor engineering teams across grooming, planning, development, and code review.
 - Collaborate with product teams, customers, stakeholders, and cross-functional contributors to deliver business-aligned features.
 - Applied iterative, agile, and incremental engineering practices that helped increase user engagement by 80% over six months.
@@ -27,7 +32,7 @@ Use these as source bullets for targeted resumes. Replace broad statements with 
 
 | Bullet | Metric Needed |
 | --- | --- |
-| Penta Global health-tech platform | Platform name, user count, reliability metrics, deployment scale. |
+| Penta Global Election Management System | Performance, reliability, and delivery metrics. |
 | Keycloak security work | Number of applications/users, authorization model, security impact. |
 | Redis caching improvements | Baseline and final response times beyond the 30% improvement. |
 | Government procurement platform | System scale, transaction volume, availability, major modules owned. |

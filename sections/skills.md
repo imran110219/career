@@ -11,7 +11,7 @@ Keep this file as the canonical skills inventory. Targeted resumes should only i
 | Data | PostgreSQL, SQL Server, database modeling, relational database design, stored procedures, triggers, views |
 | Security | Keycloak, authentication, authorization, data privacy, data integrity |
 | Performance | Redis caching, performance optimization, scalable backend design |
-| Architecture | Distributed systems, system design, API design, backend architecture |
+| Architecture | Microservices, distributed systems, system design, API design, backend architecture |
 | Delivery | Agile development, requirement analysis, deployment, long-term maintenance, code review |
 | Leadership | Team mentoring, grooming, planning, stakeholder collaboration, cross-functional delivery |
 | Product Domains | Healthcare, government, education, enterprise platforms, electronic procurement, exam management |
