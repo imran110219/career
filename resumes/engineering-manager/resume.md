@@ -12,7 +12,7 @@ Technical leader and Senior Software Engineer with 9+ years of experience delive
 ## Career Highlights
 
 - Served as backend team lead within a 30-person development team, guiding grooming, planning, implementation, and code reviews.
-- Helped deliver a nearly 20-service election-management platform supporting 50,000 internal users.
+- Helped deliver a nearly 25-service election-management platform supporting 50,000 internal users and approximately 100,000 daily requests during election periods.
 - Led development of an exam-management system used by 2,500+ administrators, 1,000 invigilators, and 1,000 examinees.
 - Built a real-time administrator dashboard that contributed to a 40% increase in system usage and user satisfaction.
 - Supported online registration and payment management for nearly 30,000 students.
@@ -31,7 +31,7 @@ Technical leader and Senior Software Engineer with 9+ years of experience delive
 Dhaka, Bangladesh | August 2023 - Present
 
 - Serve as backend team lead for an Election Management System, guiding grooming, planning, implementation, and code reviews within a 30-person development team.
-- Design and implement secure, scalable Java, Spring Boot, Hibernate, and REST API services across a microservices architecture of nearly 20 running services.
+- Design and implement secure, scalable Java, Spring Boot, Hibernate, and REST API services across a microservices architecture of nearly 25 running services.
 - Help deliver an internal system supporting 50,000 users alongside a public-facing application that does not require authentication.
 - Support Kubernetes deployments to the organization's self-managed data center and digitized election-result workflows previously dependent on paperwork and physical result delivery.
 

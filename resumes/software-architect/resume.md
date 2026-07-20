@@ -11,7 +11,7 @@ Backend and distributed-systems engineer with 9+ years of experience designing s
 
 ## Career Highlights
 
-- Designed and delivered Java and Spring Boot services across a microservices architecture of nearly 20 running services.
+- Designed and delivered Java and Spring Boot services across a microservices architecture of nearly 25 running services.
 - Helped support an internal election-management platform used by 50,000 users alongside a public-facing application.
 - Designed the database schema for an exam-management platform and improved response time by 30% through Redis caching and backend optimization.
 - Contributed to National Electronic Government Procurement System workflows involving relational data, large-file handling, privacy, and integrity.
@@ -30,7 +30,7 @@ Backend and distributed-systems engineer with 9+ years of experience designing s
 
 Dhaka, Bangladesh | August 2023 - Present
 
-- Design and implement secure, scalable Java, Spring Boot, Hibernate, and REST API services across a microservices architecture of nearly 20 running services.
+- Design and implement secure, scalable Java, Spring Boot, Hibernate, and REST API services across a microservices architecture of nearly 25 running services.
 - Help deliver an internal system supporting 50,000 users alongside a public-facing application that does not require authentication.
 - Support Kubernetes deployments to the organization's self-managed data center and digitized election-result workflows previously dependent on paperwork and physical result delivery.
 - Contribute to grooming, planning, implementation guidance, and code reviews as backend team lead within a 30-person development team.

@@ -14,10 +14,13 @@ Use this file as the complete inventory of career accomplishments. Keep it broad
 
 ## Backend Engineering
 
-- Designed and delivered backend services for an Election Management System built as nearly 20 microservices, using Java, Spring Boot, Hibernate, and REST APIs.
+- Designed and delivered backend services for an Election Management System built as nearly 25 microservices, using Java, Spring Boot, Hibernate, and REST APIs.
 - Helped support an internal election-management platform used by 50,000 users, plus a public-facing application that does not require authentication.
-- Replaced paper-based and physically delivered election results with end-to-end digital system workflows.
-- Supported deployment of the platform to a self-managed data center using Kubernetes.
+- Supported approximately 100,000 daily requests during election periods, compared with approximately 10,000 requests per day before elections.
+- Led backend task distribution and delivery for critical candidate-management and reporting services within a 30-person development team.
+- Replaced manual result-center, voter, candidate, and percentage-calculation workflows with end-to-end digital system workflows for approximately 300 returning officers.
+- Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in a self-managed Kubernetes data center.
+- Strengthened validation and task-specific access controls after root-level users could introduce unwanted data or expose incorrect data views; quantify the resulting reduction in errors when evidence is available.
 - Designed and maintained production APIs with attention to correctness, observability, latency, and operational support.
 - Improved database-backed workflows by reviewing query plans, adding indexes, and tightening transaction boundaries.
 - Reduced repeated operational issues by improving validation, logging, alerting, and runbook coverage.
@@ -47,7 +50,7 @@ Use this file as the complete inventory of career accomplishments. Keep it broad
 
 ## Backlog
 
-- [ ] Add concrete performance, reliability, and delivery metrics for the Election Management System.
+- [ ] Add measured response-time, availability, and incident-frequency evidence for the Election Management System.
 - [ ] Collect before-and-after examples for database optimization work.
 - [ ] Document major incidents resolved and lessons learned.
 - [ ] Add examples of mentorship, hiring, and leadership impact.

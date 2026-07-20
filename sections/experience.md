@@ -21,11 +21,11 @@ Location or Remote | Month YYYY - Month YYYY
 
 Dhaka, Bangladesh | August 2023 - Present
 
-- Serve as backend team lead for an Election Management System, guiding grooming, planning, implementation, and code reviews within a 30-person development team.
-- Design and implement Java, Spring Boot, Hibernate, and REST API services across a microservices architecture of nearly 20 running services.
-- Help deliver an internal system supporting 50,000 users, alongside a public-facing application that does not require authentication.
-- Support deployments to the organization's self-managed data center using Kubernetes.
-- Digitized election-result workflows that previously relied on paperwork and physical result delivery.
+- Serve as backend team lead for an Election Management System, leading task distribution, grooming, planning, implementation, and code reviews within a 30-person development team.
+- Design and implement Java, Spring Boot, Hibernate, and REST API services across a microservices architecture of nearly 25 running services, including candidate-management and reporting services.
+- Help deliver an internal system supporting 50,000 users and approximately 100,000 daily requests during election periods, compared with approximately 10,000 requests per day before elections.
+- Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in the organization's self-managed Kubernetes data center.
+- Digitized result-center, voter, candidate, and percentage-calculation workflows for approximately 300 returning officers; strengthened validation and task-specific access controls to prevent unwanted data changes.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 

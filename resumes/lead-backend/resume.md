@@ -12,8 +12,8 @@ Senior Software Engineer with 9+ years of experience delivering secure, scalable
 ## Career Highlights
 
 - Served as backend team lead, contributing to grooming, planning, implementation guidance, and code reviews within a 30-person development team.
-- Designed and delivered services across a microservices architecture of nearly 20 running services.
-- Helped deliver an internal election-management platform supporting 50,000 users alongside a public-facing application.
+- Designed and delivered services across a microservices architecture of nearly 25 running services.
+- Helped deliver an internal election-management platform supporting 50,000 users and approximately 100,000 daily requests during election periods.
 - Reduced exam-management system response time by 30% through Redis caching and backend performance improvements.
 - Supported production workflows used by 2,500+ administrators, 1,000 invigilators, and 1,000 examinees, including payments for nearly 30,000 students.
 
@@ -31,7 +31,7 @@ Senior Software Engineer with 9+ years of experience delivering secure, scalable
 Dhaka, Bangladesh | August 2023 - Present
 
 - Serve as backend team lead for an Election Management System, guiding grooming, planning, implementation, and code reviews within a 30-person development team.
-- Design and implement secure, scalable Java, Spring Boot, Hibernate, and REST API services across a microservices architecture of nearly 20 running services.
+- Design and implement secure, scalable Java, Spring Boot, Hibernate, and REST API services across a microservices architecture of nearly 25 running services.
 - Help deliver an internal system supporting 50,000 users alongside a public-facing application that does not require authentication.
 - Support Kubernetes deployments to the organization's self-managed data center and digitized election-result workflows previously dependent on paperwork and physical result delivery.
 
