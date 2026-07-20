@@ -117,4 +117,3 @@ Khulna, Bangladesh | June 2014 - September 2014
 - [ ] Confirm exact employment end date or current duration for Penta Global Ltd.
 - [ ] Add GitHub URL if different from the personal website.
 - [ ] Add certification providers and completion dates.
-- [ ] Add publication links, venues, and dates.
