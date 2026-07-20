@@ -88,8 +88,8 @@ Khulna, Bangladesh | June 2014 - September 2014
 
 ## Publications
 
-- Temporal Relation Extraction using Apriori Algorithm.
-- An Effective Attendance Monitoring System with Fraud Prevention Technique for Educational Institutions.
+- Kadir, M., Sobhan, S., & Islam, Z. (2016). Temporal Relation Extraction using Apriori Algorithm. 2016 5th International Conference on Informatics, Electronics and Vision (ICIEV), 915–920. DOI: 10.1109/ICIEV.2016.7760133
+- Qaiduzzaman, K. M., Shahjahan, M., Sobhan, S., Arman, M. S., Taj Noor, M. B., & Rahman, M. (2018). An Effective Attendance Monitoring System with Fraud Prevention Technique for Educational Institutions. International Journal of Engineering and Technology, 7(3), 1593–1598. DOI: 10.14419/ijet.v7i3.13974
 
 ## Certifications
 

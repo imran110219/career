@@ -24,7 +24,7 @@ The repository structure and canonical sources under `master/` and `sections/` w
 - Condensed the existing Senior Backend summary into a factual, role-focused overview.
 - Pulled supported scale and outcome evidence into six concise Career Highlights bullets.
 - Retained and tightened all four professional roles, prioritizing Java/Spring Boot delivery, distributed services, performance, system scale, security, and technical leadership.
-- Included the supported degree and two existing publication titles in compact formats.
+- Included the supported degree and two publication citations in compact formats; full metadata is maintained in `sections/publications.md`.
 - Omitted the internship, secondary education, certifications, languages, and awards to preserve the requested two-page, senior-role focus.
 
 ## Factual accuracy

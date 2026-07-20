@@ -65,5 +65,5 @@ Bachelor of Science in Computer Science and Engineering, Khulna University | 201
 
 ## Publications
 
-- Temporal Relation Extraction using Apriori Algorithm
-- An Effective Attendance Monitoring System with Fraud Prevention Technique for Educational Institutions
+- Temporal Relation Extraction using Apriori Algorithm — ICIEV, 2016
+- An Effective Attendance Monitoring System with Fraud Prevention Technique for Educational Institutions — International Journal of Engineering and Technology, 2018
