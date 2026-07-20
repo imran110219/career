@@ -8,7 +8,7 @@
 
 ## Repository integrity
 
-The repository structure and all canonical content sources were preserved. No files under `master/`, `sections/`, or the existing tailored-resume source files were modified. The new DOCX and PDF are generated outputs kept alongside the existing Senior Backend resume materials.
+The repository structure and canonical sources under `master/` and `sections/` were preserved. The tailored `resumes/senior-backend/resume.md` was synchronized with the finalized generated resume so it remains the editable role-specific source.
 
 ## Design and formatting improvements
 
@@ -39,7 +39,7 @@ No facts, employers, dates, technologies, metrics, project names, or qualificati
 
 ## Regeneration
 
-From the repository root, run:
+The dedicated builder reads `resumes/senior-backend/resume.md` as its content source. From the repository root, run:
 
 ```bash
 python3 scripts/build_senior_backend_designed_resume.py

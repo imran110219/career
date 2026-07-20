@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 import shutil
 import subprocess
 from pathlib import Path
@@ -17,6 +18,7 @@ from docx.shared import Inches, Pt, RGBColor
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT / "resumes" / "senior-backend"
+RESUME_SOURCE = OUTPUT_DIR / "resume.md"
 DOCX_OUT = OUTPUT_DIR / "resume.docx"
 PDF_OUT = OUTPUT_DIR / "resume.pdf"
 
@@ -178,60 +180,111 @@ def add_experience(document: Document, company: str, location: str, role: str, d
         bullet(document, item)
 
 
-def build_docx(output: Path):
+def load_resume(source: Path) -> dict:
+    """Read the tailored Markdown source used by the finalized Senior Backend layout."""
+    lines = source.read_text().splitlines()
+    title_index = next(index for index, line in enumerate(lines) if line.startswith("# "))
+    name = lines[title_index][2:].strip()
+    first_section = next(index for index, line in enumerate(lines) if line.startswith("## "))
+    header = [line.strip() for line in lines[title_index + 1:first_section] if line.strip()]
+    target_title, contact_line, link_line = header
+
+    sections: dict[str, list[str]] = {}
+    active = None
+    for line in lines[first_section:]:
+        if line.startswith("## "):
+            active = line[3:].strip()
+            sections[active] = []
+        elif active is not None:
+            sections[active].append(line.rstrip())
+
+    def bullets(section: str) -> list[str]:
+        return [line[2:].strip() for line in sections[section] if line.startswith("- ")]
+
+    skills = []
+    for item in bullets("Technical Skills"):
+        match = re.fullmatch(r"\*\*(.+?):\*\*\s*(.+)", item)
+        if not match:
+            raise ValueError(f"Invalid skill line in {source}: {item}")
+        skills.append(match.groups())
+
+    experience = []
+    current = None
+    for line in sections["Professional Experience"]:
+        if line.startswith("### "):
+            company, role = line[4:].split(" - ", 1)
+            current = {"company": company, "role": role, "location": "", "dates": "", "bullets": []}
+            experience.append(current)
+        elif current and line.strip() and not current["location"]:
+            current["location"], current["dates"] = (part.strip() for part in line.split("|", 1))
+        elif current and line.startswith("- "):
+            current["bullets"].append(line[2:].strip())
+
+    summary = " ".join(line.strip() for line in sections["Professional Summary"] if line.strip())
+    education = next(line.strip() for line in sections["Education"] if line.strip())
+    degree, institution_and_dates = education.split(", ", 1)
+    institution, dates = (part.strip() for part in institution_and_dates.split("|", 1))
+    location, phone, email = (part.strip() for part in contact_line.split("|"))
+    linkedin, website = (part.strip().split(": ", 1)[1] for part in link_line.split("|"))
+    return {
+        "name": name,
+        "target_title": target_title,
+        "location": location,
+        "phone": phone,
+        "email": email,
+        "linkedin": linkedin,
+        "website": website,
+        "summary": summary,
+        "highlights": bullets("Career Highlights"),
+        "skills": skills,
+        "experience": experience,
+        "degree": degree,
+        "institution": institution,
+        "education_dates": dates,
+        "publications": bullets("Publications"),
+    }
+
+
+def build_docx(output: Path, source: Path = RESUME_SOURCE):
+    content = load_resume(source)
     document = configure_document()
 
     name = document.add_paragraph()
     name.alignment = WD_ALIGN_PARAGRAPH.CENTER
     name.paragraph_format.space_after = Pt(1)
-    add_run(name, "Sadman Sobhan", bold=True, size=22, color=NAVY)
+    add_run(name, content["name"], bold=True, size=22, color=NAVY)
 
     title = document.add_paragraph()
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
     title.paragraph_format.space_after = Pt(2)
-    add_run(title, "Senior Backend Engineer  |  Java  |  Spring Boot  |  PostgreSQL  |  Distributed Systems", bold=True, size=11.4, color=NAVY)
+    add_run(title, content["target_title"].replace(" | ", "  |  "), bold=True, size=11.4, color=NAVY)
 
     contact = document.add_paragraph()
     contact.alignment = WD_ALIGN_PARAGRAPH.CENTER
     contact.paragraph_format.space_after = Pt(0)
-    add_run(contact, "Dhaka, Bangladesh  |  +8801912070224  |  ", size=9.4, color=MUTED)
-    add_hyperlink(contact, "imran110219@gmail.com", "mailto:imran110219@gmail.com")
+    add_run(contact, f"{content['location']}  |  {content['phone']}  |  ", size=9.4, color=MUTED)
+    add_hyperlink(contact, content["email"], f"mailto:{content['email']}")
 
     links = document.add_paragraph()
     links.alignment = WD_ALIGN_PARAGRAPH.CENTER
     links.paragraph_format.space_after = Pt(3)
-    add_hyperlink(links, "linkedin.com/in/sadmansobhan", "https://www.linkedin.com/in/sadmansobhan")
+    add_hyperlink(links, content["linkedin"].removeprefix("www."), f"https://{content['linkedin']}")
     add_run(links, "  |  ", size=9.4, color=MUTED)
-    add_hyperlink(links, "sadmansobhan.com", "https://www.sadmansobhan.com")
+    add_hyperlink(links, content["website"].removeprefix("www."), f"https://{content['website']}")
     set_bottom_border(links)
 
     section_heading(document, "Professional Summary")
     summary = document.add_paragraph()
     summary.paragraph_format.space_after = Pt(1)
     summary.paragraph_format.line_spacing = 1.03
-    add_run(summary, "Senior Software Engineer with 9+ years of experience delivering secure, scalable backend systems across government, education, healthcare, and enterprise domains. Specializes in Java, Spring Boot, PostgreSQL, distributed systems, API design, and performance optimization, with hands-on technical leadership from planning through production delivery.")
+    add_run(summary, content["summary"])
 
     section_heading(document, "Career Highlights")
-    highlights = [
-        "Backend team lead contributing to grooming, planning, implementation guidance, and code reviews within a 30-person development team",
-        "Designed and delivered Java and Spring Boot services across a microservices architecture of nearly 20 running services",
-        "Helped deliver an internal election-management platform supporting 50,000 users alongside a public-facing application",
-        "Reduced exam-management system response time by 30% through Redis caching and backend performance improvements",
-        "Supported production workflows used by 2,500+ administrators, 1,000 invigilators, and 1,000 examinees, including payments for nearly 30,000 students",
-        "Contributed to the National Electronic Government Procurement System, supporting enterprise workflows, data integrity, and privacy",
-    ]
-    for item in highlights:
+    for item in content["highlights"]:
         bullet(document, item)
 
     section_heading(document, "Technical Skills")
-    skills = [
-        ("Languages", "Java, SQL, C#"),
-        ("Backend", "Spring Boot, Hibernate, REST APIs, Microservices, Backend Architecture"),
-        ("Data & Performance", "PostgreSQL, SQL Server, Redis, Database Modeling, Query Optimization"),
-        ("Security & Platform", "Keycloak, Authentication, Authorization, Kubernetes, Data Integrity"),
-        ("Delivery", "Agile Development, Requirements Analysis, Deployment, Code Review, Mentoring"),
-    ]
-    for label, value in skills:
+    for label, value in content["skills"]:
         paragraph = document.add_paragraph()
         paragraph.paragraph_format.space_after = Pt(1)
         paragraph.paragraph_format.line_spacing = 1.0
@@ -241,38 +294,18 @@ def build_docx(output: Path):
 
     document.add_page_break()
     section_heading(document, "Professional Experience")
-    add_experience(document, "Penta Global Ltd.", "Dhaka, Bangladesh", "Senior Software Engineer", "August 2023 – Present", [
-        "Serve as backend team lead for an Election Management System, guiding grooming, planning, implementation, and code reviews within a 30-person development team",
-        "Design and implement secure, scalable Java, Spring Boot, Hibernate, and REST API services across a microservices architecture of nearly 20 running services",
-        "Help deliver an internal system supporting 50,000 users alongside a public-facing application that does not require authentication",
-        "Support Kubernetes deployments to the organization’s self-managed data center and digitized election-result workflows formerly dependent on paperwork and physical result delivery",
-    ])
-    add_experience(document, "Dynamic Solution Innovators Ltd.", "Dhaka, Bangladesh", "Software Engineer", "January 2022 – July 2023", [
-        "Led development of an exam management system using Java, Spring Boot, PostgreSQL, Flutter, and Crystal Reports; analyzed requirements and designed its database schema",
-        "Reduced system response time by 30% through Redis caching and backend performance improvements",
-        "Built a real-time administrator dashboard that contributed to a 40% increase in system usage and user satisfaction",
-        "Deployed a production system used by 2,500+ administrators, 1,000 invigilators, and 1,000 examinees; supported registration and payment management for nearly 30,000 students",
-    ])
-    add_experience(document, "Dohatec New Media", "Dhaka, Bangladesh", "Java Software Engineer", "October 2016 – December 2021", [
-        "Implemented features and resolved defects for the National Electronic Government Procurement System while preserving data privacy and integrity",
-        "Contributed to large-file upload capabilities, relational data modeling, and enterprise workflow features; helped drive an 80% increase in user engagement over six months",
-    ])
-    add_experience(document, "Jaliks Soft IT Limited", "Khulna, Bangladesh", ".NET Developer", "February 2016 – June 2016", [
-        "Implemented features and resolved defects for a large-scale education application using ASP.NET, C#, and SQL Server",
-    ])
+    for role in content["experience"]:
+        add_experience(document, role["company"], role["location"], role["role"], role["dates"].replace(" - ", " – "), role["bullets"])
 
     section_heading(document, "Education")
     education = document.add_paragraph()
     education.paragraph_format.space_after = Pt(0)
-    add_run(education, "Bachelor of Science in Computer Science and Engineering", bold=True, size=9.8)
-    add_run(education, "  |  Khulna University  |  2011 – 2016", size=9.8, color=MUTED)
+    add_run(education, content["degree"], bold=True, size=9.8)
+    add_run(education, f"  |  {content['institution']}  |  {content['education_dates'].replace(' - ', ' – ')}", size=9.8, color=MUTED)
     set_keep(education, together=True)
 
     section_heading(document, "Publications")
-    for publication in (
-        "Temporal Relation Extraction using Apriori Algorithm",
-        "An Effective Attendance Monitoring System with Fraud Prevention Technique for Educational Institutions",
-    ):
+    for publication in content["publications"]:
         publication_paragraph = document.add_paragraph()
         publication_paragraph.paragraph_format.space_after = Pt(1)
         publication_paragraph.paragraph_format.line_spacing = 1.0

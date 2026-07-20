@@ -11,6 +11,7 @@ All notable updates to this career repository should be documented here.
 - Added microservices to the canonical skills inventory.
 - Added an editable baseline Senior Backend Engineer resume and updated the resume generator to support tailored Markdown sources.
 - Standardized master and role-specific resume exports on the approved single-column A4 design system, with reusable Markdown-to-DOCX/PDF generation guidance.
+- Synchronized the editable Senior Backend Markdown with its finalized summary, highlights, skill grouping, and publications.
 
 ## 2026-07-19
 

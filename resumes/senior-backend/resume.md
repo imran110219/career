@@ -1,20 +1,30 @@
 # Sadman Sobhan
 
-Senior Backend Engineer | Java, Spring Boot, PostgreSQL, Microservices
+Senior Backend Engineer | Java | Spring Boot | PostgreSQL | Distributed Systems
 
 Dhaka, Bangladesh | +8801912070224 | imran110219@gmail.com  
 LinkedIn: www.linkedin.com/in/sadmansobhan | Website: www.sadmansobhan.com
 
 ## Professional Summary
 
-Senior Software Engineer with 9+ years of experience building secure, scalable backend systems for government, education, healthcare, and enterprise domains. Hands-on with Java, Spring Boot, PostgreSQL, REST APIs, Redis, microservices, and Kubernetes-based deployment; experienced in backend leadership, data modeling, performance improvement, and production delivery.
+Senior Software Engineer with 9+ years of experience delivering secure, scalable backend systems across government, education, healthcare, and enterprise domains. Specializes in Java, Spring Boot, PostgreSQL, distributed systems, API design, and performance optimization, with hands-on technical leadership from planning through production delivery.
+
+## Career Highlights
+
+- Backend team lead contributing to grooming, planning, implementation guidance, and code reviews within a 30-person development team.
+- Designed and delivered Java and Spring Boot services across a microservices architecture of nearly 20 running services.
+- Helped deliver an internal election-management platform supporting 50,000 users alongside a public-facing application.
+- Reduced exam-management system response time by 30% through Redis caching and backend performance improvements.
+- Supported production workflows used by 2,500+ administrators, 1,000 invigilators, and 1,000 examinees, including payments for nearly 30,000 students.
+- Contributed to the National Electronic Government Procurement System, supporting enterprise workflows, data integrity, and privacy.
 
 ## Technical Skills
 
-- **Backend:** Java, Spring Boot, Hibernate, REST APIs, microservices, backend architecture
-- **Data and performance:** PostgreSQL, SQL Server, database modeling, Redis caching, query optimization
-- **Platform and security:** Kubernetes, Keycloak, authentication, authorization, data integrity
-- **Delivery:** Requirements analysis, Agile development, deployment, code review, mentoring, stakeholder collaboration
+- **Languages:** Java, SQL, C#
+- **Backend:** Spring Boot, Hibernate, REST APIs, Microservices, Backend Architecture
+- **Data & Performance:** PostgreSQL, SQL Server, Redis, Database Modeling, Query Optimization
+- **Security & Platform:** Keycloak, Authentication, Authorization, Kubernetes, Data Integrity
+- **Delivery:** Agile Development, Requirements Analysis, Deployment, Code Review, Mentoring
 
 ## Professional Experience
 
@@ -52,3 +62,8 @@ Khulna, Bangladesh | February 2016 - June 2016
 ## Education
 
 Bachelor of Science in Computer Science and Engineering, Khulna University | 2011 - 2016
+
+## Publications
+
+- Temporal Relation Extraction using Apriori Algorithm
+- An Effective Attendance Monitoring System with Fraud Prevention Technique for Educational Institutions
