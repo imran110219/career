@@ -1,0 +1,7 @@
+# Copy to config/contact-private.yml (ignored by Git) and replace placeholders.
+location: Dhaka, Bangladesh
+email: your-professional-email@example.com
+phone: +00000000000
+linkedin: www.linkedin.com/in/your-profile
+website: www.example.com
+github: github.com/your-profile

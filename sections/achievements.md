@@ -4,8 +4,8 @@ Use these as source bullets for targeted resumes. Replace broad statements with 
 
 ## Backend Delivery
 
-- Delivered backend services for an Election Management System built as nearly 25 microservices using Java, Spring Boot, Hibernate, and REST APIs.
-- Helped support an internal election-management platform used by 50,000 users and a public-facing application without authentication.
+- Contributed to backend design and delivery across an Election Management System comprising nearly 25 running services using Java, Spring Boot, Hibernate, and REST APIs.
+- Helped support an internal election-management platform reported to serve 50,000 users and a public-facing application without authentication.
 - Supported approximately 100,000 daily requests during election periods, compared with approximately 10,000 requests per day before elections.
 - Led backend task distribution and delivery for critical candidate-management and reporting services within a 30-person development team.
 - Led backend delivery for candidate review, nomination lifecycle, verification, status-transition, and payment-linked submission workflows handling sensitive identity, disclosure, and election data.
@@ -28,7 +28,7 @@ Use these as source bullets for targeted resumes. Replace broad statements with 
 - Served as backend team lead within a 30-person development team, guiding grooming, planning, implementation, and code reviews.
 - Lead and mentor engineering teams across grooming, planning, development, and code review.
 - Collaborate with product teams, customers, stakeholders, and cross-functional contributors to deliver business-aligned features.
-- Applied iterative, agile, and incremental engineering practices that helped increase user engagement by 80% over six months.
+- **NEEDS REVIEW:** Reported team-level 80% user-engagement outcome needs measurement context before reuse.
 
 ## Architecture
 

@@ -2,11 +2,11 @@
 
 Dear Hiring Team,
 
-I am interested in the Platform Engineer role because it aligns with my focus on improving developer experience, reliability, automation, and the systems that help product teams move faster.
+I am interested in the Platform Engineer role because it aligns with my interest in improving developer experience, reliability, automation, and the systems that help product teams move faster.
 
-My experience includes backend engineering, CI/CD workflows, observability, service operations, database-backed systems, and production troubleshooting. I enjoy finding repeated pain points in engineering workflows and turning them into stable platform capabilities, clear documentation, and measurable improvements.
+My documented experience includes backend engineering, Kubernetes deployment support, Dockerfiles, database-backed systems, and production troubleshooting. I am actively assessing how that experience can transfer to platform work; CI/CD platform ownership, observability, Terraform, and SRE practices require additional verified evidence.
 
-I bring a product-minded approach to platform work. Internal tools and infrastructure should be easy to adopt, observable, secure, and aligned with how engineers actually build and ship software.
+I bring a product-minded approach to platform work and value internal tools and infrastructure that are easy to adopt, secure, and aligned with how engineers actually build and ship software.
 
 I would welcome the opportunity to discuss how I can help your engineering teams improve delivery speed and operational confidence.
 

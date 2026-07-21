@@ -12,9 +12,18 @@ Use this file as the complete inventory of career accomplishments. Keep it broad
 | Impact | Metrics, cost reduction, reliability gains, speed improvements, revenue influence, or risk reduction. |
 | Evidence | Dashboards, tickets, release notes, references, public links, or internal artifacts. |
 
-## Backend Engineering
+## Achievement Records
 
-- Designed and delivered backend services for an Election Management System built as nearly 25 microservices, using Java, Spring Boot, Hibernate, and REST APIs.
+| ID | Employer or project | Context | Personal contribution | Team contribution | Technical detail | Impact / metric | Evidence type | Evidence location | Confidence / status | Disclosure | Last verified | Review notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ACH-001 | Penta Global / election platform | Distributed election workflows | Contributed to service interactions and API contracts | Backend delivery within a 30-person development team | Java, Spring Boot, Hibernate, REST APIs | Nearly 25 running services (platform scope) | Internal architecture context | Not committed | team-level | confidential | 2026-07-21 | Do not imply ownership of all services. |
+| ACH-002 | Dynamic Solution Innovators / exam platform | Database-backed exam workflows | Implemented Redis caching and backend improvements | Delivery team contribution | Java, Spring Boot, PostgreSQL, Redis | 30% response-time reduction | Reported performance result | Supporting artifact not committed | verified | public-safe | 2026-07-21 | Capture baseline and method. |
+| ACH-003 | Dynamic Solution Innovators / dashboard | Administrative visibility | Built real-time dashboard | Product/team contribution | Dashboard and backend integration | Reported 40% system-usage increase | Reported outcome | Supporting artifact not committed | needs-review | public-safe | 2026-07-21 | Satisfaction outcome must be separately verified. |
+| ACH-004 | Dohatec / procurement platform | Enterprise procurement workflows | Contributed to product improvements | Team-level delivery | Java, data modeling, uploads, workflows | Reported 80% engagement increase | Reported outcome | Supporting artifact not committed | needs-review | public-safe | 2026-07-21 | Remove from targeted resumes until measurement context is known. |
+
+## Detailed Inventory
+
+- Contributed to backend design and delivery across an Election Management System comprising nearly 25 running services, using Java, Spring Boot, Hibernate, and REST APIs.
 - Helped support an internal election-management platform used by 50,000 users, plus a public-facing application that does not require authentication.
 - Supported approximately 100,000 daily requests during election periods, compared with approximately 10,000 requests per day before elections.
 - Led backend task distribution and delivery for critical candidate-management and reporting services within a 30-person development team.

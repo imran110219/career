@@ -2,8 +2,8 @@
 
 Lead Backend Engineer | Java | Spring Boot | PostgreSQL | Technical Leadership
 
-Dhaka, Bangladesh | +8801912070224 | imran110219@gmail.com
-LinkedIn: www.linkedin.com/in/sadmansobhan | Website: www.sadmansobhan.com | GitHub: github.com/imran110219
+{{contact.primary}}
+{{contact.links}}
 
 ## Professional Summary
 
@@ -12,7 +12,7 @@ Senior Software Engineer with 9+ years of experience delivering secure, scalable
 ## Career Highlights
 
 - Served as backend team lead, contributing to grooming, planning, implementation guidance, and code reviews within a 30-person development team.
-- Helped deliver an internal election-management platform supporting 50,000 users and approximately 100,000 daily requests during election periods.
+- Helped deliver an internal election-management platform reported to support 50,000 users and approximately 100,000 daily requests during election periods.
 - Reduced exam-management system response time by 30% through Redis caching and backend performance improvements.
 
 ## Technical Skills
@@ -28,10 +28,10 @@ Senior Software Engineer with 9+ years of experience delivering secure, scalable
 
 Dhaka, Bangladesh | August 2023 - Present
 
-- Led backend engineering activities for an Election Management System, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
-- Designed service interactions and REST API contracts across a microservices architecture of nearly 25 services, delivering secure, scalable Java and Spring Boot services.
-- Help deliver an internal system supporting 50,000 users alongside a public-facing application that does not require authentication.
-- Support Kubernetes deployments to the organization's self-managed data center and digitized election-result workflows previously dependent on paperwork and physical result delivery.
+- Lead backend engineering activities for an Election Management System, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
+- Design service interactions and REST API contracts across a microservices architecture of nearly 25 services, delivering secure, scalable Java and Spring Boot services.
+- Contribute to delivery of an internal system reported to support 50,000 users alongside a public-facing application that does not require authentication.
+- Support Kubernetes deployments to the organization's self-managed data center and digitize election-result workflows previously dependent on paperwork and physical result delivery.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 
@@ -39,7 +39,7 @@ Dhaka, Bangladesh | January 2022 - July 2023
 
 - Led development of an exam management system using Java, Spring Boot, PostgreSQL, Flutter, and Crystal Reports; analyzed requirements and designed its database schema.
 - Reduced system response time by 30% through Redis caching and backend performance improvements.
-- Built a real-time administrator dashboard that contributed to a 40% increase in system usage and user satisfaction.
+- Built a real-time administrator dashboard associated with a reported 40% increase in system usage.
 - Deployed a production system used by 2,500+ administrators, 1,000 invigilators, and 1,000 examinees; supported registration and payment management for nearly 30,000 students.
 
 ### Dohatec New Media - Java Software Engineer

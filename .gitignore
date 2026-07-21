@@ -29,6 +29,8 @@ desktop.ini
 # Sensitive personal data
 private/
 confidential/
+confidential-evidence/
+evidence/private/
 references/
 background-check/
 identity-documents/
@@ -39,9 +41,14 @@ tax/
 *.pfx
 
 # Application-specific local trackers
+config/contact-private.yml
+master/linkedin-export.pdf
 companies/applications/**/private-notes.md
 companies/applications/**/compensation.md
 companies/applications/**/offer-details.md
+applications/private-notes.md
+applications/compensation.md
+applications/offer-details.md
 
 # Build and automation artifacts
 node_modules/
@@ -49,6 +56,9 @@ node_modules/
 dist/
 build/
 coverage/
+.pdf-export/
+*.generated.md
+__pycache__/
 
 # Logs
 *.log

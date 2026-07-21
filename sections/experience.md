@@ -24,7 +24,7 @@ Dhaka, Bangladesh | August 2023 - Present
 - Led backend engineering activities for an Election Management System, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
 - Lead backend delivery for candidate review, nomination lifecycle, verification, status-transition, and payment-linked submission workflows handling sensitive identity, disclosure, and election data.
 - Design service interactions, REST API contracts, and reporting workflows across a microservices architecture of nearly 25 services; own a reporting service that consolidates data to generate official nomination, candidate, schedule, and result PDF reports.
-- Help deliver an internal system supporting 50,000 users and approximately 100,000 daily requests during election periods, compared with approximately 10,000 requests per day before elections.
+- Contribute to delivery of an internal system reported to support 50,000 users and approximately 100,000 daily requests during election periods, compared with approximately 10,000 requests per day before elections.
 - Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in the organization's self-managed Kubernetes data center.
 - Applied Keycloak-backed authentication, role-based authorization, and workflow validation across nomination forms, payment completion, candidate disclosures, final submission, and state transitions.
 - Coordinated SMS, payment, identity-verification, master-data, and reporting integrations; investigated production issues across frontend, backend, QA, DevOps, and dependent-service teams.
@@ -36,7 +36,7 @@ Dhaka, Bangladesh | January 2022 - July 2023
 
 - Led development of an exam management system using Java, PostgreSQL, Spring Boot, Flutter, and Crystal Reports.
 - Designed database schema after requirements analysis to support an efficient and scalable solution.
-- Built a real-time administrator dashboard that contributed to a 40% increase in system usage and user satisfaction.
+- Built a real-time administrator dashboard associated with a reported 40% increase in system usage. **NEEDS REVIEW:** separately verify the satisfaction outcome.
 - Reduced system response time by 30% using Redis caching.
 - Deployed a system used by more than 2,500 administrators, 1,000 exam invigilators, and 1,000 examinees.
 - Supported online payment registration for nearly 30,000 students.
@@ -49,7 +49,7 @@ Dhaka, Bangladesh | October 2016 - December 2021
 - Supported privacy- and integrity-sensitive workflows for government procurement.
 - Contributed to large file upload capabilities, relational database modeling, and enterprise workflow features.
 - Collaborated with stakeholders, customers, and product teams using iterative, agile engineering practices.
-- Helped drive an 80% increase in user engagement over six months.
+- **NEEDS REVIEW:** A reported team-level 80% user-engagement outcome lacks documented measurement context; do not use it in targeted resumes.
 
 ### Jaliks Soft IT Limited - .NET Developer
 

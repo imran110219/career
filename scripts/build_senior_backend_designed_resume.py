@@ -7,6 +7,8 @@ import shutil
 import subprocess
 from pathlib import Path
 
+from build_designed_resume import render_contact_placeholders
+
 from docx import Document
 from docx.enum.section import WD_SECTION
 from docx.enum.style import WD_STYLE_TYPE
@@ -180,9 +182,9 @@ def add_experience(document: Document, company: str, location: str, role: str, d
         bullet(document, item)
 
 
-def load_resume(source: Path) -> dict:
+def load_resume(source: Path, contact_file: Path | None = None) -> dict:
     """Read the tailored Markdown source used by the finalized Senior Backend layout."""
-    lines = source.read_text().splitlines()
+    lines = render_contact_placeholders(source.read_text(), contact_file).splitlines()
     title_index = next(index for index, line in enumerate(lines) if line.startswith("# "))
     name = lines[title_index][2:].strip()
     first_section = next(index for index, line in enumerate(lines) if line.startswith("## "))
@@ -228,7 +230,10 @@ def load_resume(source: Path) -> dict:
     else:
         degree, institution_and_dates = education.split(", ", 1)
         institution, dates = (part.strip() for part in institution_and_dates.split("|", 1))
-    location, phone, email = (part.strip() for part in contact_line.split("|"))
+    contact_parts = [part.strip() for part in contact_line.split("|")]
+    location = contact_parts[0]
+    phone = next((part for part in contact_parts[1:] if any(char.isdigit() for char in part)), "")
+    email = next((part for part in contact_parts[1:] if "@" in part), "")
     links = {label.strip(): value.strip() for label, value in (part.strip().split(": ", 1) for part in link_line.split("|"))}
     return {
         "name": name,
@@ -250,8 +255,8 @@ def load_resume(source: Path) -> dict:
     }
 
 
-def build_docx(output: Path, source: Path = RESUME_SOURCE):
-    content = load_resume(source)
+def build_docx(output: Path, source: Path = RESUME_SOURCE, contact_file: Path | None = None):
+    content = load_resume(source, contact_file)
     document = configure_document()
 
     name = document.add_paragraph()
@@ -267,8 +272,14 @@ def build_docx(output: Path, source: Path = RESUME_SOURCE):
     contact = document.add_paragraph()
     contact.alignment = WD_ALIGN_PARAGRAPH.CENTER
     contact.paragraph_format.space_after = Pt(0)
-    add_run(contact, f"{content['location']}  |  {content['phone']}  |  ", size=9.4, color=MUTED)
-    add_hyperlink(contact, content["email"], f"mailto:{content['email']}")
+    contact_values = [content["location"]]
+    if content["phone"]:
+        contact_values.append(content["phone"])
+    if content["email"]:
+        add_run(contact, "  |  ".join(contact_values) + "  |  ", size=9.4, color=MUTED)
+        add_hyperlink(contact, content["email"], f"mailto:{content['email']}")
+    else:
+        add_run(contact, "  |  ".join(contact_values) + "  |  Contact via LinkedIn", size=9.4, color=MUTED)
 
     links = document.add_paragraph()
     links.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -347,8 +358,12 @@ def export_pdf(docx: Path, pdf: Path):
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--contact-file", type=Path, default=ROOT / "config" / "contact-public.yml", help="Public-safe or local private contact configuration")
+    args = parser.parse_args()
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    build_docx(DOCX_OUT)
+    build_docx(DOCX_OUT, contact_file=args.contact_file)
     export_pdf(DOCX_OUT, PDF_OUT)
     print(DOCX_OUT)
     print(PDF_OUT)

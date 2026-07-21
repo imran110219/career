@@ -231,10 +231,11 @@ def main() -> None:
     parser.add_argument("--pdf-output", type=Path, default=PDF_OUT, help="Destination PDF path")
     parser.add_argument("--rtf-output", type=Path, default=RTF_OUT, help="Destination intermediate RTF path")
     parser.add_argument("--docx-output", type=Path, help="Optional destination DOCX path")
+    parser.add_argument("--contact-file", type=Path, default=ROOT / "config" / "contact-public.yml", help="Public-safe or local private contact configuration")
     args = parser.parse_args()
 
     docx_output = args.docx_output or ROOT / "master" / "resume.docx"
-    build_designed_docx(args.input, docx_output)
+    build_designed_docx(args.input, docx_output, contact_file=args.contact_file)
     export_designed_pdf(docx_output, args.pdf_output)
     print(args.pdf_output)
     print(docx_output)

@@ -1,0 +1,23 @@
+# Editable job-search positioning.
+primary_roles:
+  - Senior Backend Engineer
+  - Lead Backend Engineer
+  - Software Architect
+secondary_roles:
+  - Platform Engineer
+  - Engineering Manager
+target_markets:
+  - Malaysia
+  - Singapore
+  - UAE
+  - Saudi Arabia
+  - Qatar
+  - Turkey
+  - remote Europe
+  - remote UK
+  - global remote
+preferences:
+  remote_from_bangladesh_acceptable: true
+  relocation_relevant: true
+  visa_sponsorship_may_be_required: true
+  editable: true

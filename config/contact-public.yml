@@ -1,0 +1,8 @@
+# Safe default used for public repository builds.
+# Add email and phone only in config/contact-private.yml on your local machine.
+location: Dhaka, Bangladesh
+email: ""
+phone: ""
+linkedin: www.linkedin.com/in/sadmansobhan
+website: www.sadmansobhan.com
+github: github.com/imran110219

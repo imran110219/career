@@ -7,7 +7,7 @@ This guide explains how to use AI effectively with this career repository.
 Paste this at the beginning of a new AI conversation:
 
 ```text
-You are helping maintain my career repository. Read AGENTS.md first, then use master/resume.md as the source of truth. Do not invent facts. If information is missing, ask for it or add a review item.
+You are helping maintain my career repository. Read AGENTS.md, master/resume.md, master/achievements.md, and the relevant master inventories first. Do not invent facts. Label unclear items NEEDS REVIEW and preserve claim status, ownership, and disclosure limits.
 ```
 
 For targeted resumes, add:
@@ -64,7 +64,7 @@ Accomplished <result> by <action> using <technology or method>, improving <metri
 Examples based on current source material:
 
 - Reduced system response time by 30% by implementing Redis caching.
-- Built a real-time administrator dashboard that contributed to a 40% increase in system usage and user satisfaction.
+- Built a real-time administrator dashboard associated with a reported 40% increase in system usage.
 - Deployed an exam management system used by 2,500+ administrators, 1,000 exam invigilators, and 1,000 examinees.
 
 ## Resume Optimization Rules
@@ -143,6 +143,8 @@ Before accepting AI-generated career content:
 - [ ] Bullets are specific enough to discuss in an interview.
 - [ ] The resume version matches the target job.
 - [ ] Markdown source and generated documents are in sync.
+- [ ] Public builds use `config/contact-public.yml`; private contact data is read only from ignored local configuration.
+- [ ] Planned project features are not described as delivered.
 
 ## File Maintenance Rules
 

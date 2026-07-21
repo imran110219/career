@@ -2,8 +2,8 @@
 
 Platform Engineer | Kubernetes | Java Services | Reliability & Operational Delivery
 
-Dhaka, Bangladesh | +8801912070224 | imran110219@gmail.com
-LinkedIn: www.linkedin.com/in/sadmansobhan | Website: www.sadmansobhan.com | GitHub: github.com/imran110219
+{{contact.primary}}
+{{contact.links}}
 
 ## Professional Summary
 
@@ -12,13 +12,13 @@ Backend engineer with 9+ years of experience delivering and supporting secure, s
 ## Career Highlights
 
 - Supported Kubernetes deployment of a nearly 25-service election-management platform to a self-managed data center.
-- Helped deliver an internal platform supporting 50,000 users alongside a public-facing application.
+- Helped deliver an internal platform reported to support 50,000 users alongside a public-facing application.
 - Reduced response time by 30% through Redis caching and backend performance improvements.
 - Supported high-volume registration and payment workflows for nearly 30,000 students.
 
 ## Technical Skills
 
-- Platform & Operations: Kubernetes, Deployment, Operational Support, Logging, Alerting, Runbook Coverage
+- Platform & Operations: Kubernetes Deployment Support, Dockerfiles, Deployment Troubleshooting, Operational Support
 - Backend: Java, Spring Boot, Hibernate, REST APIs, Microservices
 - Data & Reliability: PostgreSQL, SQL Server, Redis, Data Integrity, Database Modeling, Query Optimization
 - Security & Delivery: Keycloak, Authentication, Authorization, Agile Development, Code Review, Stakeholder Collaboration
@@ -31,8 +31,8 @@ Dhaka, Bangladesh | August 2023 - Present
 
 - Supported Kubernetes deployments to the organization's self-managed data center for an Election Management System built as nearly 25 microservices.
 - Design and implement secure, scalable Java, Spring Boot, Hibernate, and REST API services for internal and public-facing applications.
-- Help deliver an internal system supporting 50,000 users and digitized election-result workflows previously dependent on paperwork and physical result delivery.
-- Led backend engineering activities, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
+- Contribute to delivery of an internal system reported to support 50,000 users and digitize election-result workflows previously dependent on paperwork and physical result delivery.
+- Lead backend engineering activities, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 
@@ -48,12 +48,6 @@ Dhaka, Bangladesh | October 2016 - December 2021
 
 - Contributed to the National Electronic Government Procurement System, including large-file upload capabilities, relational data modeling, and enterprise workflow features.
 - Implemented features and resolved defects while preserving data privacy and integrity in government-procurement workflows.
-
-### Jaliks Soft IT Limited - .NET Developer
-
-Khulna, Bangladesh | February 2016 - June 2016
-
-- Implemented features and resolved defects for a large-scale education application using ASP.NET, C#, and SQL Server.
 
 ## Education
 

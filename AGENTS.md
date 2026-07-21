@@ -12,8 +12,9 @@ Help maintain accurate, polished, role-targeted career materials for backend eng
 | --- | --- |
 | `master/resume.md` | Canonical resume content and first place to update career facts. |
 | `master/achievements.md` | Complete achievement inventory, especially measurable impact. |
+| `master/*-inventory.md` and `master/evidence-index.md` | Broader career facts, claim status, disclosure limits, and evidence references. |
 | `sections/` | Reusable resume, LinkedIn, portfolio, and application content blocks. |
-| `master/linkedin-export.pdf` | Imported LinkedIn profile snapshot. Use for reference, not as the only truth. |
+| Local ignored LinkedIn export | Optional private reference; do not commit profile exports containing contact or address data. |
 | `resumes/<role>/` | Tailored output for specific job families. |
 
 When facts conflict, prefer the most recently edited Markdown source over generated `.docx` or `.pdf` exports.
@@ -22,7 +23,7 @@ When facts conflict, prefer the most recently edited Markdown source over genera
 
 - Do not invent employers, dates, metrics, certifications, publications, project names, or degrees.
 - If a detail is missing, add a clear review item rather than fabricating it.
-- Keep personal contact information consistent across resume, LinkedIn, portfolio, and cover letters.
+- Use public-safe contact defaults from `config/contact-public.yml`; use ignored `config/contact-private.yml` only for local application-ready builds.
 - Prefer achievement bullets with scope, action, technical detail, and measurable impact.
 - Keep wording professional, direct, and credible for senior engineering roles.
 - Avoid exaggerated claims such as "expert in everything", "world-class", or unsupported leadership scope.
@@ -69,12 +70,12 @@ Every resume version should satisfy this checklist:
 - Keep summaries specific to Sadman’s profile: Java, Spring Boot, backend architecture, distributed systems, health-tech, government, education, enterprise systems.
 - Use quantified evidence when present:
   - `30% reduction in system response time`
-  - `40% increase in system usage and user satisfaction`
+  - `reported 40% increase in system usage` (satisfaction requires separate evidence)
   - `2,500+ administrators`
   - `1,000 exam invigilators`
   - `1,000 examinees`
   - `nearly 30,000 students`
-  - `80% increase in user engagement`
+  - `reported team-level 80% user-engagement outcome` only after measurement context is verified
 
 ## Document Generation
 
@@ -92,6 +93,7 @@ Notes:
 - The approved visual reference is the Senior Backend resume; preserve its single-column, ATS-safe design.
 - If LibreOffice or another reliable renderer is available, visually inspect exported DOCX/PDF before final delivery.
 - Do not treat generated binary files as the only editable source.
+- Append `--contact-file config/contact-private.yml` only for a local private-contact build; that file is ignored.
 
 ## Privacy And Safety
 
@@ -132,3 +134,5 @@ Read AGENTS.md and interview/system-design.md. Build a focused interview prepara
 - [ ] Publication venue, publication date, and links.
 - [ ] Preferred target countries and job markets.
 - [ ] Preferred resume length by role.
+- [ ] Measurement method and evidence context for reported 40% system-usage and 80% engagement outcomes.
+- [ ] Bengal Unfolded public link, implemented technology, and ownership boundary.

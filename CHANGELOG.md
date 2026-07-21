@@ -2,6 +2,24 @@
 
 All notable updates to this career repository should be documented here.
 
+## 2026-07-21
+
+### Added
+
+- Added public/private contact configuration, broader experience/project/skills/evidence inventories, active-track metadata, job-search operations files, and structured interview preparation assets.
+- Added privacy, workflow, checklist, and contributing documentation.
+
+### Changed
+
+- Converted resume sources and builders to public-safe contact placeholders with optional ignored local private-contact builds.
+- Qualified service-count ownership, the 40% dashboard outcome, and the 80% engagement outcome; removed unsupported engagement wording from targeted resumes.
+- Renamed the canonical project section to Personal Projects and recorded FactLens and Bengal Unfolded boundaries and review items.
+
+### Security
+
+- Expanded ignored paths for private contact data, confidential evidence, compensation, offer details, private application notes, and generated temporary files.
+- Documented that sensitive values may remain in Git history and require a separate deliberate cleanup.
+
 ## 2026-07-20
 
 ### Changed

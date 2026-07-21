@@ -25,6 +25,35 @@ def clean(value: str) -> str:
     return value.replace("**", "").replace("`", "").strip()
 
 
+def load_contact(contact_file: Path | None) -> dict[str, str]:
+    """Load the small flat contact configuration without adding a YAML dependency."""
+    contact = {"location": "Dhaka, Bangladesh", "email": "", "phone": "", "linkedin": "", "website": "", "github": ""}
+    if contact_file and contact_file.exists():
+        for raw in contact_file.read_text().splitlines():
+            if ":" not in raw or raw.lstrip().startswith("#"):
+                continue
+            key, value = raw.split(":", 1)
+            contact[key.strip()] = value.strip().strip('"').strip("'")
+    return contact
+
+
+def render_contact_placeholders(markdown: str, contact_file: Path | None) -> str:
+    contact = load_contact(contact_file)
+    primary = [contact["location"]]
+    if contact["phone"]:
+        primary.append(contact["phone"])
+    if contact["email"]:
+        primary.append(contact["email"])
+    elif contact["linkedin"]:
+        primary.append("Contact via LinkedIn")
+    links = []
+    for label, key in (("LinkedIn", "linkedin"), ("Website", "website"), ("GitHub", "github")):
+        if contact[key]:
+            links.append(f"{label}: {contact[key]}")
+    return (markdown.replace("{{contact.primary}}", " | ".join(primary))
+                    .replace("{{contact.links}}", " | ".join(links)))
+
+
 def blocks(markdown: str):
     for raw in markdown.splitlines():
         value = raw.strip()
@@ -117,8 +146,8 @@ def add_header(document: Document, name: str, metadata: list[str]):
             divider(line)
 
 
-def build(input_file: Path, docx_file: Path, *, break_before_experience: bool = False):
-    items = list(blocks(input_file.read_text()))
+def build(input_file: Path, docx_file: Path, *, break_before_experience: bool = False, contact_file: Path | None = None):
+    items = list(blocks(render_contact_placeholders(input_file.read_text(), contact_file)))
     document = configure()
     name = next((value for kind, value in items if kind == "title"), "Resume")
     first_section = next((index for index, (kind, _) in enumerate(items) if kind == "section"), len(items))
@@ -188,8 +217,9 @@ def main():
     parser.add_argument("docx", type=Path)
     parser.add_argument("pdf", type=Path)
     parser.add_argument("--break-before-experience", action="store_true", help="Start Professional Experience on page two for a balanced two-page tailored resume.")
+    parser.add_argument("--contact-file", type=Path, default=Path("config/contact-public.yml"), help="Public-safe or local private contact configuration.")
     args = parser.parse_args()
-    build(args.input, args.docx, break_before_experience=args.break_before_experience)
+    build(args.input, args.docx, break_before_experience=args.break_before_experience, contact_file=args.contact_file)
     export_pdf(args.docx, args.pdf)
 
 

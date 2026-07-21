@@ -33,11 +33,11 @@ Keep this file as the canonical skills inventory. Targeted resumes should only i
 
 ### Platform Engineer
 
-- CI/CD, developer tooling, observability, automation, runtime reliability, operational standards.
+- Kubernetes deployment support, Dockerfiles, deployment troubleshooting, and backend reliability. **NEEDS REVIEW:** CI/CD platform engineering, developer tooling, observability, automation, SRE practices, Terraform, and Kubernetes administration.
 
 ### Engineering Manager
 
-- Team leadership, execution planning, hiring, feedback, stakeholder management, engineering process.
+- Planning, grooming, code review, mentoring, stakeholder collaboration, and delivery. **NEEDS REVIEW:** direct reports, hiring, formal feedback/performance reviews, promotions, capacity planning, team health, and budget ownership.
 
 ## Maintenance Checklist
 

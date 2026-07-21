@@ -28,7 +28,7 @@ Approved standard for all role-specific and master resume DOCX/PDF exports. The 
 3. Career Highlights, where supported and useful
 4. Technical Skills
 5. Professional Experience
-6. Selected Projects, only when it adds non-duplicative value
+6. Personal Projects, only when it adds non-duplicative value
 7. Education
 8. Publications, only when space permits
 
@@ -39,3 +39,4 @@ Approved standard for all role-specific and master resume DOCX/PDF exports. The 
 - The Senior Backend resume uses its dedicated builder because its approved two-page composition includes curated highlights; it must retain this visual standard.
 - Preserve role-specific output names as `resumes/<role>/resume.docx` and `resumes/<role>/resume.pdf`.
 - Verify A4 size, page count, selectable PDF text, readable extraction order, no blank pages, and visual parity after each export.
+- Contact headers use `{{contact.primary}}` and `{{contact.links}}` in Markdown. Default builds read `config/contact-public.yml`; use ignored `config/contact-private.yml` only for a local application-ready export.
