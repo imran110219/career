@@ -6,6 +6,7 @@ All notable updates to this career repository should be documented here.
 
 ### Changed
 
+- Rebalanced the Software Architect resume into a focused one-page layout by removing duplicate highlights, a redundant technology line, and the least relevant legacy role.
 - Rebalanced the Lead Backend resume into a focused one-page layout by removing a redundant technology line and the least relevant legacy role.
 - Rebalanced the Platform Engineer resume into a complete one-page layout by removing duplicated and unsupported content.
 - Rebalanced the Engineering Manager resume to keep the Dohatec experience entry together on page one.

@@ -12,9 +12,7 @@ Backend and distributed-systems engineer with 9+ years of experience designing s
 ## Career Highlights
 
 - Designed and delivered Java and Spring Boot services across a microservices architecture of nearly 25 running services.
-- Helped support an internal election-management platform used by 50,000 users alongside a public-facing application.
 - Designed the database schema for an exam-management platform and improved response time by 30% through Redis caching and backend optimization.
-- Contributed to National Electronic Government Procurement System workflows involving relational data, large-file handling, privacy, and integrity.
 - Participated in technical planning, design discussions, and code reviews within a 30-person development team.
 
 ## Technical Skills
@@ -30,7 +28,6 @@ Backend and distributed-systems engineer with 9+ years of experience designing s
 
 Dhaka, Bangladesh | August 2023 - Present
 
-- **Key technologies:** Java, Spring Boot, Hibernate, REST APIs, Docker, Kubernetes, Keycloak.
 - Designed service interactions and REST API contracts across a microservices architecture of nearly 25 services, delivering secure, scalable Java and Spring Boot services.
 - Help deliver an internal system supporting 50,000 users alongside a public-facing application that does not require authentication.
 - Support Kubernetes deployments to the organization's self-managed data center and digitized election-result workflows previously dependent on paperwork and physical result delivery.
@@ -52,12 +49,6 @@ Dhaka, Bangladesh | October 2016 - December 2021
 - Implemented features and resolved defects for the National Electronic Government Procurement System while preserving data privacy and integrity.
 - Contributed to relational data modeling, large-file upload capabilities, and enterprise workflow features.
 - Collaborated with stakeholders, customers, and product teams through iterative, agile delivery practices.
-
-### Jaliks Soft IT Limited - .NET Developer
-
-Khulna, Bangladesh | February 2016 - June 2016
-
-- Implemented features and resolved defects for a large-scale education application using ASP.NET, C#, and SQL Server.
 
 ## Education
 
