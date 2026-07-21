@@ -84,6 +84,17 @@ Khulna, Bangladesh | February 2016 - June 2016
 - Collaborated with product managers, designers, developers, and other stakeholders to support successful project delivery.
 - Conducted code reviews and provided feedback to improve quality and maintainability.
 
+## Selected Projects
+
+### Open-Care | Java, Spring Boot, PostgreSQL, Next.js
+
+- Lead contributor to an open-source healthcare-information platform providing searchable doctor, hospital, ambulance, blood-donation, and medical-resource capabilities.
+- Built and documented a Spring Boot REST API with PostgreSQL, Keycloak-based JWT authorization, MinIO file storage, Liquibase migrations, Dockerized deployment, and Swagger/OpenAPI documentation.
+
+### FactLens | Headless CMS, Custom Content Models, API Integration
+
+- Built and deployed a production editorial platform using a headless CMS architecture with customized content models and API integration.
+
 ## Education
 
 Khulna University | Bachelor of Science (B.Sc.) in Computer Science and Engineering | 2011–2016
@@ -101,4 +112,3 @@ Khulna University | Bachelor of Science (B.Sc.) in Computer Science and Engineer
 ## Review Checklist
 
 - [ ] Confirm exact employment end date or current duration for Penta Global Ltd.
-- [ ] Add certification providers and completion dates.

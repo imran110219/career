@@ -6,7 +6,8 @@ Use this file to curate projects for public presentation.
 
 | Project | Summary | Stack | Proof |
 | --- | --- | --- | --- |
-| Add project | Short explanation of problem and impact. | Java, Spring, PostgreSQL, or relevant stack | GitHub, demo, article, or case study |
+| [Open-Care](https://github.com/Cipher-Text/opencare) | Open-source healthcare information platform with searchable provider, hospital, ambulance, blood-donation, and medical-resource capabilities. | Java, Spring Boot, PostgreSQL, Next.js, TypeScript, Keycloak, MinIO, Docker | [Live demo](https://opencarebd.com/) · [API docs](https://api.opencarebd.com/swagger-ui/index.html) |
+| [FactLens](https://www.factlensbd.com/) | Production editorial platform built around a headless CMS, customized content models, and API integration. | Headless CMS, API integration | [Live site](https://www.factlensbd.com/) |
 
 ## Project Write-Up Template
 
