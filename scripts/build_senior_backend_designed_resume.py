@@ -299,9 +299,10 @@ def build_docx(output: Path, source: Path = RESUME_SOURCE):
         add_run(paragraph, value, size=9.5)
         set_keep(paragraph, together=True)
 
-    document.add_page_break()
     section_heading(document, "Professional Experience")
-    for role in content["experience"]:
+    for index, role in enumerate(content["experience"]):
+        if index == 2:
+            document.add_page_break()
         add_experience(document, role["company"], role["location"], role["role"], role["dates"].replace(" - ", " – "), role["bullets"])
 
     section_heading(document, "Education")

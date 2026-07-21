@@ -6,6 +6,7 @@ All notable updates to this career repository should be documented here.
 
 ### Changed
 
+- Repositioned the Senior Backend resume's page break before the Dohatec role to reduce unused first-page space while keeping experience entries intact.
 - Rebalanced the Software Architect resume into a focused one-page layout by removing duplicate highlights, a redundant technology line, and the least relevant legacy role.
 - Rebalanced the Lead Backend resume into a focused one-page layout by removing a redundant technology line and the least relevant legacy role.
 - Rebalanced the Platform Engineer resume into a complete one-page layout by removing duplicated and unsupported content.
