@@ -58,20 +58,6 @@ For AI-assisted updates, start with `AGENTS.md` and `docs/AI_USAGE.md` so future
 | Prepare interview | Focused technical and behavioral notes | `interview/` |
 | Archive outcome | Final resume, notes, and outcome | `archive/2026/` |
 
-## Git Commit Conventions
-
-Use short, specific commit messages. Prefer one logical change per commit.
-
-| Prefix | Use For | Example |
-| --- | --- | --- |
-| `resume:` | Resume edits or generated versions | `resume: tailor backend version for fintech roles` |
-| `cover-letter:` | Cover letter changes | `cover-letter: draft platform engineer version` |
-| `profile:` | LinkedIn, GitHub, portfolio updates | `profile: refresh GitHub project descriptions` |
-| `interview:` | Interview preparation notes | `interview: add postgres indexing scenarios` |
-| `application:` | Company-specific application materials | `application: add Acme backend role tracker` |
-| `archive:` | Moving inactive material | `archive: store Q1 application package` |
-| `chore:` | Repository maintenance | `chore: update gitignore for exports` |
-
 ## Checklists
 
 ### Resume
