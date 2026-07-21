@@ -75,9 +75,7 @@ Khulna, Bangladesh | February 2016 - June 2016
 
 ## Education
 
-Khulna University  
-Bachelor of Science (B.Sc.) in Computer Science and Engineering  
-2011–2016
+Khulna University | Bachelor of Science (B.Sc.) in Computer Science and Engineering | 2011–2016
 
 ## Publications
 

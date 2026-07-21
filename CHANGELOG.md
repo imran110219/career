@@ -6,6 +6,7 @@ All notable updates to this career repository should be documented here.
 
 ### Changed
 
+- Standardized the Khulna University education entry as a single line across the master and role-specific resumes.
 - Removed the Pranon student internship from the master resume and reusable experience source.
 - Simplified education to the Khulna University B.Sc. degree in the master resume and reusable education source.
 - Removed the certifications section from the master resume and its generated exports; the reusable certification tracker remains for verification.

@@ -16,9 +16,7 @@ Degree or Program | Location | Year
 
 ## Education History
 
-Khulna University  
-Bachelor of Science (B.Sc.) in Computer Science and Engineering  
-2011–2016
+Khulna University | Bachelor of Science (B.Sc.) in Computer Science and Engineering | 2011–2016
 
 ## Usage Notes
 

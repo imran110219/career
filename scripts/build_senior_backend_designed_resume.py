@@ -222,8 +222,12 @@ def load_resume(source: Path) -> dict:
 
     summary = " ".join(line.strip() for line in sections["Professional Summary"] if line.strip())
     education = next(line.strip() for line in sections["Education"] if line.strip())
-    degree, institution_and_dates = education.split(", ", 1)
-    institution, dates = (part.strip() for part in institution_and_dates.split("|", 1))
+    education_parts = [part.strip() for part in education.split("|")]
+    if len(education_parts) == 3:
+        institution, degree, dates = education_parts
+    else:
+        degree, institution_and_dates = education.split(", ", 1)
+        institution, dates = (part.strip() for part in institution_and_dates.split("|", 1))
     location, phone, email = (part.strip() for part in contact_line.split("|"))
     links = {label.strip(): value.strip() for label, value in (part.strip().split(": ", 1) for part in link_line.split("|"))}
     return {
