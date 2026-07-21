@@ -20,10 +20,15 @@ My core expertise is in Java, Spring Boot, backend architecture, distributed sys
 
 I have led and mentored engineering teams, contributed to system design decisions, and taken ownership of end-to-end product development from requirement analysis and architecture through deployment and long-term maintenance.
 
+## Featured Projects
+
+- [Open-Care](https://github.com/Cipher-Text/opencare) — Open-source healthcare-information platform with a Java/Spring Boot API, PostgreSQL, Next.js, Keycloak, and MinIO. [Live demo](https://opencarebd.com/) · [API documentation](https://api.opencarebd.com/swagger-ui/index.html)
+- [FactLens](https://www.factlensbd.com/) — Production editorial platform built around a headless CMS, customized content models, and API integration.
+
 ## Checklist
 
 - [ ] Update headline for current target roles.
 - [ ] Refresh About section after resume updates.
 - [ ] Add recent achievements to experience entries.
-- [ ] Verify Featured links.
+- [x] Added Featured project links for Open-Care and FactLens.
 - [ ] Export current profile PDF to `master/linkedin-export.pdf`.

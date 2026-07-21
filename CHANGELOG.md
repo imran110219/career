@@ -6,7 +6,7 @@ All notable updates to this career repository should be documented here.
 
 ### Changed
 
-- Synced the Open-Care and FactLens projects across reusable project records, public portfolio materials, the master resume, and generated master exports; technical details not yet verified for FactLens remain review items.
+- Synced the Open-Care and FactLens projects across reusable project records, LinkedIn and personal-website content plans, public portfolio materials, the master resume, and generated master exports; technical details not yet verified for FactLens remain review items.
 - Added an evidence-based Exam Management System project entry to the master resume.
 - Removed the remaining certification-related review item from the master resume source.
 - Repositioned the Senior Backend resume's page break before the Dohatec role to reduce unused first-page space while keeping experience entries intact.

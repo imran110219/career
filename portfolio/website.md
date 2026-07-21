@@ -18,6 +18,13 @@ Use this file to plan and maintain personal website content.
 | LinkedIn | www.linkedin.com/in/sadmansobhan |
 | Medium | medium.com/@imran110219 |
 
+## Featured Projects
+
+| Project | Summary | Link |
+| --- | --- | --- |
+| Open-Care | Open-source healthcare-information platform with a Java/Spring Boot backend and Next.js web application. | [GitHub](https://github.com/Cipher-Text/opencare) · [Live demo](https://opencarebd.com/) |
+| FactLens | Production editorial platform based on a headless CMS, customized content models, and API integration. | [Live site](https://www.factlensbd.com/) |
+
 ## Recommended Pages
 
 - Home: concise positioning, key skills, selected work.
