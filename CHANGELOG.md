@@ -6,6 +6,7 @@ All notable updates to this career repository should be documented here.
 
 ### Changed
 
+- Rebalanced the Platform Engineer resume into a complete one-page layout by removing duplicated and unsupported content.
 - Rebalanced the Engineering Manager resume to keep the Dohatec experience entry together on page one.
 - Removed visible Markdown emphasis markers from the Senior Backend resume's key-technologies line.
 - Synced role-specific resumes with the strengthened Penta Global leadership and architecture evidence and current-role technology line from the master resume.

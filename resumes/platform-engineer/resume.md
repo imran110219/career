@@ -15,7 +15,6 @@ Backend engineer with 9+ years of experience delivering and supporting secure, s
 - Helped deliver an internal platform supporting 50,000 users alongside a public-facing application.
 - Reduced response time by 30% through Redis caching and backend performance improvements.
 - Supported high-volume registration and payment workflows for nearly 30,000 students.
-- Contributed to production APIs with attention to correctness, observability, latency, and operational support.
 
 ## Technical Skills
 
@@ -31,7 +30,6 @@ Backend engineer with 9+ years of experience delivering and supporting secure, s
 Dhaka, Bangladesh | August 2023 - Present
 
 - Supported Kubernetes deployments to the organization's self-managed data center for an Election Management System built as nearly 25 microservices.
-- **Key technologies:** Java, Spring Boot, Hibernate, REST APIs, Docker, Kubernetes, Keycloak.
 - Design and implement secure, scalable Java, Spring Boot, Hibernate, and REST API services for internal and public-facing applications.
 - Help deliver an internal system supporting 50,000 users and digitized election-result workflows previously dependent on paperwork and physical result delivery.
 - Led backend engineering activities, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
