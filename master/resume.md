@@ -1,6 +1,6 @@
 # Sadman Sobhan
 
-Senior Software Engineer | Backend & Distributed Systems | Java, Spring Boot, PostgreSQL
+Senior Backend Engineer | Java, Spring Boot, Distributed Systems, PostgreSQL, Microservices
 
 Dhaka, Bangladesh  
 Phone: +8801912070224  
@@ -12,23 +12,30 @@ Blog: medium.com/@imran110219
 
 ## Professional Summary
 
-Senior Software Engineer with 9+ years of experience designing and building secure, scalable backend systems across healthcare, government, education, and enterprise domains. Strong in Java, Spring Boot, backend architecture, distributed systems, API design, database modeling, and performance optimization.
+Senior Backend Engineer with 9+ years of experience designing secure, scalable backend platforms across government, healthcare, education, and enterprise domains. Specialized in Java, Spring Boot, PostgreSQL, distributed systems, REST APIs, backend architecture, and performance optimization.
 
-Experienced in platforms used by thousands of users where reliability, data integrity, and security are critical. Proven ability to lead and mentor engineering teams, contribute to system design decisions, and own software delivery from requirements and architecture through deployment and long-term maintenance.
+Experienced leading backend engineering work, designing security- and data-integrity-sensitive systems, and delivering software supporting thousands of users. Brings hands-on ownership from requirements and architecture through deployment and long-term maintenance.
 
-Currently expanding deeper expertise in DevOps, SRE practices, and cloud-native distributed systems while building health-tech platforms that improve how patients, doctors, and organizations connect in Bangladesh.
+## Career Highlights
+
+- 9+ years of backend engineering experience across government, healthcare, education, and enterprise domains.
+- Led backend delivery activities, including task allocation, planning, implementation guidance, and code reviews, within a 30-person development team.
+- Helped deliver an election-management platform supporting 50,000 users and approximately 100,000 daily requests during election periods.
+- Designed and delivered services across a microservices architecture of nearly 25 running services.
+- Reduced exam-management system response time by 30% through Redis caching and backend performance improvements.
+- Co-authored two peer-reviewed research publications.
 
 ## Core Skills
 
 | Category | Skills |
 | --- | --- |
-| Backend | Java, Spring Boot, Hibernate, Node.js, Express, REST APIs, PDF generation, backend architecture, distributed systems |
-| Data | PostgreSQL, SQL Server, Flyway, database modeling, query optimization, relational database design |
+| Languages | Java, SQL, C# |
+| Backend | Spring Boot, Hibernate, REST APIs, Node.js, Express, PDF generation |
+| Architecture | Microservices, distributed systems, backend architecture, API design, database modeling |
+| Data & Performance | PostgreSQL, SQL Server, Redis, Flyway, query optimization, relational database design |
 | Security | Keycloak, JWT token introspection, role-based authorization, data privacy, data integrity |
-| Performance | Redis caching, performance optimization, scalable service design |
-| Delivery | Agile development, requirement analysis, deployment, maintenance, code reviews |
-| Leadership | Team leadership, mentoring, grooming, planning, stakeholder collaboration |
-| Additional | Flutter, Crystal Reports, ASP.NET, C#, WordPress, PHP |
+| Infrastructure | Docker, Kubernetes, deployment troubleshooting |
+| Leadership & Delivery | Technical leadership, mentoring, grooming, planning, code reviews, stakeholder collaboration, Agile development |
 
 ## Experience
 
@@ -36,9 +43,10 @@ Currently expanding deeper expertise in DevOps, SRE practices, and cloud-native 
 
 Dhaka, Bangladesh | August 2023 - Present
 
-- Serve as backend team lead for an Election Management System, leading task distribution, grooming, planning, implementation, and code reviews within a 30-person development team.
+- Led backend engineering activities for an Election Management System, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
+- **Key technologies:** Java, Spring Boot, Hibernate, REST APIs, Docker, Kubernetes, Keycloak.
 - Led backend delivery for candidate review, nomination lifecycle, verification, status-transition, and payment-linked submission workflows handling sensitive identity, disclosure, and election data.
-- Owned a reporting service that composed data from multiple election services to generate official nomination, candidate, schedule, and result PDF reports.
+- Designed service interactions, REST API contracts, and reporting workflows across a microservices architecture of nearly 25 services; owned a reporting service that consolidated data to generate official nomination, candidate, schedule, and result PDF reports.
 - Help deliver an internal system supporting 50,000 users and approximately 100,000 daily requests during election periods, compared with approximately 10,000 requests per day before elections.
 - Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in the organization's self-managed Kubernetes data center.
 - Digitized result-center, voter, candidate, and percentage-calculation workflows for approximately 300 returning officers; strengthened validation and role-based controls to prevent unwanted data changes.
@@ -48,6 +56,7 @@ Dhaka, Bangladesh | August 2023 - Present
 Dhaka, Bangladesh | January 2022 - July 2023
 
 - Led development of an exam management system using Java, PostgreSQL, Spring Boot, Flutter, and Crystal Reports.
+- **Key technologies:** Java, Spring Boot, PostgreSQL, Redis, Flutter, Crystal Reports.
 - Analyzed requirements and designed the database schema, creating an efficient and scalable foundation for the system.
 - Developed a real-time administrator dashboard that improved data visibility and decision-making, contributing to a 40% increase in system usage and user satisfaction.
 - Reduced system response time by 30% by implementing Redis caching and improving backend performance.
@@ -59,6 +68,7 @@ Dhaka, Bangladesh | January 2022 - July 2023
 Dhaka, Bangladesh | October 2016 - December 2021
 
 - Worked on the National Electronic Government Procurement System, fixing bugs, implementing features, and analyzing client requirements while preserving data privacy and integrity.
+- **Key technologies:** Java, relational data modeling, large-file uploads, enterprise workflows.
 - Contributed to electronic government procurement capabilities involving large file uploads, relational data modeling, and enterprise-grade workflow support.
 - Applied iterative, agile, and incremental software engineering practices in collaboration with stakeholders, customers, and product teams.
 - Helped drive an 80% increase in user engagement over a six-month period through product improvements and stakeholder-aligned delivery.
@@ -69,6 +79,7 @@ Dhaka, Bangladesh | October 2016 - December 2021
 Khulna, Bangladesh | February 2016 - June 2016
 
 - Implemented new features and resolved bugs in a large-scale education application using ASP.NET and C#.
+- **Key technologies:** ASP.NET, C#, SQL Server.
 - Developed and maintained SQL Server databases, including stored procedures, triggers, and views.
 - Collaborated with product managers, designers, developers, and other stakeholders to support successful project delivery.
 - Conducted code reviews and provided feedback to improve quality and maintainability.
@@ -79,8 +90,8 @@ Khulna University | Bachelor of Science (B.Sc.) in Computer Science and Engineer
 
 ## Publications
 
-- Kadir, M., Sobhan, S., & Islam, Z. (2016). Temporal Relation Extraction using Apriori Algorithm. 2016 5th International Conference on Informatics, Electronics and Vision (ICIEV), 915–920. DOI: 10.1109/ICIEV.2016.7760133
-- Qaiduzzaman, K. M., Shahjahan, M., Sobhan, S., Arman, M. S., Taj Noor, M. B., & Rahman, M. (2018). An Effective Attendance Monitoring System with Fraud Prevention Technique for Educational Institutions. International Journal of Engineering and Technology, 7(3), 1593–1598. DOI: 10.14419/ijet.v7i3.13974
+- Temporal Relation Extraction using Apriori Algorithm — ICIEV, 2016.
+- An Effective Attendance Monitoring System with Fraud Prevention Technique for Educational Institutions — International Journal of Engineering and Technology, 2018.
 
 ## Languages
 

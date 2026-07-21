@@ -21,10 +21,9 @@ Location or Remote | Month YYYY - Month YYYY
 
 Dhaka, Bangladesh | August 2023 - Present
 
-- Serve as backend team lead for an Election Management System, leading task distribution, grooming, planning, implementation, and code reviews within a 30-person development team.
+- Led backend engineering activities for an Election Management System, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
 - Lead backend delivery for candidate review, nomination lifecycle, verification, status-transition, and payment-linked submission workflows handling sensitive identity, disclosure, and election data.
-- Own a reporting service that composes data from multiple election services to generate official nomination, candidate, schedule, and result PDF reports.
-- Design and maintain REST API contracts for multi-step nomination forms, payment completion, candidate data retrieval, final submission, and report generation across a microservices architecture of nearly 25 running services.
+- Design service interactions, REST API contracts, and reporting workflows across a microservices architecture of nearly 25 services; own a reporting service that consolidates data to generate official nomination, candidate, schedule, and result PDF reports.
 - Help deliver an internal system supporting 50,000 users and approximately 100,000 daily requests during election periods, compared with approximately 10,000 requests per day before elections.
 - Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in the organization's self-managed Kubernetes data center.
 - Applied Keycloak-backed authentication, role-based authorization, and workflow validation across nomination forms, payment completion, candidate disclosures, final submission, and state transitions.

@@ -6,6 +6,8 @@ All notable updates to this career repository should be documented here.
 
 ### Changed
 
+- Synced role-specific resumes with the strengthened Penta Global leadership and architecture evidence and current-role technology line from the master resume.
+- Strengthened the master resume's Senior Backend positioning with a focused identity, concise highlights, reorganized skills, clearer technical leadership and architecture evidence, key technology lines, and compact publications.
 - Standardized the Khulna University education entry as a single line across the master and role-specific resumes.
 - Removed the Pranon student internship from the master resume and reusable experience source.
 - Simplified education to the Khulna University B.Sc. degree in the master resume and reusable education source.

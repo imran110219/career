@@ -30,10 +30,11 @@ Backend and distributed-systems engineer with 9+ years of experience designing s
 
 Dhaka, Bangladesh | August 2023 - Present
 
-- Design and implement secure, scalable Java, Spring Boot, Hibernate, and REST API services across a microservices architecture of nearly 25 running services.
+- **Key technologies:** Java, Spring Boot, Hibernate, REST APIs, Docker, Kubernetes, Keycloak.
+- Designed service interactions and REST API contracts across a microservices architecture of nearly 25 services, delivering secure, scalable Java and Spring Boot services.
 - Help deliver an internal system supporting 50,000 users alongside a public-facing application that does not require authentication.
 - Support Kubernetes deployments to the organization's self-managed data center and digitized election-result workflows previously dependent on paperwork and physical result delivery.
-- Contribute to grooming, planning, implementation guidance, and code reviews as backend team lead within a 30-person development team.
+- Led backend engineering activities, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 

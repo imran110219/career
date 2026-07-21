@@ -30,8 +30,9 @@ Senior Software Engineer with 9+ years of experience delivering secure, scalable
 
 Dhaka, Bangladesh | August 2023 - Present
 
-- Serve as backend team lead for an Election Management System, guiding grooming, planning, implementation, and code reviews within a 30-person development team.
-- Design and implement secure, scalable Java, Spring Boot, Hibernate, and REST API services across a microservices architecture of nearly 25 running services.
+- Led backend engineering activities for an Election Management System, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
+- **Key technologies:** Java, Spring Boot, Hibernate, REST APIs, Docker, Kubernetes, Keycloak.
+- Designed service interactions and REST API contracts across a microservices architecture of nearly 25 services, delivering secure, scalable Java and Spring Boot services.
 - Help deliver an internal system supporting 50,000 users alongside a public-facing application that does not require authentication.
 - Support Kubernetes deployments to the organization's self-managed data center and digitized election-result workflows previously dependent on paperwork and physical result delivery.
 

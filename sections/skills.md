@@ -12,6 +12,7 @@ Keep this file as the canonical skills inventory. Targeted resumes should only i
 | Security | Keycloak, JWT token introspection, role-based authorization, data privacy, data integrity |
 | Performance | Redis caching, performance optimization, scalable backend design |
 | Architecture | Microservices, distributed systems, system design, API design, backend architecture |
+| Infrastructure | Docker, Kubernetes, deployment troubleshooting |
 | Delivery | Agile development, requirement analysis, deployment, long-term maintenance, code review |
 | Leadership | Team mentoring, grooming, planning, stakeholder collaboration, cross-functional delivery |
 | Product Domains | Healthcare, government, education, enterprise platforms, electronic procurement, exam management |

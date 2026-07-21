@@ -4,7 +4,7 @@ Use this file to maintain reusable summary variants for resumes, LinkedIn, GitHu
 
 ## Backend Engineering Summary
 
-Senior Software Engineer with 9+ years of experience designing and building secure, scalable backend systems across healthcare, government, education, and enterprise domains. Strong in Java, Spring Boot, Hibernate, PostgreSQL, REST APIs, distributed systems, database modeling, and performance optimization.
+Senior Backend Engineer with 9+ years of experience designing secure, scalable backend platforms across government, healthcare, education, and enterprise domains. Specialized in Java, Spring Boot, PostgreSQL, distributed systems, REST APIs, backend architecture, and performance optimization. Experienced leading backend engineering work and delivering software supporting thousands of users.
 
 ## Technical Leadership Summary
 
