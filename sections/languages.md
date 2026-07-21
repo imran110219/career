@@ -6,9 +6,8 @@ Track spoken and written language proficiency for resumes and international appl
 
 | Language | Speaking | Writing | Reading | Notes |
 | --- | --- | --- | --- | --- |
-| Bangla | Native or bilingual | Native or bilingual | Native or bilingual | Primary/native language. |
-| English | Professional working | Professional working | Professional working | Use formal score if available. |
-| Hindi | Limited working | Limited working | Limited working | Include only when relevant to role or region. |
+| Bangla | Native | Native | Native | Primary/native language. |
+| English | Professional Working Proficiency | Professional Working Proficiency | Professional Working Proficiency | Use formal score if available. |
 
 ## Usage Notes
 

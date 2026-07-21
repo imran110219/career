@@ -61,13 +61,6 @@ Khulna, Bangladesh | February 2016 - June 2016
 - Collaborated with product managers, designers, developers, and stakeholders to support delivery.
 - Reviewed code and provided maintainability-focused feedback.
 
-### Pranon - Student Intern
-
-Khulna, Bangladesh | June 2014 - September 2014
-
-- Worked as a WordPress developer on an education application.
-- Implemented features, fixed bugs, and gained experience with WordPress CMS, PHP, and frontend basics.
-
 ## Bullet Quality Checklist
 
 - [ ] Starts with a strong action verb.

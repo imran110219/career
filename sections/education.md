@@ -16,11 +16,9 @@ Degree or Program | Location | Year
 
 ## Education History
 
-| Institution | Credential | Dates |
-| --- | --- | --- |
-| Khulna University | Bachelor of Science, Computer Science and Engineering | 2011 - 2016 |
-| Shaheed Mashiur Rahman Degree College | Higher Secondary School Certificate, Science | 2008 - 2010 |
-| Jhikargacha M. L. High School | Secondary School Certificate, Science | 2003 - 2008 |
+Khulna University  
+Bachelor of Science (B.Sc.) in Computer Science and Engineering  
+2011–2016
 
 ## Usage Notes
 

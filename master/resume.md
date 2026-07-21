@@ -73,46 +73,21 @@ Khulna, Bangladesh | February 2016 - June 2016
 - Collaborated with product managers, designers, developers, and other stakeholders to support successful project delivery.
 - Conducted code reviews and provided feedback to improve quality and maintainability.
 
-### Pranon - Student Intern
-
-Khulna, Bangladesh | June 2014 - September 2014
-
-- Worked as a WordPress developer, implementing features and fixing bugs in an education application.
-- Gained hands-on experience with WordPress CMS, PHP, and basic frontend development.
-
 ## Education
 
-| Institution | Credential | Dates |
-| --- | --- | --- |
-| Khulna University | Bachelor of Science, Computer Science and Engineering | 2011 - 2016 |
-| Shaheed Mashiur Rahman Degree College | Higher Secondary School Certificate, Science | 2008 - 2010 |
-| Jhikargacha M. L. High School | Secondary School Certificate, Science | 2003 - 2008 |
+Khulna University  
+Bachelor of Science (B.Sc.) in Computer Science and Engineering  
+2011–2016
 
 ## Publications
 
 - Kadir, M., Sobhan, S., & Islam, Z. (2016). Temporal Relation Extraction using Apriori Algorithm. 2016 5th International Conference on Informatics, Electronics and Vision (ICIEV), 915–920. DOI: 10.1109/ICIEV.2016.7760133
 - Qaiduzzaman, K. M., Shahjahan, M., Sobhan, S., Arman, M. S., Taj Noor, M. B., & Rahman, M. (2018). An Effective Attendance Monitoring System with Fraud Prevention Technique for Educational Institutions. International Journal of Engineering and Technology, 7(3), 1593–1598. DOI: 10.14419/ijet.v7i3.13974
 
-## Certifications
-
-- Python 3 Tutorial Course.
-- Foundations of IT Security: Core Concepts.
-- Internet History, Technology, and Security.
-- Java Course.
-- Intro to Python for Data Science Course.
-
 ## Languages
 
-| Language | Proficiency |
-| --- | --- |
-| Bangla | Native or bilingual |
-| English | Professional working |
-| Hindi | Limited working |
-
-## Honors and Awards
-
-- Junior Scholarship.
-- GPA-5 (A+).
+- Bangla — Native
+- English — Professional Working Proficiency
 
 ## Review Checklist
 

@@ -6,6 +6,11 @@ All notable updates to this career repository should be documented here.
 
 ### Changed
 
+- Removed the Pranon student internship from the master resume and reusable experience source.
+- Simplified education to the Khulna University B.Sc. degree in the master resume and reusable education source.
+- Removed the certifications section from the master resume and its generated exports; the reusable certification tracker remains for verification.
+- Simplified the language section to Bangla and English; removed Hindi.
+- Removed the honors and awards section from the master resume and its generated exports.
 - Added public-safe Election Management System scope, scale, architecture, deployment, workflow-digitization, and backend-leadership evidence to the canonical career materials.
 - Added a reusable, evidence-based project record for the Dynamic Solution Innovators exam management system.
 - Added microservices to the canonical skills inventory.
