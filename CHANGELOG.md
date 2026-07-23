@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Added a transparent, evidence-aware ATS alignment analyzer for Markdown resumes and job descriptions.
+- Expanded configuration-driven job positioning and market prioritization, added job-discovery instructions and workspace/report placeholder, and integrated discovery guidance with the existing `applications/tracker.csv`.
 
 All notable updates to this career repository should be documented here.
 

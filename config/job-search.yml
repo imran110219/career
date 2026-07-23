@@ -1,23 +1,499 @@
-# Editable job-search positioning.
-primary_roles:
-  - Senior Backend Engineer
-  - Lead Backend Engineer
-  - Software Architect
-secondary_roles:
-  - Platform Engineer
-  - Engineering Manager
+# Job-search positioning and filtering configuration.
+# This file is the single source of truth for job discovery.
+
+version: 1
+
+candidate_positioning:
+  years_of_experience: 9
+
+  primary_roles:
+    - Senior Backend Engineer
+    - Senior Java Engineer
+    - Lead Backend Engineer
+    - Backend Technical Lead
+
+  selective_roles:
+    - Software Architect
+    - Backend Architect
+    - Staff Backend Engineer
+    - Principal Backend Engineer
+
+  secondary_roles:
+    - Platform Engineer
+    - Engineering Manager
+
+  role_rules:
+    primary_roles_priority: highest
+    selective_roles_require_verified_alignment: true
+    secondary_roles_require_backend_focus: true
+
+    exclude_management_only_roles: true
+    exclude_frontend_only_roles: true
+    exclude_mobile_only_roles: true
+    exclude_qa_only_roles: true
+    exclude_support_only_roles: true
+    exclude_junior_roles: true
+    exclude_internships: true
+    exclude_graduate_roles: true
+
+    engineering_manager_requirements:
+      require_hands_on_technical_component: true
+      exclude_when_primarily:
+        - hiring
+        - budgeting
+        - performance management
+        - organizational administration
+        - people management
+
+    platform_engineer_requirements:
+      require_backend_or_application_platform_focus: true
+      exclude_when_primary_requirements_are_unverified:
+        - advanced Kubernetes administration
+        - deep Terraform ownership
+        - production SRE ownership
+        - cloud platform ownership
+        - advanced observability engineering
+        - infrastructure-only engineering
+
+skills:
+  core:
+    - Java
+    - Spring Boot
+    - Spring Security
+    - REST APIs
+    - PostgreSQL
+    - Redis
+    - JPA
+    - Hibernate
+    - Keycloak
+    - JWT
+    - OAuth2
+    - Docker
+    - Maven
+    - Liquibase
+    - Flyway
+    - Database Design
+    - Query Optimization
+    - Distributed Systems
+    - Microservices
+    - API Design
+    - System Design
+    - Technical Leadership
+    - Code Review
+    - Mentoring
+
+  preferred:
+    - Kubernetes
+    - Kafka
+    - RabbitMQ
+    - AWS
+    - Azure
+    - GCP
+    - CI/CD
+    - GitHub Actions
+    - Jenkins
+    - OpenAPI
+    - Nginx
+    - Elasticsearch
+    - MinIO
+    - Observability
+    - Performance Testing
+    - Load Testing
+
+  strongest_weight:
+    - Java
+    - Spring Boot
+    - PostgreSQL
+    - REST APIs
+    - Distributed Systems
+    - Database Design
+    - Technical Leadership
+
 target_markets:
-  - Malaysia
-  - Singapore
-  - UAE
-  - Saudi Arabia
-  - Qatar
-  - Turkey
-  - remote Europe
-  - remote UK
-  - global remote
-preferences:
-  remote_from_bangladesh_acceptable: true
-  relocation_relevant: true
-  visa_sponsorship_may_be_required: true
-  editable: true
+  priority:
+    - Malaysia
+    - Singapore
+    - United Arab Emirates
+    - Saudi Arabia
+    - Qatar
+    - Germany
+    - Ireland
+    - Global Remote
+
+  strong_secondary:
+    - Netherlands
+    - Sweden
+    - Denmark
+    - Norway
+    - Finland
+    - Turkey
+    - Indonesia
+    - Australia
+    - New Zealand
+    - Remote Europe
+    - Remote United Kingdom
+
+  exploratory:
+    - Poland
+    - Czech Republic
+    - Estonia
+    - Lithuania
+    - Portugal
+    - Spain
+    - Austria
+    - Belgium
+    - Switzerland
+    - Oman
+    - Bahrain
+    - Kuwait
+
+market_rules:
+  minimum_scores:
+    priority: 65
+    strong_secondary: 70
+    exploratory: 78
+
+  eligibility:
+    remote_from_bangladesh_acceptable: true
+    relocation_relevant: true
+    visa_sponsorship_may_be_required: true
+
+    include_when_any:
+      - visa sponsorship is explicitly mentioned
+      - relocation support is explicitly mentioned
+      - global remote eligibility is confirmed
+      - Bangladesh-based remote work is confirmed
+      - international applicants are explicitly accepted
+      - work authorization support is explicitly offered
+
+    allow_unspecified_sponsorship: true
+    allow_unspecified_relocation: true
+
+    exclude_when:
+      - existing local work authorization is mandatory
+      - sponsorship is explicitly unavailable
+      - remote work is restricted to a region that excludes Bangladesh
+      - local residency is mandatory
+      - citizenship is mandatory
+      - security clearance unavailable to foreign applicants is mandatory
+      - mandatory local-language fluency is not met
+
+  remote_rules:
+    verify_remote_scope: true
+    do_not_assume_remote_means_global: true
+
+    accepted_remote_types:
+      - Global Remote
+      - Remote from Bangladesh
+      - Worldwide Remote
+      - International Remote
+      - Remote Europe when Bangladesh eligibility is explicit
+      - Remote United Kingdom when international eligibility is explicit
+
+    reject_remote_types:
+      - US only
+      - Canada only
+      - EU residents only
+      - EEA residents only
+      - UK residents only
+      - country-restricted remote without sponsorship
+      - timezone restrictions incompatible with Bangladesh unless flexible
+
+job_preferences:
+  require_backend_focus: true
+  prefer_java_ecosystem: true
+  prefer_original_employer_job_page: true
+  prefer_product_or_platform_engineering: true
+  prefer_security_sensitive_systems: true
+  prefer_high_scale_or_distributed_systems: true
+  prefer_architecture_or_technical_leadership: true
+
+  work_modes:
+    include_remote: true
+    include_hybrid: true
+    include_onsite_in_target_markets: true
+
+  company_types:
+    include:
+      - product company
+      - enterprise software company
+      - fintech
+      - healthtech
+      - govtech
+      - edtech
+      - e-commerce
+      - SaaS
+      - consulting with strong engineering practice
+      - international development organization
+      - established startup
+
+    exclude:
+      - unpaid role
+      - commission-only role
+      - suspicious recruiter
+      - anonymous employer
+      - candidate-paid recruitment
+      - training program presented as employment
+
+freshness:
+  preferred_published_within_days: 14
+  acceptable_published_within_days: 30
+  exclude_older_than_days: 30
+
+  allow_missing_publication_date_when:
+    official_page_is_active: true
+    application_is_open: true
+    vacancy_is_not_marked_expired: true
+
+  missing_date_label: Not specified
+
+source_priority:
+  - official employer career page
+  - official ATS page
+  - Greenhouse
+  - Lever
+  - Ashby
+  - Workable
+  - SmartRecruiters
+  - reputable job board linking to original vacancy
+
+source_rules:
+  open_original_job_page: true
+  do_not_score_from_search_snippet_only: true
+  prefer_official_application_url: true
+  avoid_duplicate_reposts: true
+  avoid_aggressive_scraping: true
+  do_not_bypass_access_controls: true
+
+validation:
+  required_fields:
+    - employer
+    - title
+    - location
+    - work mode
+    - application status
+    - original application URL
+    - required experience
+    - essential technologies
+
+  verify_when_available:
+    - publication date
+    - remote restrictions
+    - relocation support
+    - visa sponsorship
+    - language requirements
+    - salary
+    - employment type
+    - timezone requirements
+
+  unspecified_value: Not specified
+
+scoring:
+  maximum_score: 100
+
+  role_alignment:
+    maximum: 25
+    exact_primary_role: 25
+    related_primary_role: 20
+    verified_selective_role: 17
+    backend_focused_secondary_role: 12
+    general_backend_software_role: 10
+
+  technical_alignment:
+    maximum: 30
+
+    weights:
+      Java: 6
+      Spring Boot: 6
+      PostgreSQL: 4
+      REST APIs: 3
+      Distributed Systems: 3
+      Microservices: 2
+      Redis: 2
+      Security: 2
+      Docker or Kubernetes: 2
+
+  seniority_alignment:
+    maximum: 15
+    rules:
+      seven_to_ten_years: 15
+      five_to_eight_years: 13
+      three_to_five_years: 7
+      more_than_twelve_years: 7
+      formal_architect_experience_beyond_verified_profile: 5
+      junior_or_graduate: exclude
+
+  location_feasibility:
+    maximum: 15
+    rules:
+      global_remote_or_confirmed_bangladesh_remote: 15
+      target_country_with_sponsorship_or_relocation: 15
+      target_country_with_unspecified_relocation: 10
+      regional_remote_with_uncertain_eligibility: 6
+      local_authorization_required_without_support: 0
+
+  leadership_and_architecture:
+    maximum: 10
+    evaluate:
+      - technical leadership
+      - mentoring
+      - code review
+      - system design
+      - API design
+      - database architecture
+      - security design
+      - stakeholder collaboration
+      - production ownership
+
+  freshness:
+    maximum: 5
+    rules:
+      within_7_days: 5
+      within_14_days: 4
+      within_30_days: 2
+      active_but_date_unspecified: 1
+      older_than_30_days: exclude
+
+  penalties:
+    unsupported_primary_language: -25
+    mandatory_local_work_authorization: -25
+    sponsorship_explicitly_unavailable: -25
+    region_restricted_remote: -20
+    major_unverified_cloud_or_infrastructure_gap: -10
+    management_only_role: exclude
+    junior_or_internship: exclude
+
+classification:
+  excellent_match:
+    minimum: 80
+    maximum: 100
+
+  good_match:
+    minimum: 70
+    maximum: 79
+
+  possible_match:
+    minimum: 60
+    maximum: 69
+
+  weak_match:
+    maximum: 59
+    include_in_report: false
+
+result_limits:
+  minimum_match_score: 60
+  recommended_application_score: 70
+  maximum_results: 25
+  maximum_recommended_first_applications: 5
+  minimum_expected_results: 10
+  allow_fewer_when_insufficient_valid_jobs: true
+
+resume_mapping:
+  senior_backend:
+    path: resumes/senior-backend/resume.pdf
+    use_when:
+      - hands-on Java development
+      - Spring Boot
+      - REST APIs
+      - databases
+      - performance optimization
+      - microservices
+      - distributed systems
+
+  lead_backend:
+    path: resumes/lead-backend/resume.pdf
+    use_when:
+      - technical leadership
+      - mentoring
+      - planning
+      - code review
+      - team coordination
+      - delivery leadership
+      - stakeholder collaboration
+
+  software_architect:
+    path: resumes/software-architect/resume.pdf
+    use_when:
+      - system architecture
+      - service interaction design
+      - API architecture
+      - data architecture
+      - integration design
+      - security architecture
+      - technical standards
+      - architecture tradeoffs
+
+    restrictions:
+      - do not recommend only because the title contains architect
+      - require verified architecture alignment
+      - do not imply a formal architect title
+
+output:
+  file: job-search/latest-jobs.md
+
+  include_sections:
+    - search summary
+    - recommended first applications
+    - excellent matches
+    - good matches
+    - possible matches
+    - market observations
+    - suggested next actions
+    - sources reviewed
+
+  include_per_job:
+    - match score
+    - location
+    - work mode
+    - publication date
+    - application status
+    - required experience
+    - visa sponsorship
+    - relocation support
+    - recommended resume
+    - original application URL
+    - matched requirements
+    - potential gaps
+    - match explanation
+
+deduplication:
+  read_existing_output: true
+
+  deduplicate_by:
+    - employer
+    - title
+    - location
+
+  prefer_official_url: true
+  retain_active_existing_jobs: true
+  refresh_existing_validation: true
+
+  remove_when:
+    - expired
+    - filled
+    - inaccessible
+    - no longer listed
+    - duplicate of official vacancy
+
+safety_and_accuracy:
+  do_not_invent:
+    - jobs
+    - dates
+    - salaries
+    - sponsorship
+    - relocation support
+    - remote eligibility
+    - technology requirements
+    - candidate experience
+    - application status
+
+  do_not:
+    - automatically apply
+    - contact recruiters
+    - modify resumes
+    - store credentials
+    - bypass website protections
+    - use aggressive scraping
+    - expose private personal information
+
+editable: true
