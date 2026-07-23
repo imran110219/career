@@ -22,6 +22,7 @@ Location or Remote | Month YYYY - Month YYYY
 Dhaka, Bangladesh | August 2023 - Present
 
 - Led backend engineering activities for an Election Management System, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
+- Used RabbitMQ for election-management workflows and CI/CD pipelines, including GitHub Actions, across projects.
 - Lead backend delivery for candidate review, nomination lifecycle, verification, status-transition, and payment-linked submission workflows handling sensitive identity, disclosure, and election data.
 - Design service interactions, REST API contracts, and reporting workflows across a microservices architecture of nearly 25 services; own a reporting service that consolidates data to generate official nomination, candidate, schedule, and result PDF reports.
 - Contribute to delivery of an internal system reported to support 50,000 users and approximately 100,000 daily requests during election periods, compared with approximately 10,000 requests per day before elections.
@@ -34,7 +35,7 @@ Dhaka, Bangladesh | August 2023 - Present
 
 Dhaka, Bangladesh | January 2022 - July 2023
 
-- Led development of an exam management system using Java, PostgreSQL, Spring Boot, Flutter, and Crystal Reports.
+- Led development of an exam management system using Java, PostgreSQL, Spring Boot, Flutter, and Crystal Reports; used Jenkins for CI/CD and Locust for load testing.
 - Designed database schema after requirements analysis to support an efficient and scalable solution.
 - Built a real-time administrator dashboard associated with a reported 40% increase in system usage. **NEEDS REVIEW:** separately verify the satisfaction outcome.
 - Reduced system response time by 30% using Redis caching.

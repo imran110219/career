@@ -7,13 +7,13 @@ This file is a resume-ready projection of the authoritative inventory in `master
 | Category | Skills |
 | --- | --- |
 | Languages | Java, SQL, C# |
-| Backend | Spring Boot, Hibernate, REST APIs, ASP.NET |
+| Backend | Spring Boot, Hibernate, REST APIs, ASP.NET, RabbitMQ |
 | Data | PostgreSQL, SQL Server, Liquibase, database modeling, relational database design, stored procedures, triggers, views |
 | Security | Keycloak, JWT token introspection, role-based authorization, data privacy, data integrity |
 | Performance | Redis caching, performance optimization, scalable backend design |
 | Architecture | Microservices, distributed systems, system design, API design, backend architecture |
-| Infrastructure | Docker, Kubernetes, deployment troubleshooting |
-| Delivery | Agile development, requirement analysis, deployment, long-term maintenance, code review |
+| Infrastructure | Docker, Kubernetes, Nginx configuration, deployment troubleshooting |
+| Delivery | CI/CD, GitHub Actions, Jenkins, Locust load testing, Agile development, requirement analysis, deployment, long-term maintenance, code review |
 | Leadership | Team mentoring, grooming, planning, stakeholder collaboration, cross-functional delivery |
 | Product Domains | Healthcare, government, education, enterprise platforms, electronic procurement, exam management |
 
@@ -21,7 +21,7 @@ This file is a resume-ready projection of the authoritative inventory in `master
 
 ### Senior Backend Engineer
 
-- Java, Spring Boot, Hibernate, PostgreSQL, REST APIs, Redis caching, Keycloak, performance optimization.
+- Java, Spring Boot, Hibernate, PostgreSQL, REST APIs, RabbitMQ, Redis caching, Keycloak, CI/CD, performance optimization.
 
 ### Lead Backend Engineer
 
@@ -33,7 +33,7 @@ This file is a resume-ready projection of the authoritative inventory in `master
 
 ### Platform Engineer
 
-- Kubernetes deployment support, Dockerfiles, deployment troubleshooting, and backend reliability. **NEEDS REVIEW:** CI/CD platform engineering, developer tooling, observability, automation, SRE practices, Terraform, and Kubernetes administration.
+- Kubernetes deployment support, Dockerfiles, Nginx configuration, CI/CD pipelines, GitHub Actions, Jenkins, Locust load testing, deployment troubleshooting, and backend reliability. **NEEDS REVIEW:** CI/CD platform engineering, developer tooling, observability, automation, SRE practices, Terraform, and Kubernetes administration.
 
 ### Engineering Manager
 

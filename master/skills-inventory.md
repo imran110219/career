@@ -5,12 +5,12 @@ This is the authoritative inventory of skills that may be used in targeted resum
 | Category | Verified / recorded skills | Status / review |
 | --- | --- | --- |
 | Languages | Java, SQL, C# | Recorded in resume sources. |
-| Backend | Spring Boot, Hibernate, REST APIs, ASP.NET | Tailor to demonstrated role evidence. |
+| Backend | Spring Boot, Hibernate, REST APIs, ASP.NET, RabbitMQ | RabbitMQ is recorded for the election-management platform. |
 | Data | PostgreSQL, SQL Server, Redis, Liquibase, data modeling, query optimization | Liquibase is documented for Open-Care. |
 | Architecture | Microservices, distributed systems, API design, backend architecture | Avoid claiming sole ownership of all platform services. |
 | Security | Keycloak, JWT token introspection, role-based authorization, data privacy, data integrity | Use only project-specific evidence. |
-| Delivery | Docker, Kubernetes deployment support, planning, grooming, code review, mentoring | Kubernetes administration / SRE ownership is NEEDS REVIEW. |
-| Exploratory | Terraform, CI/CD platform engineering, observability, SRE, direct people management | NEEDS REVIEW; do not list as demonstrated capabilities. |
+| Delivery | Docker, Kubernetes deployment support, CI/CD, GitHub Actions, Jenkins, Nginx configuration, Locust load testing, planning, grooming, code review, mentoring | Jenkins is recorded for the exam-management system; retain project-level scope in resumes. Kubernetes administration / SRE ownership is NEEDS REVIEW. |
+| Exploratory | Terraform, CI/CD platform engineering, observability, SRE, direct people management | CI/CD pipeline use is verified; platform-engineering ownership remains NEEDS REVIEW. |
 
 ## Verification Backlog
 

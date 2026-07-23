@@ -25,12 +25,12 @@ Experienced leading backend engineering work, designing security- and data-integ
 | Category | Skills |
 | --- | --- |
 | Languages | Java, SQL, C# |
-| Backend | Spring Boot, Hibernate, REST APIs, PDF generation |
+| Backend | Spring Boot, Hibernate, REST APIs, RabbitMQ, PDF generation |
 | Architecture | Microservices, distributed systems, backend architecture, API design, database modeling |
 | Data & Performance | PostgreSQL, SQL Server, Redis, query optimization, relational database design |
 | Security | Keycloak, JWT token introspection, role-based authorization, data privacy, data integrity |
-| Infrastructure | Docker, Kubernetes, deployment troubleshooting |
-| Leadership & Delivery | Technical leadership, mentoring, grooming, planning, code reviews, stakeholder collaboration, Agile development |
+| Infrastructure | Docker, Kubernetes, Nginx configuration, deployment troubleshooting |
+| Leadership & Delivery | CI/CD, GitHub Actions, Jenkins, Locust load testing, technical leadership, mentoring, grooming, planning, code reviews, stakeholder collaboration, Agile development |
 
 ## Experience
 
@@ -39,11 +39,11 @@ Experienced leading backend engineering work, designing security- and data-integ
 Dhaka, Bangladesh | August 2023 - Present
 
 - Lead backend engineering activities for an Election Management System, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
-- **Key technologies:** Java, Spring Boot, Hibernate, REST APIs, Docker, Kubernetes, Keycloak.
+- **Key technologies:** Java, Spring Boot, Hibernate, REST APIs, RabbitMQ, Docker, Kubernetes, Keycloak, CI/CD, GitHub Actions.
 - Lead backend delivery for candidate review, nomination lifecycle, verification, status-transition, and payment-linked submission workflows handling sensitive identity, disclosure, and election data.
 - Design service interactions, REST API contracts, and reporting workflows across a microservices architecture of nearly 25 services; own a reporting service that consolidates data to generate official nomination, candidate, schedule, and result PDF reports.
 - Contribute to delivery of an internal system reported to support 50,000 users and approximately 100,000 daily requests during election periods, compared with approximately 10,000 requests per day before elections.
-- Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in the organization's self-managed Kubernetes data center.
+- Contributed to approximately 30 deployments by writing Dockerfiles, configuring Nginx, and diagnosing deployment failures in the organization's self-managed Kubernetes data center; used CI/CD pipelines, including GitHub Actions, across projects.
 - Digitize result-center, voter, candidate, and percentage-calculation workflows for approximately 300 returning officers; strengthen validation and role-based controls to prevent unwanted data changes.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
@@ -51,10 +51,11 @@ Dhaka, Bangladesh | August 2023 - Present
 Dhaka, Bangladesh | January 2022 - July 2023
 
 - Led development of an exam management system using Java, PostgreSQL, Spring Boot, Flutter, and Crystal Reports.
-- **Key technologies:** Java, Spring Boot, PostgreSQL, Redis, Flutter, Crystal Reports.
+- **Key technologies:** Java, Spring Boot, PostgreSQL, Redis, Flutter, Crystal Reports, Jenkins.
 - Analyzed requirements and designed the database schema, creating an efficient and scalable foundation for the system.
 - Built a real-time administrator dashboard associated with a reported 40% increase in system usage.
 - Reduced system response time by 30% by implementing Redis caching and improving backend performance.
+- Used Jenkins for CI/CD and Locust for load testing.
 - Deployed a production system used by more than 2,500 administrators, 1,000 exam invigilators, and 1,000 examinees.
 - Supported online registration and payment management for nearly 30,000 students, streamlining a high-volume operational workflow.
 

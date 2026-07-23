@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Recorded verified RabbitMQ, CI/CD, GitHub Actions, Jenkins, Nginx configuration, and Locust load-testing experience; updated the evidence backlog to distinguish verified CI/CD use from unverified platform-engineering ownership.
 - Added an InScale / Teletrac Navman application workspace, a resume-safe evidence mapping, a tailored Senior Java Developer resume source, and a tailored cover letter; recorded the role as researching without marking it applied.
 - Refreshed the skill-gap backlog against the micro1 and InScale / Teletrac Navman backend job descriptions; added explicit AI-assisted-development and serverless evidence gaps.
 - Added the InScale / Teletrac Navman Senior Java Developer job description for future tailoring and ATS analysis.

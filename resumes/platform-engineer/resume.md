@@ -18,8 +18,8 @@ Backend engineer with 9+ years of experience delivering and supporting secure, s
 
 ## Technical Skills
 
-- Platform & Operations: Kubernetes Deployment Support, Dockerfiles, Deployment Troubleshooting, Operational Support
-- Backend: Java, Spring Boot, Hibernate, REST APIs, Microservices
+- Platform & Operations: Kubernetes Deployment Support, Dockerfiles, Nginx Configuration, CI/CD, GitHub Actions, Jenkins, Locust Load Testing, Deployment Troubleshooting, Operational Support
+- Backend: Java, Spring Boot, Hibernate, REST APIs, RabbitMQ, Microservices
 - Data & Reliability: PostgreSQL, SQL Server, Redis, Data Integrity, Database Modeling, Query Optimization
 - Security & Delivery: Keycloak, Authentication, Authorization, Agile Development, Code Review, Stakeholder Collaboration
 
@@ -34,6 +34,7 @@ Dhaka, Bangladesh | August 2023 - Present
 - Contribute to delivery of an internal system reported to support 50,000 users and digitize election-result workflows previously dependent on paperwork and physical result delivery.
 - Lead backend engineering activities, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
 - Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in the organization's self-managed Kubernetes data center.
+- Used RabbitMQ for election-management workflows and CI/CD pipelines, including GitHub Actions, across projects.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 
@@ -42,6 +43,7 @@ Dhaka, Bangladesh | January 2022 - July 2023
 - Reduced system response time by 30% through Redis caching and backend performance improvements.
 - Led development of an exam management system using Java, Spring Boot, PostgreSQL, Flutter, and Crystal Reports; designed its database schema after requirements analysis.
 - Supported a production system used by 2,500+ administrators, 1,000 invigilators, and 1,000 examinees, including registration and payment workflows for nearly 30,000 students.
+- Used Jenkins for CI/CD and Locust for load testing.
 
 ### Dohatec New Media - Java Software Engineer
 

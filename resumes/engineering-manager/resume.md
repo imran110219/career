@@ -20,9 +20,9 @@ Technical leader and Senior Software Engineer with 9+ years of experience delive
 ## Technical Skills
 
 - Leadership & Execution: Team Mentoring, Grooming, Planning, Code Review, Stakeholder Collaboration, Cross-Functional Delivery
-- Engineering: Java, Spring Boot, Hibernate, REST APIs, Microservices, Backend Architecture
+- Engineering: Java, Spring Boot, Hibernate, REST APIs, RabbitMQ, Microservices, Backend Architecture
 - Data & Reliability: PostgreSQL, SQL Server, Redis, Database Modeling, Performance Optimization, Data Integrity
-- Delivery & Platform: Agile Development, Requirements Analysis, Deployment, Kubernetes, Authentication, Authorization
+- Delivery & Platform: CI/CD, GitHub Actions, Jenkins, Nginx, Locust, Agile Development, Requirements Analysis, Deployment, Kubernetes, Authentication, Authorization
 
 ## Professional Experience
 
@@ -34,6 +34,7 @@ Dhaka, Bangladesh | August 2023 - Present
 - Design service interactions and REST API contracts across a microservices architecture of nearly 25 services, delivering secure, scalable Java and Spring Boot services.
 - Contribute to delivery of an internal system reported to support 50,000 users alongside a public-facing application that does not require authentication.
 - Support Kubernetes deployments to the organization's self-managed data center and digitize election-result workflows previously dependent on paperwork and physical result delivery.
+- Used RabbitMQ for election-management workflows and CI/CD pipelines, including GitHub Actions, across projects.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 
@@ -42,6 +43,7 @@ Dhaka, Bangladesh | January 2022 - July 2023
 - Led development of an exam management system using Java, Spring Boot, PostgreSQL, Flutter, and Crystal Reports; analyzed requirements and designed its database schema.
 - Built a real-time administrator dashboard associated with a reported 40% increase in system usage.
 - Reduced system response time by 30% through Redis caching and backend performance improvements.
+- Used Jenkins for CI/CD and Locust for load testing.
 - Supported production workflows used by 2,500+ administrators, 1,000 invigilators, and 1,000 examinees, including payments for nearly 30,000 students.
 
 ### Dohatec New Media - Java Software Engineer

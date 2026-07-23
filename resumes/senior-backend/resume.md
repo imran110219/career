@@ -21,10 +21,10 @@ Senior Backend Engineer with 9+ years of experience delivering secure, scalable 
 ## Technical Skills
 
 - **Languages:** Java, SQL, C#
-- **Backend:** Spring Boot, Hibernate, REST APIs, Microservices, Backend Architecture
+- **Backend:** Spring Boot, Hibernate, REST APIs, RabbitMQ, Microservices, Backend Architecture
 - **Data & Performance:** PostgreSQL, SQL Server, Redis, Database Modeling, Query Optimization
 - **Security & Platform:** Keycloak, Authentication, Authorization, Kubernetes, Data Integrity
-- **Delivery:** Agile Development, Requirements Analysis, Deployment, Code Review, Mentoring
+- **Delivery:** CI/CD, GitHub Actions, Jenkins, Nginx, Locust, Agile Development, Requirements Analysis, Deployment, Code Review, Mentoring
 
 ## Professional Experience
 
@@ -33,10 +33,11 @@ Senior Backend Engineer with 9+ years of experience delivering secure, scalable 
 Dhaka, Bangladesh | August 2023 - Present
 
 - Lead backend engineering activities for an Election Management System, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
-- Key technologies: Java, Spring Boot, Hibernate, REST APIs, Docker, Kubernetes, Keycloak.
+- Key technologies: Java, Spring Boot, Hibernate, REST APIs, RabbitMQ, Docker, Kubernetes, Keycloak, CI/CD, GitHub Actions.
 - Design service interactions and REST API contracts across a microservices architecture of nearly 25 services, delivering secure, scalable Java and Spring Boot services.
 - Contribute to delivery of an internal system reported to support 50,000 users, alongside a public-facing application that does not require authentication.
 - Support deployments to the organization's self-managed data center using Kubernetes and digitize election-result workflows previously dependent on paperwork and physical result delivery.
+- Used RabbitMQ for election-management workflows and CI/CD pipelines, including GitHub Actions, across projects.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 
@@ -44,6 +45,7 @@ Dhaka, Bangladesh | January 2022 - July 2023
 
 - Led development of an exam management system using Java, Spring Boot, PostgreSQL, Flutter, and Crystal Reports; analyzed requirements and designed its database schema.
 - Reduced system response time by 30% through Redis caching and backend performance improvements.
+- Used Jenkins for CI/CD and Locust for load testing.
 - Built a real-time administrator dashboard associated with a reported 40% increase in system usage.
 - Deployed a production system used by 2,500+ administrators, 1,000 exam invigilators, and 1,000 examinees; supported registration and payment management for nearly 30,000 students.
 

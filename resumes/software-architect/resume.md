@@ -19,9 +19,9 @@ Senior Backend Engineer with 9+ years of experience designing secure, scalable b
 ## Technical Skills
 
 - Architecture: Service Interaction Design, Distributed Systems, Microservices, REST API Contracts, Data Modeling, System Design
-- Backend: Java, Spring Boot, Hibernate, REST APIs
+- Backend: Java, Spring Boot, Hibernate, REST APIs, RabbitMQ
 - Data: PostgreSQL, SQL Server, Redis, Database Modeling, Relational Database Design, Query Optimization
-- Security & Platform: Keycloak, Authentication, Authorization, Data Privacy, Data Integrity, Kubernetes
+- Security & Platform: Keycloak, Authentication, Authorization, Data Privacy, Data Integrity, Kubernetes, Nginx, CI/CD, GitHub Actions
 
 ## Professional Experience
 
@@ -33,6 +33,7 @@ Dhaka, Bangladesh | August 2023 - Present
 - Designed a reporting service workflow that consolidates data from distributed services to generate official nomination, candidate, schedule, and result PDF documents.
 - Strengthened workflow validation and Keycloak-backed role-based authorization for sensitive nomination forms, payment completion, candidate disclosures, final submission, and election state transitions.
 - Coordinated SMS, payment, identity-verification, master-data, and reporting integrations; translated operational requirements into service interactions, API contracts, data models, and rollout plans.
+- Used RabbitMQ for election-management workflows and CI/CD pipelines, including GitHub Actions, across projects.
 - Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in a self-managed Kubernetes data center.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
@@ -42,6 +43,7 @@ Dhaka, Bangladesh | January 2022 - July 2023
 - Translated exam-administration requirements into a database schema and backend workflows using Java, Spring Boot, PostgreSQL, Flutter, and Crystal Reports.
 - Improved response time by 30% using Redis caching and backend performance optimization for a production platform serving 2,500+ administrators, 1,000 invigilators, and 1,000 examinees.
 - Designed backend support for online registration and payment management for nearly 30,000 students.
+- Used Jenkins for CI/CD and Locust for load testing.
 
 ### Dohatec New Media - Java Software Engineer
 

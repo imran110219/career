@@ -15,7 +15,7 @@ The table records repeat market signals across those roles. It does not turn any
 
 | Recurring signal | Job-description source | Backlog treatment |
 | --- | --- | --- |
-| Automated testing and CI/CD | micro1, InScale | Highest-priority evidence gap. |
+| Automated testing | micro1, InScale | Highest-priority evidence gap. |
 | AWS/cloud and DevOps delivery | micro1, InScale | Highest-priority evidence gap. |
 | Messaging, streaming, and event-driven design | micro1, InScale | Targeted backend-expansion gap. |
 | NoSQL data-store experience | micro1 | Targeted backend-expansion gap. |
@@ -26,14 +26,14 @@ The table records repeat market signals across those roles. It does not turn any
 | Gap | Why it matters | Current repository evidence | Evidence needed before resume use |
 | --- | --- | --- | --- |
 | Automated testing | Required or preferred by both current job descriptions. | No project-specific test-suite evidence recorded. | Frameworks used, unit/integration/contract test types, and an example of ownership or quality impact. |
-| CI/CD | Both roles seek delivery ownership beyond implementation. | Deployment support is documented; CI/CD ownership is not. | Pipeline/tool, stages owned, deployment environment, and a concrete improvement. |
+| CI/CD platform engineering | Both roles seek delivery ownership beyond implementation. | CI/CD pipeline use across projects, including GitHub Actions, is recorded; Jenkins is recorded for the exam-management system. | Platform-wide ownership, stages owned, deployment environment, and a concrete improvement. |
 | Cloud platform | micro1 requests AWS, GCP, or Azure; InScale specifically names AWS in a DevOps environment. | No cloud-platform ownership recorded. Cloudflare file storage is documented for FactLens. | Provider, services used, deployment or operations responsibility, and scope. |
 
 ## Targeted Backend Expansion
 
 | Gap | Why it matters | Current repository evidence | Evidence needed before resume use |
 | --- | --- | --- | --- |
-| Messaging / event-driven systems | InScale names Kafka, RabbitMQ, SQS, and Kinesis; micro1 prefers event-driven architectures. | No Kafka, RabbitMQ, or event-driven implementation recorded. | Technology, message flow, delivery/retry or ordering tradeoff, and production or project usage. |
+| Messaging / event-driven systems | InScale names Kafka, RabbitMQ, SQS, and Kinesis; micro1 prefers event-driven architectures. | RabbitMQ use is recorded for the election-management platform. | Message flow, personal ownership, delivery/retry or ordering tradeoff, and production outcome. |
 | Serverless architecture | Preferred in the micro1 role and adjacent to the cloud/event-driven demand. | No serverless implementation or operations ownership is recorded. | Provider/service, trigger or event flow, deployment/monitoring responsibility, and project outcome. |
 | NoSQL databases | micro1 requires relational and NoSQL proficiency. | Redis caching is documented; no NoSQL data-store ownership is recorded. | Database, data model, query/access pattern, and operational context. |
 | AI-assisted development | InScale lists experience with AI-assisted development tools as a must-have. | No specific tool, workflow, review practice, or delivery example is recorded. | Tool(s) used, concrete engineering workflow, verification/quality safeguards, and a defensible delivery example. |
