@@ -1,0 +1,7 @@
+Read `job-search/AGENT.md` and follow it exactly.
+
+Search the public web for currently open jobs matching my profile. Validate the original vacancy pages, score the jobs, remove duplicates, and generate:
+
+`job-search/latest-jobs.md`
+
+Do not modify resumes or automatically apply for jobs. Do not invent missing details.
