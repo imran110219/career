@@ -86,6 +86,10 @@ Khulna, Bangladesh | February 2016 - June 2016
 - Lead contributor to an open-source healthcare-information platform with searchable doctor, hospital, ambulance, blood-donation, and medical-resource capabilities.
 - Built and documented a Spring Boot REST API with PostgreSQL, Redis, Keycloak-based authorization, MinIO file storage, Liquibase migrations, Dockerized deployment, and Swagger/OpenAPI documentation.
 
+### FactLens | Next.js, Strapi, PostgreSQL, Cloudflare
+
+- Built and deployed the full-stack FactLens editorial platform, including the Next.js frontend, Strapi backend and content APIs, PostgreSQL database, and Cloudflare file storage.
+
 ## Education
 
 Khulna University | Bachelor of Science (B.Sc.) in Computer Science and Engineering | 2011–2016

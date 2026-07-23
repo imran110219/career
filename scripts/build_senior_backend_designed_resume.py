@@ -222,6 +222,15 @@ def load_resume(source: Path, contact_file: Path | None = None) -> dict:
         elif current and line.startswith("- "):
             current["bullets"].append(line[2:].strip())
 
+    projects = []
+    current_project = None
+    for line in sections.get("Personal Projects", []):
+        if line.startswith("### "):
+            current_project = {"name": line[4:].strip(), "bullets": []}
+            projects.append(current_project)
+        elif current_project and line.startswith("- "):
+            current_project["bullets"].append(line[2:].strip())
+
     summary = " ".join(line.strip() for line in sections["Professional Summary"] if line.strip())
     education = next(line.strip() for line in sections["Education"] if line.strip())
     education_parts = [part.strip() for part in education.split("|")]
@@ -248,10 +257,11 @@ def load_resume(source: Path, contact_file: Path | None = None) -> dict:
         "highlights": bullets("Career Highlights"),
         "skills": skills,
         "experience": experience,
+        "projects": projects,
         "degree": degree,
         "institution": institution,
         "education_dates": dates,
-        "publications": bullets("Publications"),
+        "publications": bullets("Publications") if "Publications" in sections else [],
     }
 
 
@@ -316,6 +326,17 @@ def build_docx(output: Path, source: Path = RESUME_SOURCE, contact_file: Path | 
             document.add_page_break()
         add_experience(document, role["company"], role["location"], role["role"], role["dates"].replace(" - ", " – "), role["bullets"])
 
+    if content["projects"]:
+        section_heading(document, "Personal Projects")
+        for project in content["projects"]:
+            heading = document.add_paragraph(style="Resume Role")
+            heading.paragraph_format.space_before = Pt(4.5)
+            heading.paragraph_format.space_after = Pt(0.4)
+            add_run(heading, project["name"], bold=True)
+            set_keep(heading, with_next=True)
+            for item in project["bullets"]:
+                bullet(document, item)
+
     section_heading(document, "Education")
     education = document.add_paragraph()
     education.paragraph_format.space_after = Pt(0)
@@ -323,13 +344,14 @@ def build_docx(output: Path, source: Path = RESUME_SOURCE, contact_file: Path | 
     add_run(education, f"  |  {content['institution']}  |  {content['education_dates'].replace(' - ', ' – ')}", size=9.8, color=MUTED)
     set_keep(education, together=True)
 
-    section_heading(document, "Publications")
-    for publication in content["publications"]:
-        publication_paragraph = document.add_paragraph()
-        publication_paragraph.paragraph_format.space_after = Pt(1)
-        publication_paragraph.paragraph_format.line_spacing = 1.0
-        add_run(publication_paragraph, publication, size=9.2)
-        set_keep(publication_paragraph, together=True)
+    if content["publications"]:
+        section_heading(document, "Publications")
+        for publication in content["publications"]:
+            publication_paragraph = document.add_paragraph()
+            publication_paragraph.paragraph_format.space_after = Pt(1)
+            publication_paragraph.paragraph_format.line_spacing = 1.0
+            add_run(publication_paragraph, publication, size=9.2)
+            set_keep(publication_paragraph, together=True)
 
     document.save(output)
 

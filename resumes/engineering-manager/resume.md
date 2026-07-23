@@ -57,6 +57,16 @@ Khulna, Bangladesh | February 2016 - June 2016
 
 - Implemented features and resolved defects for a large-scale education application using ASP.NET, C#, and SQL Server.
 
+## Personal Projects
+
+### Open-Care | Java, Spring Boot, PostgreSQL, Next.js
+
+- Lead contributor to an open-source healthcare-information platform; built a documented Spring Boot REST API with Redis, Keycloak authorization, MinIO, Liquibase, and Docker.
+
+### FactLens | Next.js, Strapi, PostgreSQL, Cloudflare
+
+- Built and deployed the full-stack editorial platform, including the frontend, Strapi backend and content APIs, PostgreSQL database, and Cloudflare file storage.
+
 ## Education
 
 Khulna University | Bachelor of Science (B.Sc.) in Computer Science and Engineering | 2011–2016

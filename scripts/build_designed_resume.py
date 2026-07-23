@@ -154,7 +154,8 @@ def build(input_file: Path, docx_file: Path, *, break_before_experience: bool = 
     metadata = [value for kind, value in items[1:first_section] if kind == "body"]
     add_header(document, name, metadata)
     start = first_section
-    for kind, value in items[start:]:
+    rendered_items = items[start:]
+    for index, (kind, value) in enumerate(rendered_items):
         if break_before_experience and kind == "section" and value.casefold() == "professional experience":
             document.add_page_break()
         if kind == "section" and value.casefold() == "review checklist":
@@ -193,7 +194,7 @@ def build(input_file: Path, docx_file: Path, *, break_before_experience: bool = 
             paragraph = document.add_paragraph()
             paragraph.paragraph_format.space_after = Pt(2)
             paragraph.add_run(value)
-            keep(paragraph, lines=True)
+            keep(paragraph, next_item=index > 0 and rendered_items[index - 1][0] == "subsection", lines=True)
     docx_file.parent.mkdir(parents=True, exist_ok=True)
     document.save(docx_file)
 

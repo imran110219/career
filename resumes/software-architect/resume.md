@@ -54,8 +54,17 @@ Dhaka, Bangladesh | October 2016 - December 2021
 
 Khulna, Bangladesh | February 2016 - June 2016
 
-- Implemented features and resolved defects for a large-scale education application using ASP.NET, C#, and SQL Server.
-- Developed and maintained SQL Server database components, including stored procedures, triggers, and views.
+- Implemented and maintained a large-scale education application using ASP.NET, C#, and SQL Server, including stored procedures, triggers, and views.
+
+## Personal Projects
+
+### Open-Care | Java, Spring Boot, PostgreSQL, Next.js
+
+- Lead contributor to an open-source healthcare-information platform; built a documented Spring Boot REST API with Redis, Keycloak authorization, MinIO, Liquibase, and Docker.
+
+### FactLens | Next.js, Strapi, PostgreSQL, Cloudflare
+
+- Built and deployed the full-stack editorial platform, including the frontend, Strapi backend and content APIs, PostgreSQL database, and Cloudflare file storage.
 
 ## Education
 

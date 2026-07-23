@@ -49,10 +49,10 @@ Use this file for professional, open-source, portfolio, and internal projects th
 | Field | Details |
 | --- | --- |
 | Problem | Editorial platform for publishing and managing news and fact-focused content. |
-| Role | Review needed: confirm individual ownership and responsibilities. |
-| Stack | Headless CMS, customized content models, and API integration. **NEEDS REVIEW:** confirm CMS (including whether Strapi), frontend, database, hosting, and deployment tools. |
-| Architecture | Headless CMS-based publishing architecture with custom content models exposed through APIs. Roles/permissions, media handling, SEO fields, and frontend integration require verification. |
-| Results | Deployed to production at [factlensbd.com](https://www.factlensbd.com/). **NEEDS REVIEW:** add ownership, content volume, editorial users, traffic, performance, or release metrics. |
+| Role | Built and deployed the full-stack platform. |
+| Stack | Next.js, Strapi, PostgreSQL, Cloudflare file storage. |
+| Architecture | Next.js frontend backed by Strapi content APIs and PostgreSQL, with Cloudflare file storage. |
+| Results | Deployed to production at [factlensbd.com](https://www.factlensbd.com/). Content volume, editorial users, traffic, performance, and release metrics remain unverified. |
 | Link | [Live site](https://www.factlensbd.com/) |
 
 ### Review Items
@@ -61,5 +61,5 @@ Use this file for professional, open-source, portfolio, and internal projects th
 - [ ] Document the deployment environment and release process.
 - [ ] Confirm the payment integration/provider and whether it may be disclosed.
 - [ ] Identify the primary backend modules and individual ownership boundaries.
-- [ ] Confirm FactLens role, CMS, technical stack, project dates, and measurable outcomes.
+- [ ] Confirm FactLens project dates and measurable outcomes.
 - [ ] Confirm Bengal Unfolded public link and implemented technology before selecting it for a resume; planned backend/editorial/search/multilingual/timeline/archive features must remain planned.

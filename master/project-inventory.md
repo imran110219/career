@@ -18,10 +18,10 @@ This is a factual project inventory, not a promise of feature completeness.
 | Field | Verified record |
 | --- | --- |
 | Type | Production editorial platform. |
-| Current implementation | Headless CMS architecture, customized content models, API integration, publishing workflow, roles/permissions, media handling, and SEO fields are NEEDS REVIEW unless independently verified. |
-| Ownership | NEEDS REVIEW: individual role, CMS product (for example Strapi), frontend, database, hosting, and deployment. |
+| Current implementation | Next.js frontend, Strapi backend and content APIs, PostgreSQL, Cloudflare file storage, and production deployment. |
+| Ownership | Built and deployed the full-stack platform, including frontend, backend, database, content APIs, and file storage. |
 | Link | https://www.factlensbd.com/ |
-| Boundary | Do not portray CMS configuration as extensive custom backend engineering without evidence. |
+| Boundary | Describe the verified full-stack implementation without adding unverified metrics, specific CMS customizations, or operational scale. |
 
 ## Bengal Unfolded
 
