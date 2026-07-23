@@ -1,14 +1,14 @@
-# Skills
+# Reusable Resume Skills
 
-Keep this file as the canonical skills inventory. Targeted resumes should only include skills that are relevant, defensible, and current.
+This file is a resume-ready projection of the authoritative inventory in `master/skills-inventory.md`. It must not introduce additional technologies. Market-demand skills and development goals are tracked in `master/skill-gaps.md`.
 
 ## Core Skills
 
 | Category | Skills |
 | --- | --- |
-| Languages | Java, SQL, C#, PHP |
-| Backend | Spring Boot, Spring Cloud, Hibernate, Node.js, Express, REST APIs, EJS, Puppeteer, ASP.NET, WordPress |
-| Data | PostgreSQL, SQL Server, Flyway, database modeling, relational database design, stored procedures, triggers, views |
+| Languages | Java, SQL, C# |
+| Backend | Spring Boot, Hibernate, REST APIs, ASP.NET |
+| Data | PostgreSQL, SQL Server, Liquibase, database modeling, relational database design, stored procedures, triggers, views |
 | Security | Keycloak, JWT token introspection, role-based authorization, data privacy, data integrity |
 | Performance | Redis caching, performance optimization, scalable backend design |
 | Architecture | Microservices, distributed systems, system design, API design, backend architecture |
@@ -43,5 +43,6 @@ Keep this file as the canonical skills inventory. Targeted resumes should only i
 
 - [ ] Remove tools that are no longer current.
 - [ ] Add only technologies that can be discussed in depth during interviews.
+- [ ] Check `master/skills-inventory.md` before adding a new technology here.
 - [ ] Align the first skill row with the target job description.
 - [ ] Keep skill groupings compact enough for resume scanning.

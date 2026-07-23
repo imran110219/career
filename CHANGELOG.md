@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Added an InScale / Teletrac Navman application workspace, a resume-safe evidence mapping, a tailored Senior Java Developer resume source, and a tailored cover letter; recorded the role as researching without marking it applied.
+- Refreshed the skill-gap backlog against the micro1 and InScale / Teletrac Navman backend job descriptions; added explicit AI-assisted-development and serverless evidence gaps.
+- Added the InScale / Teletrac Navman Senior Java Developer job description for future tailoring and ATS analysis.
+- Separated verified resume skills, market-demand terms, and evidence gaps. Added a skill-gap backlog, removed unverified/legacy terms from reusable resume skills, and updated job-search guidance to prevent market keywords from being treated as candidate claims.
 - Added a transparent, evidence-aware ATS alignment analyzer for Markdown resumes and job descriptions.
 - Expanded configuration-driven job positioning and market prioritization, added job-discovery instructions and workspace/report placeholder, and integrated discovery guidance with the existing `applications/tracker.csv`.
 - Replaced the target-company template with a product-domain shortlist, role-level screening guidance, and a repeatable company-review record.

@@ -49,9 +49,9 @@ Prefer these sources when present:
 4. `applications/target-companies.md`
 5. other evidence documents in the repository
 
-Do not infer experience merely because a technology is listed as preferred in the configuration.
+Do not infer experience merely because a technology is listed under `market_demand` in the configuration.
 
-A preferred technology is not necessarily verified professional experience.
+A market-demand technology is not necessarily verified professional experience.
 
 When evidence is unclear, describe the requirement as a gap or uncertainty.
 

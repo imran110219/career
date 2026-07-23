@@ -56,22 +56,18 @@ candidate_positioning:
         - infrastructure-only engineering
 
 skills:
-  core:
+  # Resume-safe candidate capabilities. Validate against master/skills-inventory.md.
+  candidate_verified:
     - Java
     - Spring Boot
-    - Spring Security
     - REST APIs
     - PostgreSQL
     - Redis
-    - JPA
     - Hibernate
     - Keycloak
     - JWT
-    - OAuth2
     - Docker
-    - Maven
     - Liquibase
-    - Flyway
     - Database Design
     - Query Optimization
     - Distributed Systems
@@ -82,7 +78,8 @@ skills:
     - Code Review
     - Mentoring
 
-  preferred:
+  # Search and scoring terms only; these are market-demand signals, not candidate claims.
+  market_demand:
     - Kubernetes
     - Kafka
     - RabbitMQ

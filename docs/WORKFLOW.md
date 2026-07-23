@@ -1,7 +1,7 @@
 # Career Materials Workflow
 
 1. Add facts to `master/resume.md` and broader context to the relevant inventory.
-2. Record claim status and evidence in `master/achievements.md` and `master/evidence-index.md`.
+2. Record claim status and evidence in `master/achievements.md` and `master/evidence-index.md`; record unproven but valuable market skills in `master/skill-gaps.md`.
 3. Update reusable sections only when they remain accurate.
 4. Tailor one primary role track; do not copy every master bullet.
 5. Generate DOCX/PDF only after Markdown is finalized, using public or local private contact configuration.

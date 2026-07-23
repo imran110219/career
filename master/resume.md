@@ -25,9 +25,9 @@ Experienced leading backend engineering work, designing security- and data-integ
 | Category | Skills |
 | --- | --- |
 | Languages | Java, SQL, C# |
-| Backend | Spring Boot, Hibernate, REST APIs, Node.js, Express, PDF generation |
+| Backend | Spring Boot, Hibernate, REST APIs, PDF generation |
 | Architecture | Microservices, distributed systems, backend architecture, API design, database modeling |
-| Data & Performance | PostgreSQL, SQL Server, Redis, Flyway, query optimization, relational database design |
+| Data & Performance | PostgreSQL, SQL Server, Redis, query optimization, relational database design |
 | Security | Keycloak, JWT token introspection, role-based authorization, data privacy, data integrity |
 | Infrastructure | Docker, Kubernetes, deployment troubleshooting |
 | Leadership & Delivery | Technical leadership, mentoring, grooming, planning, code reviews, stakeholder collaboration, Agile development |

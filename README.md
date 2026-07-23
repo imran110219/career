@@ -14,7 +14,7 @@ Public, evidence-driven career materials for Senior Backend Engineer, Lead Backe
 
 ## Source of Truth
 
-`master/resume.md` is the canonical curated resume. Broader facts, evidence, projects, and skills belong in `master/*-inventory.md` and `master/achievements.md`; role resumes select only relevant, defensible claims. Markdown is editable source, while DOCX/PDF files are generated artifacts.
+`master/resume.md` is the canonical curated resume. Broader facts, evidence, projects, and verified skills belong in `master/*-inventory.md` and `master/achievements.md`; market-demand skills that lack resume-safe proof belong in `master/skill-gaps.md`. Role resumes select only relevant, defensible claims. Markdown is editable source, while DOCX/PDF files are generated artifacts.
 
 ## Generate a Resume
 
@@ -47,6 +47,6 @@ Public builds intentionally omit phone and email. Existing Git history may still
 
 ## Folder Map
 
-`master/` canonical resume, inventories, and evidence · `resumes/` targeted sources and exports · `sections/` reusable blocks · `portfolio/` public project records · `applications/` tracker/templates · `interview/` preparation assets · `docs/` detailed operating guidance.
+`master/` canonical resume, inventories, evidence, and skill-gap backlog · `resumes/` targeted sources and exports · `sections/` reusable blocks · `portfolio/` public project records · `applications/` tracker/templates · `interview/` preparation assets · `docs/` detailed operating guidance.
 
 Read [workflow](docs/WORKFLOW.md), [checklists](docs/CHECKLISTS.md), [contributing guidance](docs/CONTRIBUTING.md), [AI usage](docs/AI_USAGE.md), and the [resume design system](docs/resume-design-system.md) for details.

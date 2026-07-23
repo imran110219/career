@@ -360,7 +360,7 @@ def export_pdf(docx: Path, pdf: Path):
     libreoffice = shutil.which("libreoffice") or shutil.which("soffice")
     if not libreoffice:
         raise RuntimeError("LibreOffice is required to export the PDF.")
-    temporary = OUTPUT_DIR / ".pdf-export"
+    temporary = pdf.parent / ".pdf-export"
     temporary.mkdir(exist_ok=True)
     profile = Path("/tmp/career-resume-libreoffice-profile")
     profile.mkdir(exist_ok=True)
@@ -383,12 +383,16 @@ def main():
     import argparse
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--contact-file", type=Path, default=ROOT / "config" / "contact-public.yml", help="Public-safe or local private contact configuration")
+    parser.add_argument("--input", type=Path, default=RESUME_SOURCE, help="Tailored Markdown resume source")
+    parser.add_argument("--docx", type=Path, default=DOCX_OUT, help="DOCX output path")
+    parser.add_argument("--pdf", type=Path, default=PDF_OUT, help="PDF output path")
     args = parser.parse_args()
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    build_docx(DOCX_OUT, contact_file=args.contact_file)
-    export_pdf(DOCX_OUT, PDF_OUT)
-    print(DOCX_OUT)
-    print(PDF_OUT)
+    args.docx.parent.mkdir(parents=True, exist_ok=True)
+    args.pdf.parent.mkdir(parents=True, exist_ok=True)
+    build_docx(args.docx, source=args.input, contact_file=args.contact_file)
+    export_pdf(args.docx, args.pdf)
+    print(args.docx)
+    print(args.pdf)
 
 
 if __name__ == "__main__":
