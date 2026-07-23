@@ -47,6 +47,6 @@ Public builds intentionally omit phone and email. Existing Git history may still
 
 ## Folder Map
 
-`master/` canonical resume, inventories, evidence, and skill-gap backlog · `resumes/` targeted sources and exports · `sections/` reusable blocks · `portfolio/` public project records · `applications/` tracker/templates · `interview/` preparation assets · `docs/` detailed operating guidance.
+`master/` canonical resume, inventories, evidence, and skill-gap backlog · `resumes/` targeted sources and exports · `sections/` reusable blocks · `portfolio/` public project records · `applications/` tracker/templates · `interview/` role-based preparation roadmap, progress, evidence log, question bank, shared technical notes, and project case studies · `docs/` detailed operating guidance.
 
 Read [workflow](docs/WORKFLOW.md), [checklists](docs/CHECKLISTS.md), [contributing guidance](docs/CONTRIBUTING.md), [AI usage](docs/AI_USAGE.md), and the [resume design system](docs/resume-design-system.md) for details.
