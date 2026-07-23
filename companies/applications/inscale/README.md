@@ -18,5 +18,5 @@
 
 - [ ] Reconfirm that the posting is open and that the remote arrangement permits working from Bangladesh.
 - [ ] Review the resume source and generate final DOCX/PDF with the appropriate local contact configuration.
-- [ ] Do not claim AWS, AI-assisted development, CI/CD ownership, automated testing, Kafka/RabbitMQ, or serverless experience without new evidence.
+- [ ] Do not claim AWS, AI-assisted development, automated-testing ownership, Kafka/SQS/Kinesis, serverless experience, or CI/CD platform ownership without additional project-specific evidence. RabbitMQ use in the election-management system and CI/CD pipeline use are documented.
 - [ ] Replace the cover-letter closing with the final contact details before sending.
