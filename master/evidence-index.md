@@ -10,3 +10,4 @@ Evidence locations may be public, internal, or unavailable. Do not publish confi
 | EVD-004 | Dashboard associated with 40% usage increase | Reported outcome | Source-recorded; supporting artifact not committed | needs-review | public-safe | 2026-07-21 | Satisfaction component is not independently evidenced. |
 | EVD-005 | 80% engagement increase | Reported team-level outcome | Source-recorded; supporting artifact not committed | needs-review | public-safe | 2026-07-21 | Do not use in targeted resumes until context is verified. |
 | EVD-006 | Publications | Public DOI and venue records | sections/publications.md | verified | public | 2026-07-20 | Public links recorded. |
+| EVD-007 | Penta Global employment dates | Current-role timeline | master/resume.md | needs-review | public-safe | 2026-07-23 | Confirm the current employment duration before time-sensitive use. |

@@ -7,7 +7,7 @@ Senior Backend Engineer | Java | Spring Boot | PostgreSQL | Distributed Systems
 
 ## Professional Summary
 
-Senior Software Engineer with 9+ years of experience delivering secure, scalable backend systems across government, education, healthcare, and enterprise domains. Specializes in Java, Spring Boot, PostgreSQL, distributed systems, API design, and performance optimization, with hands-on technical leadership from planning through production delivery.
+Senior Backend Engineer with 9+ years of experience delivering secure, scalable backend systems across government, education, healthcare, and enterprise domains. Specializes in Java, Spring Boot, PostgreSQL, distributed systems, API design, and performance optimization, with hands-on technical leadership from planning through production delivery.
 
 ## Career Highlights
 

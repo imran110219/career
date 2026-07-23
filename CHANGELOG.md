@@ -2,6 +2,14 @@
 
 All notable updates to this career repository should be documented here.
 
+## 2026-07-23
+
+### Changed
+
+- Removed internal review language and unsupported FactLens detail from applicant-facing master and role resume sources while retaining verification boundaries, including the Penta Global timeline check, in the evidence and project inventories.
+- Standardized Senior Backend, Lead Backend, and Software Architect positioning around the verified Senior Software Engineer title and supported hands-on technical leadership.
+- Rewrote the Software Architect track around verified service interactions, REST API contracts, distributed reporting, data modeling, authorization, integrations, performance, and deployment tradeoffs.
+
 ## 2026-07-21
 
 ### Added

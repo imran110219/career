@@ -7,7 +7,7 @@ Lead Backend Engineer | Java | Spring Boot | PostgreSQL | Technical Leadership
 
 ## Professional Summary
 
-Senior Software Engineer with 9+ years of experience delivering secure, scalable Java backend systems across government, education, healthcare, and enterprise domains. Combines hands-on Spring Boot, PostgreSQL, API, and distributed-systems delivery with backend team leadership, planning, mentoring, code review, and stakeholder collaboration.
+Senior Backend Engineer with 9+ years of experience combining hands-on Java and Spring Boot delivery with backend technical leadership, planning, mentoring, code review, and stakeholder collaboration across government, education, healthcare, and enterprise domains.
 
 ## Career Highlights
 

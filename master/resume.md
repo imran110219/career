@@ -53,7 +53,7 @@ Dhaka, Bangladesh | January 2022 - July 2023
 - Led development of an exam management system using Java, PostgreSQL, Spring Boot, Flutter, and Crystal Reports.
 - **Key technologies:** Java, Spring Boot, PostgreSQL, Redis, Flutter, Crystal Reports.
 - Analyzed requirements and designed the database schema, creating an efficient and scalable foundation for the system.
-- Built a real-time administrator dashboard associated with a reported 40% increase in system usage; the separate satisfaction outcome is NEEDS REVIEW.
+- Built a real-time administrator dashboard associated with a reported 40% increase in system usage.
 - Reduced system response time by 30% by implementing Redis caching and improving backend performance.
 - Deployed a production system used by more than 2,500 administrators, 1,000 exam invigilators, and 1,000 examinees.
 - Supported online registration and payment management for nearly 30,000 students, streamlining a high-volume operational workflow.
@@ -66,7 +66,7 @@ Dhaka, Bangladesh | October 2016 - December 2021
 - **Key technologies:** Java, relational data modeling, large-file uploads, enterprise workflows.
 - Contributed to electronic government procurement capabilities involving large file uploads, relational data modeling, and enterprise-grade workflow support.
 - Applied iterative, agile, and incremental software engineering practices in collaboration with stakeholders, customers, and product teams.
-- Contributed to product improvements and stakeholder-aligned delivery; the reported 80% user-engagement outcome requires evidence context before reuse.
+- Contributed to product improvements and stakeholder-aligned delivery for a national e-procurement platform.
 - Supported long-term software partnerships with government, non-government, and enterprise organizations.
 
 ### Jaliks Soft IT Limited - .NET Developer
@@ -86,10 +86,6 @@ Khulna, Bangladesh | February 2016 - June 2016
 - Lead contributor to an open-source healthcare-information platform with searchable doctor, hospital, ambulance, blood-donation, and medical-resource capabilities.
 - Built and documented a Spring Boot REST API with PostgreSQL, Redis, Keycloak-based authorization, MinIO file storage, Liquibase migrations, Dockerized deployment, and Swagger/OpenAPI documentation.
 
-### FactLens | Headless CMS, Custom Content Models, API Integration
-
-- Production editorial platform using a headless CMS architecture, customized content models, and API integration; individual ownership and CMS implementation details are NEEDS REVIEW.
-
 ## Education
 
 Khulna University | Bachelor of Science (B.Sc.) in Computer Science and Engineering | 2011–2016
@@ -103,7 +99,3 @@ Khulna University | Bachelor of Science (B.Sc.) in Computer Science and Engineer
 
 - Bangla — Native
 - English — Professional Working Proficiency
-
-## Review Checklist
-
-- [ ] Confirm exact employment end date or current duration for Penta Global Ltd.
