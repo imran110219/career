@@ -50,6 +50,13 @@ Dhaka, Bangladesh | October 2016 - December 2021
 - Contributed to relational data modeling, large-file upload capabilities, and enterprise workflow features for the National Electronic Government Procurement System while preserving data privacy and integrity.
 - Translated stakeholder and operational requirements into maintainable product improvements through iterative, agile delivery practices.
 
+### Jaliks Soft IT Limited - .NET Developer
+
+Khulna, Bangladesh | February 2016 - June 2016
+
+- Implemented features and resolved defects for a large-scale education application using ASP.NET, C#, and SQL Server.
+- Developed and maintained SQL Server database components, including stored procedures, triggers, and views.
+
 ## Education
 
 Khulna University | Bachelor of Science (B.Sc.) in Computer Science and Engineering | 2011–2016

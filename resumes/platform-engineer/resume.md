@@ -33,6 +33,7 @@ Dhaka, Bangladesh | August 2023 - Present
 - Design and implement secure, scalable Java, Spring Boot, Hibernate, and REST API services for internal and public-facing applications.
 - Contribute to delivery of an internal system reported to support 50,000 users and digitize election-result workflows previously dependent on paperwork and physical result delivery.
 - Lead backend engineering activities, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
+- Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in the organization's self-managed Kubernetes data center.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 
@@ -49,6 +50,18 @@ Dhaka, Bangladesh | October 2016 - December 2021
 - Contributed to the National Electronic Government Procurement System, including large-file upload capabilities, relational data modeling, and enterprise workflow features.
 - Implemented features and resolved defects while preserving data privacy and integrity in government-procurement workflows.
 
+### Jaliks Soft IT Limited - .NET Developer
+
+Khulna, Bangladesh | February 2016 - June 2016
+
+- Implemented features and resolved defects for a large-scale education application using ASP.NET, C#, and SQL Server.
+- Developed and maintained SQL Server database components, including stored procedures, triggers, and views.
+
 ## Education
 
 Khulna University | Bachelor of Science (B.Sc.) in Computer Science and Engineering | 2011–2016
+
+## Publications
+
+- Temporal Relation Extraction using Apriori Algorithm — ICIEV, 2016
+- An Effective Attendance Monitoring System with Fraud Prevention Technique for Educational Institutions — International Journal of Engineering and Technology, 2018
