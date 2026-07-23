@@ -28,6 +28,19 @@ python3 scripts/build_designed_resume.py resumes/lead-backend/resume.md resumes/
 
 For a local application-ready build, copy `config/contact-private.example.yml` to the ignored `config/contact-private.yml`, fill it locally, then append `--contact-file config/contact-private.yml` to a build command. Never commit that file.
 
+## Check ATS Alignment
+
+Use the local, transparent analyzer to compare a Markdown resume with a saved job description:
+
+```bash
+python3 scripts/analyze_ats.py \
+  resumes/senior-backend/resume.md \
+  job-descriptions/senior-backend-example.md \
+  --output reports/senior-backend-example-ats.md
+```
+
+It scores keyword alignment, experience evidence, skills alignment, ATS-safe structure, and impact signals. The report shows every recognized match and gap; it is a review aid, not a proprietary ATS prediction. See [job-descriptions/README.md](job-descriptions/README.md) for the job-description format.
+
 ## Privacy
 
 Public builds intentionally omit phone and email. Existing Git history may still contain prior contact details; removing history is a separate, deliberate operation and is not performed automatically.

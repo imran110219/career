@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Added a transparent, evidence-aware ATS alignment analyzer for Markdown resumes and job descriptions.
+
 All notable updates to this career repository should be documented here.
 
 ## 2026-07-23

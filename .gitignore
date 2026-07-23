@@ -60,6 +60,10 @@ coverage/
 *.generated.md
 __pycache__/
 
+# Locally generated ATS alignment reports
+reports/*-ats.md
+reports/*-ats.json
+
 # Logs
 *.log
 npm-debug.log*
