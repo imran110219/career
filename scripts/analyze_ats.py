@@ -28,6 +28,13 @@ TERM_ALIASES = {
     "kafka": ("kafka",), "rabbitmq": ("rabbitmq",), "elasticsearch": ("elasticsearch",),
     "mongodb": ("mongodb", "mongo db"), "mysql": ("mysql",), "sql server": ("sql server",),
     "keycloak": ("keycloak",), "oauth": ("oauth", "openid connect", "oidc"),
+    "jwt": ("jwt", "json web token"),
+    "liquibase": ("liquibase",),
+    "openapi": ("openapi", "open api", "swagger"),
+    "nginx": ("nginx",),
+    "github actions": ("github actions",),
+    "jenkins": ("jenkins",),
+    "performance testing": ("performance testing", "load testing", "locust", "jmeter", "gatling"),
     "authentication": ("authentication",), "authorization": ("authorization",),
     "security": ("security", "secure"), "data integrity": ("data integrity",),
     "database design": ("database design", "database modeling", "data modeling", "schema design"),
@@ -100,8 +107,8 @@ def score(resume: str, jd: str) -> tuple[dict, dict]:
     missing = [term for term in terms if term not in matched]
 
     keyword_score = round(35 * len(matched) / len(terms))
-    skills_score = round(15 * len(skill_matches) / len(terms))
-    evidence_score = round(25 * len(evidence_matches) / len(terms))
+    skills_score = round(15 * len(skill_matches) / len(matched)) if matched else 0
+    evidence_score = round(25 * len(evidence_matches) / len(matched)) if matched else 0
 
     headings = set(resume_sections)
     format_checks = {
@@ -116,7 +123,7 @@ def score(resume: str, jd: str) -> tuple[dict, dict]:
 
     all_bullets = bullets(resume)
     impact_checks = {
-        "Quantified outcomes": bool(re.search(r"\b\d+(?:[,.]\d+)?\s*(?:%|\+|users?|requests?|services?|students?)", resume_clean)),
+        "Quantified outcomes": bool(re.search(r"\b\d+(?:[,.]\d+)?[km]?\s*(?:%|\+|x\b|ms\b|users?|requests?|services?|students?|records?|connections?|transactions?|clients?|engineers?)", resume_clean)),
         "Strong delivery verbs": bool(re.search(r"\b(designed|led|implemented|optimized|deployed|reduced|improved|built)\b", resume_clean)),
         "Leadership/ownership": bool(re.search(r"\b(lead|led|mentoring|mentor|planning|code review|ownership)\b", resume_clean)),
         "Experience bullets": len(all_bullets) >= 6,
@@ -136,7 +143,9 @@ def score(resume: str, jd: str) -> tuple[dict, dict]:
 
 def report(resume_path: Path, jd_path: Path, categories: dict, details: dict) -> str:
     total = sum(item["score"] for item in categories.values())
+    coverage_note = f" *(low coverage — only {len(details['terms'])} terms recognized; consider extending TERM_ALIASES)*" if len(details["terms"]) < 5 else ""
     lines = ["# ATS Alignment Report", "", f"- Resume: `{resume_path}`", f"- Job description: `{jd_path}`",
+             f"- Recognized JD requirements: **{len(details['terms'])} terms**{coverage_note}",
              f"- Overall heuristic score: **{total}/100**", "",
              "This is an explainable alignment review, not a proprietary ATS prediction. Match missing requirements only when supported by verifiable experience.",
              "", "## Score Breakdown", "", "| Area | Score |", "| --- | ---: |"]

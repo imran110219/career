@@ -314,7 +314,8 @@ scoring:
     maximum: 15
     rules:
       seven_to_ten_years: 15
-      five_to_eight_years: 13
+      ten_to_twelve_years: 11
+      five_to_seven_years: 13
       three_to_five_years: 7
       more_than_twelve_years: 7
       formal_architect_experience_beyond_verified_profile: 5
