@@ -41,12 +41,18 @@ python3 scripts/analyze_ats.py \
 
 It scores keyword alignment, experience evidence, skills alignment, ATS-safe structure, and impact signals. The report shows every recognized match and gap; it is a review aid, not a proprietary ATS prediction. See [job-descriptions/README.md](job-descriptions/README.md) for the job-description format.
 
+## Run Job Search
+
+Job discovery is managed from [job-search/](job-search/). Use [job-search/AGENT.md](job-search/AGENT.md) with [config/job-search.yml](config/job-search.yml) to search current public vacancies, validate original vacancy pages, classify eligible roles, remove expired or duplicate listings, and replace [job-search/latest-jobs.md](job-search/latest-jobs.md).
+
+Application progress belongs in [applications/tracker.csv](applications/tracker.csv). Preferred companies can be maintained in [applications/target-companies.md](applications/target-companies.md). Company-specific application packages belong under [companies/applications/](companies/applications/) so global tracking stays separate from per-company material.
+
 ## Privacy
 
 Public builds intentionally omit phone and email. Existing Git history may still contain prior contact details; removing history is a separate, deliberate operation and is not performed automatically.
 
 ## Folder Map
 
-`master/` canonical resume, inventories, evidence, and skill-gap backlog · `resumes/` targeted sources and exports · `sections/` reusable blocks · `portfolio/` public project records · `applications/` tracker/templates · `interview/` role-based preparation roadmap, progress, evidence log, question bank, shared technical notes, and project case studies · `docs/` detailed operating guidance.
+`master/` canonical resume, inventories, evidence, and skill-gap backlog · `resumes/` targeted sources and exports · `sections/` reusable blocks · `job-descriptions/` saved job descriptions for tailoring and ATS analysis · `job-search/` discovery instructions and latest validated job report · `applications/` global tracker and target-company list · `companies/` company research and application packages · `portfolio/` public project/profile records · `interview/` role-based preparation roadmap, progress, evidence log, question bank, shared technical notes, and project case studies · `config/` public contact defaults and local workflow configuration · `scripts/` resume generation and analysis tools · `assets/` icons, logos, and profile-photo assets · `templates/` reusable document/application templates · `certifications/` certification records · `publications/` publication records · `archive/` retired or historical materials · `docs/` detailed operating guidance.
 
 Read [workflow](docs/WORKFLOW.md), [checklists](docs/CHECKLISTS.md), [contributing guidance](docs/CONTRIBUTING.md), [AI usage](docs/AI_USAGE.md), and the [resume design system](docs/resume-design-system.md) for details.
