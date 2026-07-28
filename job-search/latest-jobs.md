@@ -24,9 +24,8 @@
 
 | Score | Role | Company | Location | Work mode | Recommended resume |
 |---:|---|---|---|---|---|
-| 78 | Senior Backend Engineer, AI Orchestration | Kestra | Remote (global) | Remote | `resumes/senior-backend/resume.pdf` |
-| 76 | Lead Java Software Engineer | Kestra | Remote (global) | Remote | `resumes/lead-backend/resume.pdf` |
 | 72 | Senior Software Engineer, Backend – Core/API & Process Automation | Camunda | Remote (global) | Remote | `resumes/senior-backend/resume.pdf` |
+| 70 | Senior Backend Engineer, AI Orchestration | Kestra | Remote (eligibility unconfirmed) | Remote | `resumes/senior-backend/resume.pdf` |
 
 ---
 
@@ -40,8 +39,13 @@ No roles met the excellent match threshold (80+) in this search cycle.
 
 ### 1. Senior Backend Engineer, AI Orchestration — Kestra
 
-- **Match score:** 78/100
+- **Match score:** 70/100
 - **Classification:** Good Match
+- **Job ID:** kestra__811d671f-3f51-4527-95c7-625fc2481fb4
+- **Evidence confidence:** High
+- **Eligibility:** Needs verification
+- **Target-company priority:** Not listed
+- **Last verified:** 2026-07-26
 - **Location:** Remote — Germany, Europe, India, US, and France are listed; employer states "work from wherever home is"
 - **Work mode:** Remote
 - **Published:** ~2026-07-22 (reposted approximately 4 days before search date)
@@ -59,11 +63,11 @@ No roles met the excellent match threshold (80+) in this search cycle.
 | Role alignment | 25/25 |
 | Technical alignment | 20/30 |
 | Seniority alignment | 15/15 |
-| Location feasibility | 15/15 |
+| Location feasibility | 7/15 |
 | Leadership and architecture | 8/10 |
 | Freshness | 5/5 |
 | Penalties | −10 |
-| **Final score** | **78/100** |
+| **Final score** | **70/100** |
 
 **Matched requirements**
 
@@ -86,10 +90,17 @@ Kestra is a Java-based open-source workflow orchestration platform that closed a
 
 ---
 
+## Possible matches
+
 ### 2. Lead Java Software Engineer — Kestra
 
-- **Match score:** 76/100
-- **Classification:** Good Match
+- **Match score:** 68/100
+- **Classification:** Possible Match
+- **Job ID:** kestra__835f4a16-0b12-4d15-899b-e0012b1e8f33
+- **Evidence confidence:** High
+- **Eligibility:** Needs verification
+- **Target-company priority:** Not listed
+- **Last verified:** 2026-07-26
 - **Location:** Remote — Germany, Europe, India, US, and France listed; employer states "work from wherever home is"
 - **Work mode:** Remote
 - **Published:** Not specified
@@ -107,11 +118,11 @@ Kestra is a Java-based open-source workflow orchestration platform that closed a
 | Role alignment | 25/25 |
 | Technical alignment | 20/30 |
 | Seniority alignment | 15/15 |
-| Location feasibility | 15/15 |
+| Location feasibility | 7/15 |
 | Leadership and architecture | 10/10 |
 | Freshness | 1/5 |
 | Penalties | −10 |
-| **Final score** | **76/100** |
+| **Final score** | **68/100** |
 
 **Matched requirements**
 
@@ -133,10 +144,17 @@ This is the stronger of the two Kestra roles for a candidate seeking technical l
 
 ---
 
+## Good matches
+
 ### 3. Senior Software Engineer, Backend – Core/API & Process Automation — Camunda
 
 - **Match score:** 72/100
 - **Classification:** Good Match
+- **Job ID:** camunda__57c7aef5-f043-4b3b-b88d-3180f18bbb9d
+- **Evidence confidence:** High
+- **Eligibility:** Confirmed eligible
+- **Target-company priority:** A2
+- **Last verified:** 2026-07-26
 - **Location:** Anywhere in the world (fully global remote)
 - **Work mode:** Remote
 - **Published:** ~2026-07-20
@@ -178,12 +196,6 @@ This is the stronger of the two Kestra roles for a candidate seeking technical l
 **Why it matches**
 
 Camunda is a globally distributed, 100% remote company trusted by nine of the ten largest US banks for process automation infrastructure. The role centers on Java-based execution and API design in a distributed systems context — directly adjacent to the candidate's verified production backend and systems-design experience. Published within the past week, this is a fresh and active listing. The primary gaps are in Zeebe internals and observability tooling ownership; these are learnable but should be addressed honestly in the application.
-
----
-
-## Possible matches
-
-No roles reached the possible-match score threshold (60–69) after eligibility checks, language penalties, and evidence-gap penalties were applied.
 
 ---
 

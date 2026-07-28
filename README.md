@@ -45,7 +45,7 @@ It scores keyword alignment, experience evidence, skills alignment, ATS-safe str
 
 Job discovery is managed from [job-search/](job-search/). Use [job-search/AGENT.md](job-search/AGENT.md) with [config/job-search.yml](config/job-search.yml) to search current public vacancies, validate original vacancy pages, classify eligible roles, remove expired or duplicate listings, and replace [job-search/latest-jobs.md](job-search/latest-jobs.md).
 
-Application progress belongs in [applications/tracker.csv](applications/tracker.csv). Preferred companies can be maintained in [applications/target-companies.md](applications/target-companies.md). Company-specific application packages belong under [companies/applications/](companies/applications/) so global tracking stays separate from per-company material.
+Application progress belongs in the only application-state tracker, [applications/tracker.csv](applications/tracker.csv). [applications/target-companies.md](applications/target-companies.md) is the canonical company-monitoring source, and [job-search/latest-jobs.md](job-search/latest-jobs.md) is the only discovery output. A Job ID links discovery, tracking, and any company package. Discovery never automatically creates an application. Company-specific application packages remain under [companies/applications/](companies/applications/) so global tracking stays separate from per-company material.
 
 ## Privacy
 
