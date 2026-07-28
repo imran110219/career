@@ -55,6 +55,28 @@ candidate_positioning:
         - advanced observability engineering
         - infrastructure-only engineering
 
+  # Search aliases belong with the configured role profile; they are not a
+  # separate search profile and must still pass the role exclusions above.
+  title_aliases:
+    senior_backend:
+      - Senior Backend Engineer
+      - Senior Java Engineer
+      - Senior Software Engineer, Backend
+      - Senior Software Engineer - Java
+      - Backend Platform Engineer
+    lead_backend:
+      - Lead Backend Engineer
+      - Lead Java Engineer
+      - Backend Technical Lead
+      - Technical Lead, Backend
+      - Lead Software Engineer
+    software_architect:
+      - Software Architect
+      - Application Architect
+      - Java Architect
+      - Backend Architect
+      - Technical Architect
+
 skills:
   # Resume-safe candidate capabilities. Validate against master/skills-inventory.md.
   candidate_verified:
@@ -324,11 +346,17 @@ scoring:
   location_feasibility:
     maximum: 15
     rules:
-      global_remote_or_confirmed_bangladesh_remote: 15
-      target_country_with_sponsorship_or_relocation: 15
-      target_country_with_unspecified_relocation: 10
-      regional_remote_with_uncertain_eligibility: 6
-      local_authorization_required_without_support: 0
+      confirmed_global_remote: 15
+      confirmed_bangladesh_remote: 15
+      confirmed_international_contractor_route: 13
+      target_country_with_confirmed_sponsorship: 15
+      target_country_with_confirmed_relocation: 15
+      target_country_with_unspecified_support: 8
+      broad_remote_language_but_bangladesh_unconfirmed: 7
+      international_company_but_scope_unclear: 5
+      region_restricted_remote: 0
+      local_work_authorization_required: 0
+      sponsorship_explicitly_unavailable: 0
 
   leadership_and_architecture:
     maximum: 10
@@ -360,6 +388,63 @@ scoring:
     major_unverified_cloud_or_infrastructure_gap: -10
     management_only_role: exclude
     junior_or_internship: exclude
+
+confidence:
+  high:
+    requirements:
+      - original vacancy page is active
+      - role requirements are visible
+      - location or remote scope is explicit
+      - essential technologies are visible
+  medium:
+    requirements:
+      - original vacancy page is active
+      - core role details are visible
+      - some eligibility or date fields are unclear
+  low:
+    requirements:
+      - vacancy is partially accessible
+      - remote eligibility is inferred
+      - sponsorship is inferred
+      - publication or application status is uncertain
+
+eligibility_assessment:
+  allowed_values:
+    - Confirmed eligible
+    - Probably eligible
+    - Needs verification
+    - Not eligible
+  evidence_rules:
+    - Do not infer Bangladesh eligibility from remote work.
+    - Do not infer sponsorship from an international employer.
+    - Do not infer relocation from an office location.
+    - Do not infer worldwide employment from a distributed workforce.
+    - Do not infer contractor eligibility from flexible-work language.
+
+target_company_rules:
+  enabled: true
+  apply_priority_boost_to: search_order_only
+  priority_boost:
+    A1: 4
+    A2: 2
+    B: 2
+    C: 0
+    Paused: 0
+    Archived: 0
+  monitoring:
+    A1: weekly
+    A2: weekly
+    B: biweekly
+    C: monthly
+  exclusions:
+    - Paused
+    - Archived
+  never_override:
+    - eligibility exclusions
+    - mandatory unsupported primary language
+    - ethical sector exclusions
+    - minimum market score
+    - expired vacancy
 
 classification:
   excellent_match:
@@ -440,7 +525,13 @@ output:
     - sources reviewed
 
   include_per_job:
+    - job ID
     - match score
+    - classification
+    - evidence confidence
+    - eligibility
+    - target-company priority
+    - last verified
     - location
     - work mode
     - publication date
@@ -456,15 +547,23 @@ output:
 
 deduplication:
   read_existing_output: true
-
-  deduplicate_by:
-    - employer
-    - title
-    - location
-
+  prefer_posting_id: true
   prefer_official_url: true
   retain_active_existing_jobs: true
   refresh_existing_validation: true
+  deduplicate_by_priority:
+    - official_posting_id
+    - normalized_original_url
+    - employer_title_location
+  job_id:
+    preferred_format: company-slug__official-posting-id
+    fallback_format: company-slug__normalized-role__normalized-location
+    do_not_invent_posting_id: true
+  normalize:
+    company_names: true
+    role_titles: true
+    location_format: true
+    remove_tracking_parameters: true
 
   remove_when:
     - expired

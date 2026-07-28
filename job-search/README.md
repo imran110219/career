@@ -19,6 +19,31 @@ Preferred companies may be maintained in:
 
 `../applications/target-companies.md`
 
+## Promote a discovered job to application tracking
+
+A role appearing in `latest-jobs.md` is not automatically an application.
+
+1. Reopen the official vacancy page.
+2. Confirm that it is still active.
+3. Review eligibility.
+4. Decide whether to apply.
+5. Add one row to `applications/tracker.csv`.
+6. Save the job description only when tailoring or ATS analysis is needed.
+7. Create `companies/applications/<company>/` only for a serious application.
+8. Use the same Job ID across discovery, tracking, and application-package metadata.
+
+Discovery never updates the tracker; adding a tracker row is a manual decision.
+Create a company package only when eligibility has been reviewed, the role is
+qualified, the candidate intends to apply, and tailoring is useful. Low-quality
+rejected discoveries are not permanently stored: Git history preserves prior
+reports, while `latest-jobs.md` remains the single current discovery output.
+
+## Tracker status values
+
+Use only: `Researching`, `Qualified`, `Preparing`, `Ready to Apply`, `Applied`,
+`Follow-up Due`, `Recruiter Screen`, `Technical Interview`, `Final Interview`,
+`Offer`, `Rejected`, `Withdrawn`, or `Closed`.
+
 ## Run with Codex
 
 Use:
