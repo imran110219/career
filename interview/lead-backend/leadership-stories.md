@@ -153,6 +153,30 @@ Use STAR: Situation, Task, Action, Result, Lesson. Replace `Evidence needed` onl
 - One actual index or query change, explained at a public-safe level.
 - Cache invalidation or expiry behavior for the Redis data.
 
+### Protecting Primary Database Capacity — Read-Replica Routing
+
+**Use for:** “Tell me about a performance improvement,” “How do you scale a read-heavy workflow?” or “Describe a technical decision you made under delivery pressure.”
+
+- Situation: In an election-management platform, center and polling-personnel searches created read traffic against the primary PostgreSQL database. During a traffic-sensitive period, protecting the transactional database while keeping searches responsive was important.
+- Task: I needed to improve the handling of these read-heavy search requests without changing the correctness requirements of workflows that depended on the primary transactional database.
+- Personal action: I implemented application-level routing so the identified search reads were served by PostgreSQL read replicas. I kept the decision scoped to read-oriented search paths rather than presenting replicas as a universal solution for every workflow. I also considered the need to preserve primary-database handling for transactional writes and any data that required the strongest freshness guarantees.
+- Team action: The backend and operations teams supported the wider service and database environment. Exact provisioning, monitoring, and release responsibilities need verification.
+- Result: Search responsiveness improved and load on the primary transactional database was reduced. Do not claim a latency, throughput, or load percentage until it is supported by a dashboard, log, or load-test record.
+- Lesson: Replica routing is effective only when tied to a clear consistency model. I first identify which paths are read-heavy and can tolerate replica behavior, then keep transactional or freshness-sensitive paths on the appropriate data source.
+- Evidence level: Professional evidence; quantitative result and replica-lag handling need verification.
+- Disclosure limit: Say “election-management platform” and “PostgreSQL read replicas.” Do not disclose database topology, connection details, table names, traffic logs, or internal infrastructure configuration.
+
+**60-second spoken version:**
+
+> In an election-management platform, center and polling-personnel searches were creating read traffic against the primary PostgreSQL database. I wanted to protect transactional capacity while keeping those searches responsive. I implemented application-level routing for the relevant read-oriented search paths so they used PostgreSQL read replicas. I deliberately kept that scoped: writes and workflows requiring the strongest consistency remained tied to the primary path. The outcome was improved search responsiveness and less load on the primary database, although I would not quote a percentage without the supporting metrics. The main lesson is that read scaling is a consistency decision as much as a performance decision—you need to know exactly which workflows can safely use replicas.
+
+**Before marking interview-ready, verify:**
+
+- Which search endpoints or workflows used replica routing, described at a public-safe level.
+- How routing distinguished eligible reads from writes or freshness-sensitive reads.
+- One validation step used after rollout, such as comparing results, checking replica lag, or reviewing database load.
+- Before-and-after latency, throughput, or primary-database-load evidence if available.
+
 ### Access-Control Issue
 
 Candidate context: Keycloak-backed role controls and validation.
