@@ -34,6 +34,8 @@ Dhaka, Bangladesh | August 2023 - Present
 - Strengthened workflow validation and Keycloak-backed role-based authorization for sensitive nomination forms, payment completion, candidate disclosures, final submission, and election state transitions.
 - Coordinated SMS, payment, identity-verification, master-data, and reporting integrations; translated operational requirements into service interactions, API contracts, data models, and rollout plans.
 - Used RabbitMQ for election-management workflows and CI/CD pipelines, including GitHub Actions, across projects.
+- Implemented application-level routing of center and polling-personnel search reads to PostgreSQL read replicas, improving search responsiveness and reducing load on the primary transactional database.
+- Configured SonarQube quality gates and Trivy dependency-vulnerability scanning in CI/CD, identifying and remediating critical and high-severity dependency vulnerabilities before release.
 - Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in a self-managed Kubernetes data center.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer

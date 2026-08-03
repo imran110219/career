@@ -34,7 +34,7 @@ Dhaka, Bangladesh | August 2023 - Present
 - Design service interactions and REST API contracts across a microservices architecture of nearly 25 services, delivering secure, scalable Java and Spring Boot services.
 - Contribute to delivery of an internal system reported to support 50,000 users alongside a public-facing application that does not require authentication.
 - Support Kubernetes deployments to the organization's self-managed data center and digitize election-result workflows previously dependent on paperwork and physical result delivery.
-- Used RabbitMQ for election-management workflows and CI/CD pipelines, including GitHub Actions, across projects.
+- Supported 15 weekly deployments during the three months preceding elections and configured SonarQube quality gates and Trivy dependency-vulnerability scanning in CI/CD.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 

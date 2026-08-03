@@ -9,7 +9,7 @@ This is the authoritative inventory of skills that may be used in targeted resum
 | Data | PostgreSQL, SQL Server, Redis, Liquibase, data modeling, query optimization | Liquibase is documented for Open-Care. |
 | Architecture | Microservices, distributed systems, API design, backend architecture | Avoid claiming sole ownership of all platform services. |
 | Security | Keycloak, JWT token introspection, role-based authorization, data privacy, data integrity | Use only project-specific evidence. |
-| Delivery | Docker, Kubernetes deployment support, CI/CD, GitHub Actions, Jenkins, Nginx configuration, Locust load testing, planning, grooming, code review, mentoring | Jenkins is recorded for the exam-management system; retain project-level scope in resumes. Kubernetes administration / SRE ownership is NEEDS REVIEW. |
+| Delivery | Docker, Kubernetes deployment support, CI/CD, GitHub Actions, Jenkins, SonarQube, Trivy, Nginx configuration, Locust load testing, planning, grooming, code review, mentoring | SonarQube and Trivy CI configuration is recorded for the Election Management System; Jenkins is recorded for the exam-management system. Retain project-level scope in resumes. Kubernetes administration / SRE ownership is NEEDS REVIEW. |
 | Exploratory | Terraform, CI/CD platform engineering, observability, SRE, direct people management | CI/CD pipeline use is verified; platform-engineering ownership remains NEEDS REVIEW. |
 
 ## Verification Backlog

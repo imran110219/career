@@ -33,7 +33,8 @@ Dhaka, Bangladesh | August 2023 - Present
 - Contribute to delivery of an internal system reported to support 50,000 users alongside a public-facing application that does not require authentication.
 - Support Kubernetes deployments to the organization's self-managed data center and digitize election-result workflows previously dependent on paperwork and physical result delivery.
 - Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in the organization's self-managed Kubernetes data center.
-- Used RabbitMQ for election-management workflows and CI/CD pipelines, including GitHub Actions, across projects.
+- Implemented application-level routing of center and polling-personnel search reads to PostgreSQL read replicas, improving search responsiveness and reducing load on the primary transactional database.
+- Supported 15 weekly deployments during the three months preceding elections and configured SonarQube quality gates and Trivy dependency-vulnerability scanning in CI/CD.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 

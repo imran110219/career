@@ -27,6 +27,9 @@ Dhaka, Bangladesh | August 2023 - Present
 - Design service interactions, REST API contracts, and reporting workflows across a microservices architecture of nearly 25 services; own a reporting service that consolidates data to generate official nomination, candidate, schedule, and result PDF reports.
 - Contribute to delivery of an internal system reported to support 50,000 users and approximately 100,000 daily requests during election periods, compared with approximately 10,000 requests per day before elections.
 - Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in the organization's self-managed Kubernetes data center.
+- Supported 15 weekly deployments during the three months preceding elections.
+- Implemented application-level routing of center and polling-personnel search reads to PostgreSQL read replicas, improving search responsiveness and reducing load on the primary transactional database.
+- Configured SonarQube quality gates and Trivy dependency-vulnerability scanning in CI/CD, identifying and remediating critical and high-severity dependency vulnerabilities before release.
 - Applied Keycloak-backed authentication, role-based authorization, and workflow validation across nomination forms, payment completion, candidate disclosures, final submission, and state transitions.
 - Coordinated SMS, payment, identity-verification, master-data, and reporting integrations; investigated production issues across frontend, backend, QA, DevOps, and dependent-service teams.
 - Digitized result-center, voter, candidate, and percentage-calculation workflows for approximately 300 returning officers; strengthened validation and role-based controls to prevent unwanted data changes.
