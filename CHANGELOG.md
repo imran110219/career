@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Reoriented the skill-gap backlog, Senior Backend preparation, shared distributed-systems guidance, interview question bank, and job-search profile toward production-owning senior backend roles: incident response, observability, measurable performance, distributed failure handling, architecture judgment, and critically evaluated AI-assisted development.
+- Added the Craftsmen Senior Backend Software Engineer job description, initial evidence mapping, and application-tracker entry; recorded it as researching without marking it applied.
 - Recorded Penta Global Election Management System evidence for PostgreSQL read-replica routing, automated SonarQube and Trivy CI checks, remediation of critical and high-severity dependency vulnerabilities, and 15 pre-election production deployments; synchronized the canonical, reusable, evidence, and role-targeted resume sources.
 - Expanded the main README with job-search workflow guidance and a complete top-level folder map.
 - Recorded verified RabbitMQ, CI/CD, GitHub Actions, Jenkins, Nginx configuration, and Locust load-testing experience; updated the evidence backlog to distinguish verified CI/CD use from unverified platform-engineering ownership.

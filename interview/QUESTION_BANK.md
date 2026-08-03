@@ -37,6 +37,9 @@ Use these prompts for practice. Favor experience-backed answers; if evidence is 
 - How would you define RTO and RPO for an election platform?
 - How would you migrate a monolith toward independently deployable services?
 - How would you design observability for a distributed workflow across payment, identity and reporting services?
+- A consumer times out after committing a database change but before acknowledging its message. How do you make recovery safe?
+- A read replica improves search latency but returns stale data. Which requests may use it, and how would you detect unacceptable lag?
+- Describe how you would investigate rising errors across a multi-service workflow when the initial alert lacks a clear owner.
 
 ## Testing and Quality
 
@@ -45,6 +48,14 @@ Use these prompts for practice. Favor experience-backed answers; if evidence is 
 - How would you prevent flaky tests from blocking releases?
 - How would you design CI stages for a Spring Boot backend?
 - How would you measure whether testing improved delivery quality?
+
+## Production Ownership and Engineering Judgment
+
+- Describe a production issue or deployment failure you investigated. What was your specific role, what mitigated impact, and what prevented recurrence?
+- How do you choose between a simple synchronous design and a queue-based asynchronous workflow?
+- What trade-off would make you reject a microservice split or simplify an existing service boundary?
+- How do you balance a latency improvement against consistency risk, cost, and operational complexity?
+- How do you use AI to explore implementation options without delegating the engineering decision or risking sensitive data?
 
 ## Security, Cloud and DevOps
 

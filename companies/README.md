@@ -18,6 +18,7 @@ companies/applications/company-name/
 
 | Company | Role | Location | Source | Applied | Status | Next Action |
 | --- | --- | --- | --- | --- | --- | --- |
+| Craftsmen | Senior Backend Software Engineer | Bangladesh | Company careers site | — | Researching | Prepare production-ownership and AI-assisted-development evidence |
 | Add company | Add role | Remote or city | Job board, referral, recruiter | YYYY-MM-DD | Researching | Identify hiring manager |
 
 ## Research Checklist

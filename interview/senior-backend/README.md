@@ -1,6 +1,6 @@
 # Senior Backend Engineer Track
 
-This track emphasizes hands-on backend depth: Java, Spring Boot, PostgreSQL, APIs, testing, debugging, performance, security, production incidents, caching, concurrency, messaging, code review and technical communication.
+This track targets hands-on, production-owning senior backend roles: Java, Spring Boot, PostgreSQL, APIs, testing, debugging, performance, security, production incidents, caching, concurrency, messaging, code review, architectural judgment, and technical communication.
 
 ## How To Use
 
@@ -14,4 +14,5 @@ This track emphasizes hands-on backend depth: Java, Spring Boot, PostgreSQL, API
 
 - Lead with recent Java/Spring Boot backend delivery and API ownership.
 - Use PostgreSQL, Redis, Keycloak and RabbitMQ examples only at the level supported by evidence.
-- Treat automated testing, observability, cloud and AI-assisted development as improvement areas until concrete evidence is captured.
+- Lead with end-to-end service ownership only where personal scope is clear: design, delivery, deployment support, production investigation, and durable follow-up.
+- Treat automated testing, observability, cloud, AI-assisted development, and full incident ownership as improvement areas until concrete evidence is captured.
