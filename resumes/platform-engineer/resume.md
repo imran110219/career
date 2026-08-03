@@ -34,7 +34,7 @@ Dhaka, Bangladesh | August 2023 - Present
 - Contribute to delivery of an internal system reported to support 50,000 users and digitize election-result workflows previously dependent on paperwork and physical result delivery.
 - Lead backend engineering activities, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
 - Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in the organization's self-managed Kubernetes data center.
-- Supported 15 weekly deployments during the three months preceding elections.
+- Supported 15 production deployments during the three months preceding elections.
 - Configured SonarQube quality gates and Trivy dependency-vulnerability scanning in CI/CD, identifying and remediating critical and high-severity dependency vulnerabilities before release.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer

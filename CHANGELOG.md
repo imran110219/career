@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- Recorded Penta Global Election Management System evidence for PostgreSQL read-replica routing, automated SonarQube and Trivy CI checks, remediation of critical and high-severity dependency vulnerabilities, and 15 weekly pre-election deployments; synchronized the canonical, reusable, evidence, and role-targeted resume sources.
+- Recorded Penta Global Election Management System evidence for PostgreSQL read-replica routing, automated SonarQube and Trivy CI checks, remediation of critical and high-severity dependency vulnerabilities, and 15 pre-election production deployments; synchronized the canonical, reusable, evidence, and role-targeted resume sources.
 - Expanded the main README with job-search workflow guidance and a complete top-level folder map.
 - Recorded verified RabbitMQ, CI/CD, GitHub Actions, Jenkins, Nginx configuration, and Locust load-testing experience; updated the evidence backlog to distinguish verified CI/CD use from unverified platform-engineering ownership.
 - Synchronized the InScale application package and ATS-alignment reports with the newly recorded CI/CD and RabbitMQ evidence.

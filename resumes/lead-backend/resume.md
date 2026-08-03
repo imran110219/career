@@ -34,7 +34,7 @@ Dhaka, Bangladesh | August 2023 - Present
 - Support Kubernetes deployments to the organization's self-managed data center and digitize election-result workflows previously dependent on paperwork and physical result delivery.
 - Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in the organization's self-managed Kubernetes data center.
 - Implemented application-level routing of center and polling-personnel search reads to PostgreSQL read replicas, improving search responsiveness and reducing load on the primary transactional database.
-- Supported 15 weekly deployments during the three months preceding elections and configured SonarQube quality gates and Trivy dependency-vulnerability scanning in CI/CD.
+- Supported 15 production deployments during the three months preceding elections and configured SonarQube quality gates and Trivy dependency-vulnerability scanning in CI/CD.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 
