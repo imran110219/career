@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Recorded professional pull-request-validation experience with JUnit, Mockito, Spring Boot Test, and Postman for unit, API, and integration testing; distinguished separate Testcontainers lab/personal-project practice from professional-project evidence and updated the interview roadmap and evidence backlog.
 - Added the Crossing Hurdles Senior Software Engineer contract job description and application-tracker entry; recorded the LinkedIn Easy Apply application as in progress using the Senior Backend resume.
 - Reoriented the skill-gap backlog, Senior Backend preparation, shared distributed-systems guidance, interview question bank, and job-search profile toward production-owning senior backend roles: incident response, observability, measurable performance, distributed failure handling, architecture judgment, and critically evaluated AI-assisted development.
 - Added the Craftsmen Senior Backend Software Engineer job description, initial evidence mapping, and application-tracker entry; recorded it as researching without marking it applied.

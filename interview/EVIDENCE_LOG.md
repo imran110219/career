@@ -15,6 +15,22 @@ This file records evidence generated through learning, labs, personal projects, 
 
 ## Evidence Entries
 
+### Automated Testing in Pull-Request Validation
+
+| Field | Record |
+| --- | --- |
+| Skill or topic | JUnit, Mockito, Spring Boot Test, Postman; unit, API, and integration testing. |
+| Project or employer | Multiple professional projects; project names and periods need capture before project-specific use. |
+| Date or period | Needs capture. |
+| Personal responsibility | Used and reviewed automated tests as part of pull-request validation. Exact test ownership and review scope need capture for one representative example. |
+| Technical decision | Select unit, API, or integration coverage appropriate to the change; specific test-design trade-offs need capture. |
+| Trade-off | Professional test-suite speed, isolation, and dependency choices need a project-specific example. |
+| Outcome | No quantified quality or defect-prevention result recorded. |
+| Evidence location | User-provided career discussion, 2026-08-04; add a project-specific PR example when available. |
+| Disclosure level | Professional evidence. Testcontainers is separate lab/personal-project evidence; it is not recorded as professional-project use. |
+| Interview readiness | Practising; prepare one concrete PR/testing story. |
+| Résumé eligibility | General testing stack and pull-request-validation scope are résumé-safe when phrased precisely; do not claim Testcontainers, CI execution, coverage, or quality outcomes for professional projects without evidence. |
+
 ### Election Management System Backend Delivery
 
 | Field | Record |

@@ -10,6 +10,7 @@ This is the authoritative inventory of skills that may be used in targeted resum
 | Architecture | Microservices, distributed systems, API design, backend architecture | Avoid claiming sole ownership of all platform services. |
 | Security | Keycloak, JWT token introspection, role-based authorization, data privacy, data integrity | Use only project-specific evidence. |
 | Delivery | Docker, Kubernetes deployment support, CI/CD, GitHub Actions, Jenkins, SonarQube, Trivy, Nginx configuration, Locust load testing, planning, grooming, code review, mentoring | SonarQube and Trivy CI configuration is recorded for the Election Management System; Jenkins is recorded for the exam-management system. Retain project-level scope in resumes. Kubernetes administration / SRE ownership is NEEDS REVIEW. |
+| Testing | JUnit, Mockito, Spring Boot Test, Postman; unit, API, and integration testing | Professional experience in pull-request validation across multiple projects. Testcontainers is hands-on lab/personal-project evidence, not recorded as professional-project use. Capture one project-specific example before making broader testing-ownership or outcome claims. |
 | Exploratory | Terraform, CI/CD platform engineering, observability, SRE, direct people management | CI/CD pipeline use is verified; platform-engineering ownership remains NEEDS REVIEW. |
 
 ## Verification Backlog
