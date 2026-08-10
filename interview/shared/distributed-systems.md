@@ -29,6 +29,18 @@ Use this for backend and architecture interviews where service interaction and f
 - Design retry, timeout, and idempotency behavior for one project case study.
 - Add an observability plan for a distributed transaction or saga-like workflow.
 
+## Production-Ownership Answer Structure
+
+For a production-focused senior-backend interview, answer each incident or failure-mode question in this order:
+
+1. State the customer or workflow impact and the immediate safety/correctness concern.
+2. Explain the signals used to narrow the issue: logs, metrics, traces, queue depth, database queries, deployment history, or dependency health.
+3. Describe mitigation before deep diagnosis: rollback, traffic control, retry pause, safe degradation, or manual recovery as appropriate.
+4. Explain the root cause and the rejected alternatives, including consistency, latency, cost, or complexity trade-offs.
+5. Finish with prevention: idempotency, timeout/retry policy, alert, dashboard, test, runbook, or architecture simplification.
+
+Keep professional examples factual. Use a proposed design when tool-specific production evidence is unavailable.
+
 ## Evidence Notes
 
 RabbitMQ use is recorded for the election platform. Message-flow ownership, delivery guarantees, retry behavior, and production outcomes still need evidence review before being expanded in résumés.

@@ -13,7 +13,7 @@ This file is a resume-ready projection of the authoritative inventory in `master
 | Performance | Redis caching, performance optimization, scalable backend design |
 | Architecture | Microservices, distributed systems, system design, API design, backend architecture |
 | Infrastructure | Docker, Kubernetes, Nginx configuration, deployment troubleshooting |
-| Delivery | CI/CD, GitHub Actions, Jenkins, Locust load testing, Agile development, requirement analysis, deployment, long-term maintenance, code review |
+| Delivery | CI/CD, GitHub Actions, Jenkins, SonarQube, Trivy, Locust load testing, Agile development, requirement analysis, deployment, long-term maintenance, code review |
 | Leadership | Team mentoring, grooming, planning, stakeholder collaboration, cross-functional delivery |
 | Product Domains | Healthcare, government, education, enterprise platforms, electronic procurement, exam management |
 
@@ -21,7 +21,7 @@ This file is a resume-ready projection of the authoritative inventory in `master
 
 ### Senior Backend Engineer
 
-- Java, Spring Boot, Hibernate, PostgreSQL, REST APIs, RabbitMQ, Redis caching, Keycloak, CI/CD, performance optimization.
+- Java, Spring Boot, Hibernate, PostgreSQL, REST APIs, RabbitMQ, Redis caching, Keycloak, CI/CD, SonarQube, Trivy, performance optimization.
 
 ### Lead Backend Engineer
 

@@ -12,6 +12,8 @@
 ## Application package
 
 - [ ] Job URL, status, and next action are in `applications/tracker.csv`.
+- [ ] The tracker Job ID matches the discovery report and any company-package metadata.
+- [ ] Eligibility was reviewed on the active official vacancy before the role was promoted to tracking.
 - [ ] Selected resume track matches the role.
 - [ ] Private contacts, salary, and offer notes are in ignored paths.
 - [ ] Interview stories use factual STAR prompts and respect confidentiality.

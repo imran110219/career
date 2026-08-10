@@ -13,7 +13,7 @@
 | Lead delivery stories | Lead Backend | P0 | Practising | Professional evidence | Complete two STAR stories in [leadership-stories.md](lead-backend/leadership-stories.md). |
 | Java/Spring production depth | Senior Backend, Lead Backend | P0 | Reviewing | Professional evidence | Prepare transaction, security and troubleshooting examples from existing work. |
 | PostgreSQL optimization | Senior Backend | P0 | Reviewing | Professional evidence | Capture one before/after query or indexing example if available. |
-| Automated testing | Senior Backend, Lead Backend | P0 | Implementing | None | Build or document a Testcontainers-backed API test example. |
+| Automated testing | Senior Backend, Lead Backend | P0 | Practising | Professional evidence; Testcontainers lab/personal-project evidence | Capture one representative pull-request testing example, including scope and outcome; keep Testcontainers separate from professional-project claims. |
 | API design | All tracks | P0 | Reviewing | Professional evidence | Draft OpenAPI/error/idempotency notes for election or Open-Care workflow. |
 | Distributed messaging | All tracks | P0 | Reviewing | Professional evidence | Document RabbitMQ message flow, ownership and production outcome if verifiable. |
 | System design | All tracks | P0 | Practising | Learning notes | Complete two design outlines using [system-design.md](shared/system-design.md). |
@@ -28,7 +28,7 @@
 
 - Finish [Election Management System](projects/election-management-case-study.md) and [Open-Care](projects/open-care-case-study.md) interview case studies.
 - Create one Lead Backend delivery story with clear personal actions and team actions separated.
-- Start one testing evidence item: unit plus integration test plan or lab implementation.
+- Capture one representative pull-request testing example using JUnit, Mockito, Spring Boot Test, or Postman; separately document Testcontainers lab/personal-project practice if useful.
 - Practise one system design case using election workflow constraints.
 
 ## Recently Completed
@@ -39,7 +39,7 @@
 ## Blocked Items
 
 - Election platform scale, SLA, incident, message-flow and deployment details need disclosure review before detailed public use.
-- Automated testing evidence is not yet project-specific.
+- Automated-testing experience is recorded at a general professional level; one project-specific PR example, ownership boundary, and outcome still need capture.
 - Cloud ownership, Terraform, observability tooling and architecture governance need evidence review.
 - AI-assisted development cannot be described as professional experience until a specific workflow and result are recorded.
 

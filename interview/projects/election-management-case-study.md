@@ -55,6 +55,7 @@ Likely entities include candidate, nomination, payment, schedule, affidavit, fun
 ## Performance
 
 - 100,000 daily election-period requests is needs-review/confidential evidence.
+- Implemented application-level routing of center and polling-personnel search reads to PostgreSQL read replicas, improving search responsiveness and reducing load on the primary transactional database. Quantitative latency and load measurements: evidence needed.
 - Response-time, throughput, query optimization, caching and SLA details: Evidence needed.
 
 ## Reliability
@@ -65,6 +66,8 @@ Likely entities include candidate, nomination, payment, schedule, affidavit, fun
 ## Deployment
 
 - Contributed to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in a self-managed Kubernetes data center.
+- Supported 15 production deployments during the three months preceding elections.
+- Configured SonarQube quality gates and Trivy dependency-vulnerability scanning in CI/CD; critical and high-severity dependency vulnerabilities were remediated before release. Scan cadence, gates, and vulnerability counts: evidence needed.
 - Exact Kubernetes ownership and operational authority: Evidence needed.
 
 ## Observability

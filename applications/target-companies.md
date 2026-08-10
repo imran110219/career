@@ -1,498 +1,143 @@
 # Target Companies
 
-This shortlist is organized around product domain and role relevance—not company
-reputation alone. It prioritizes software and technology companies whose primary
-products are developer tools, infrastructure, data platforms, cybersecurity,
-mapping, logistics, public services, or industrial technology.
+## Purpose
 
-Inclusion is not a certification of a company's entire business, customer base,
-or every product team. Before applying, review the employer, business unit,
-product, customers, and day-to-day responsibilities. The practical standard is:
+This is the canonical preferred-company source for the job-discovery agent. It
+supports monitoring order only; a company entry never proves that a particular
+vacancy is open, technically suitable, ethically suitable, or eligible from
+Bangladesh. Verify those facts on the original vacancy page.
 
-> The company's core product and the specific team must not directly build, sell,
-> promote, or operate a product the candidate has chosen to exclude.
+## Eligibility definitions
 
-Do not infer product, customer, hiring-location, visa, or work-authorization
-details from this list; verify them against the relevant vacancy and official
-company information.
-
-> **Key finding (verified July 26, 2026):** Most companies do not guarantee all
-> three options—international applications, visa-sponsored relocation, and remote
-> work from Bangladesh. A company may be internationally distributed but still
-> hire only where it has a legal entity. "Remote" frequently means remote within
-> specified countries, not remote worldwide.
-
----
-
-# Eligibility definitions
-
-| Status | Meaning |
+| Classification | Meaning |
 | --- | --- |
-| **Bangladesh-remote confirmed** | Official policy or vacancy explicitly allows worldwide work or Bangladesh |
-| **Global-contract possible** | Some roles explicitly accept global remote contractors |
-| **Relocation confirmed** | Official careers material explicitly mentions relocation and visa support |
-| **Country-limited remote** | Remote work exists, but only in supported countries |
-| **Vacancy-specific** | No company-wide promise; each current vacancy must be checked |
-| **Unverified** | No reliable official evidence found for Bangladesh remote or sponsorship |
+| Confirmed eligible | The vacancy or employer explicitly supports the candidate's location or a viable work route. |
+| Probably eligible | Evidence supports a route, but a vacancy-specific detail remains to be confirmed. |
+| Needs verification | No explicit Bangladesh, contractor, sponsorship, or relocation evidence is available for the vacancy. |
+| Not eligible | The vacancy explicitly excludes the candidate's location or work route. |
 
----
+“Remote” does not mean worldwide. Do not infer Bangladesh eligibility from a
+distributed workforce, sponsorship from an international employer, relocation
+from an office location, or contractor eligibility from flexible-work language.
 
-# Priority A1 — Remote from Bangladesh is realistically possible
+## Priority definitions
 
-| Company | Domain | Bangladesh route | Fit | Important limitation |
-| --- | --- | --- | --- | --- |
-| **Canonical** | Linux, cloud and Kubernetes | **Worldwide remote confirmed for many roles** | Lead, architect, cloud/platform | Most engineering roles emphasize Linux, Python, Go, Kubernetes rather than Java |
-| **LaunchGood** | Muslim crowdfunding and social impact | **Work-from-anywhere confirmed** | Backend, platform, lead | Open technical roles may be infrequent |
-| **Yaqeen Institute** | Islamic research, education and digital products | **Some roles explicitly global remote** | Product platform, data, backend, architect | Other roles are restricted to the US and Canada |
-| **Muslim Pro / Bitsmedia** | Muslim lifestyle and Islamic digital products | **Bangladesh office confirmed** | Backend, Android, platform, lead | Singapore relocation is not guaranteed; one Bangladesh vacancy explicitly excluded relocation |
-| **Tarteel AI** | Quran memorisation and speech-AI technology | Potential remote mission-driven target | Backend, data, platform, AI systems | Hiring geography must be confirmed from each vacancy |
-| **Temporal.io** | Workflow orchestration platform (open source) | **Fully remote globally; Java SDK is first-class** | Senior backend, distributed systems, platform | Verify Bangladesh eligibility per vacancy; Go also required in many roles |
-| **Rocket.Chat** | Open-source team communication platform | **Globally distributed; remote in 70+ cities documented** | Backend, platform, lead | Java roles appear periodically; stack is mixed |
-| **Automattic** | WordPress.com, WooCommerce, Tumblr | **2,000+ staff across 96 countries; equal pay regardless of location** | Backend, platform, technical leadership | PHP-heavy engineering; Java roles are rarer |
-| **Mattermost** | Open-source enterprise messaging | Fully remote globally; actively hiring remotely | Backend, platform, security-focused engineering | Primary stack is Go/React; Java roles indirect |
-
-Temporal.io is a Java-first open-source workflow orchestration platform directly relevant to distributed systems and microservices work. It is fully remote and globally distributed.
-
-Rocket.Chat explicitly lists remote jobs across more than 70 cities and is headquartered in Brazil with a globally distributed engineering team.
-
-Automattic employs people across 96 countries with equal pay regardless of location. Java roles appear less frequently but platform and backend infrastructure roles do exist.
-
-Mattermost is fully remote and focused on government and enterprise secure messaging. Most engineering is Go, but platform engineering and backend roles are accessible.
-
----
-
-# Priority A2 — Strong remote companies, but Bangladesh is not automatically supported
-
-| Company | Remote model | Bangladesh assessment | Recommendation |
-| --- | --- | --- | --- |
-| **GitLab** | All-remote | **Not automatically confirmed** | Apply only when Bangladesh or an international contractor route is accepted |
-| **Grafana Labs** | Fully remote across 40+ countries | **Not explicitly confirmed for Bangladesh** | High-value target; check vacancy locations |
-| **Elastic** | Distributed; remote, hybrid and office roles | **Vacancy-specific** | Strong Java/search fit |
-| **Camunda** | Remote-first | **Only most of Europe, US, Canada and selected APAC regions** | Excellent workflow fit, but verify Bangladesh eligibility |
-| **JetBrains** | Office/hybrid with some relocation | Remote from unsupported countries generally restricted | Target relocation-enabled European roles |
-| **Canonical** | Worldwide remote for many roles | **Confirmed** | Keep in both global-remote and aspirational-platform lists |
-| **Conduktor** | Kafka management and streaming platform | UK/EU remote; Bangladesh eligibility unverified | Strong Kafka and distributed systems fit; European route via UK or EU |
-| **Sourcegraph** | Code search and intelligence platform | **Fully remote globally documented** | Platform and backend engineering; verify Bangladesh per vacancy |
-
-GitLab is all-remote, but its official language says that it employs people in countries where it can legally hire. "All-remote" should not be interpreted as "every country accepted."
-
-Grafana Labs says it is fully remote and has employees in more than 40 countries. Its listed benefits reveal a specific set of supported employment countries; Bangladesh is not named on the public careers page.
-
-Elastic describes itself as distributed by design, with remote, hybrid and in-person vacancies. That is not equivalent to worldwide eligibility, so every role needs a location check.
-
-Camunda currently hires in most European countries, the US, Canada and selected APAC regions. Bangladesh is not publicly confirmed as a supported hiring country.
-
-Conduktor builds Kafka management and data streaming tooling, directly complementing your distributed systems experience. It is a European-rooted company (UK/France) with remote roles.
-
----
-
-# Priority B — Visa-sponsored relocation is possible
-
-| Company | Relocation status | Best route |
-| --- | --- | --- |
-| **JetBrains** | **Visa and family relocation support confirmed for qualifying roles in several offices** | Amsterdam, Prague, Spain, Poland, Cyprus or Armenia vacancies marked for relocation |
-| **Alef Education** | International workforce confirmed; UAE architecture and technology vacancies exist | Apply to explicit Abu Dhabi employee vacancies and ask about sponsorship |
-| **Tarabut** | Bahrain FinTech Bay; open banking infrastructure; active hiring | Apply to Bahrain or UAE roles; careers.tarabut.com has active listings |
-| **Tamara** | Saudi Arabia's first BNPL unicorn ($1B+ valuation); interest-free model | Apply to Riyadh engineering roles; confirm employment visa sponsorship |
-| **Wahed Invest** | UAE (Dubai) and UK (London) offices; international engineering team | Target Dubai office; UAE Employment visa route |
-| **Regional Gulf technology companies** | Usually vacancy-specific | Apply only after recruiter confirms employment visa sponsorship |
-
-JetBrains officially states that qualifying roles in Amsterdam, Prague and Spain may include visa support for the candidate and family, travel, temporary housing and relocation assistance. Relocation is position- and office-specific.
-
-Alef Education reports a workforce of more than 40 nationalities and currently lists UAE-based technology and enterprise-architecture positions.
-
-Tarabut is MENA's largest regulated Open Banking platform, headquartered at Bahrain FinTech Bay. It connects banks and fintechs via API — infrastructure work, not lending. Bahrain offers a relatively accessible work visa process compared to other Gulf states.
-
-Tamara is Saudi Arabia's first fintech unicorn, explicitly positioned as interest-free with no late fees and no hidden fees. Engineering roles are Riyadh-based.
-
-Wahed Invest is the first automated halal investment platform, backed by strategic investors including affiliates of Saudi Aramco. Engineering is split across New York, Dubai and London.
-
----
-
-# Revised primary target list
-
-## Group 1 — Apply immediately when technically matched
-
-These have the most plausible Bangladesh or global route:
-
-1. **Canonical**
-2. **LaunchGood**
-3. **Yaqeen Institute**
-4. **Muslim Pro / Bitsmedia**
-5. **Tarteel AI**
-6. **Temporal.io** — fully remote, Java-first
-7. **Rocket.Chat** — globally distributed, open source
-8. **GitLab** — only globally eligible vacancies
-9. **Grafana Labs** — only supported-country or global-contract vacancies
-10. **Elastic** — only eligible remote/APAC roles
-11. **Camunda** — only if Bangladesh or relocation is accepted
-12. **JetBrains** — relocation-enabled vacancies
-
-## Group 2 — Muslim, Islamic and values-aligned technology
-
-| Organisation | Mission | Hiring route | Technical relevance |
-| --- | --- | --- | --- |
-| **Tarteel AI** | Quran recitation, memorisation and engagement | Vacancy-specific; potentially distributed | Backend, databases, mobile, AI and platform |
-| **Muslim Pro / Bitsmedia** | Digital services for Muslim daily life | Bangladesh office and regional offices | Backend, mobile, platform and product |
-| **LaunchGood** | Muslim philanthropy and community fundraising | Global work-from-anywhere | Backend, payments platform, security and lead roles |
-| **Yaqeen Institute** | Islamic education, research and faith development | Some global remote contractor/full-time roles | Product, data, web platform and architecture |
-| **Tamara** | Interest-free installment payments (BNPL unicorn) | Riyadh relocation; active engineering hiring | Backend, distributed systems, fintech platform |
-| **Wahed Invest** | Halal automated investing platform | UAE (Dubai) and UK (London) offices | Backend, data, financial platform engineering |
-| **Tarabut** | Open Banking infrastructure for MENA | Bahrain and UAE offices; active hiring | API platform, backend, integration engineering |
-| **Salam Booking** | Halal travel and Muslim-friendly accommodation | Turkey (Istanbul) relocation; growing tech team | Backend, booking platform, travel tech |
-| **HalalTrip** | Muslim lifestyle app and halal travel | Singapore relocation | Backend, mobile, platform |
-| **Hala** | Halal SME fintech (interest-free positioning) | Saudi Arabia (MENA) | Backend, payments platform |
-| **Quran.com / Quran Foundation** | Quran access and digital infrastructure | Monitor; current employment route unverified | Backend, search, API and platform |
-| **Muslim Central** | Islamic audio and educational media | Monitor; hiring route unverified | Media platform and backend |
-| **Islamic Network** | Prayer, Quran and Islamic APIs | Monitor; hiring route unverified | API and backend alignment |
-
-Tamara explicitly markets as interest-free with no late fees. Verify the actual financial mechanics before applying, but the stated positioning is Shariah-compatible. It is the largest Islamic fintech target on this list by valuation and headcount.
-
-Tarabut is not a lending company — it is Open Banking infrastructure that connects banks and fintechs via API. This is a cleaner domain than lending or payments.
-
-Wahed Invest is backed by investors affiliated with Saudi Aramco and Wamda. Engineering spans New York, Dubai and London. The UAE office is the most accessible route.
-
-Salam Booking is an Istanbul-based Muslim travel platform founded in 2022. Istanbul aligns with your Turkey relocation target.
-
-**Important ethical check required before applying to Tamara, Wahed Invest, and Tarabut:** Confirm the specific team, product responsibilities, and underlying financial mechanics. The mission positioning is compatible but individual role responsibilities must be verified.
-
-## Group 3 — Education, humanitarian, and socially valuable technology
-
-| Company | Domain | International-hiring assessment | Priority |
-| --- | --- | --- | --- |
-| **Alef Education** | School and government education platforms | International workforce; UAE and India roles; sponsorship vacancy-specific | Very high |
-| **Noon Academy** | Social learning | Distributed international team; no universal Bangladesh policy found | High |
-| **Classera** | LMS and educational infrastructure | Global education footprint; employment location unverified | High |
-| **HOT (Humanitarian OpenStreetMap Team)** | Open mapping for humanitarian response | **Fully remote; globally distributed; active in South Asia** | High |
-| **UNICEF Innovation** | Humanitarian technology and data platforms | Dhaka office confirmed; global remote roles via impactpool.org | High |
-| **GovTech Singapore** | Public digital services | Foreign eligibility and sponsorship vacancy-specific | High but selective |
-| **Synapxe** | Singapore public-health technology | Vacancy and sponsorship-specific | High |
-| **NCS** | Public and enterprise technology | Country- and vacancy-specific | Medium-high |
-| **Altibbi** | Arabic telehealth (10M+ patients, 6 countries) | Jordan and UAE offices; Java backend documented | High |
-| **Okadoc** | Multilingual doctor booking and virtual consultations | UAE (Dubai); $22M raised; expanding to Saudi Arabia | High |
-| **Lean Business Services** | Saudi healthcare technology | Relocation/employment visa vacancy-specific | High |
-| **Elm** | Saudi public digital services | Relocation vacancy-specific | High |
-| **Takamol Holding** | Labor-market and public platforms | Relocation vacancy-specific | Medium-high |
-| **Thiqah** | Government and enterprise digital services | Relocation vacancy-specific | Medium-high |
-| **Halodoc** | Indonesian health technology | Mostly local/regional hiring; sponsorship unverified | Medium |
-| **Alodokter** | Indonesian health technology | Mostly local/regional hiring; sponsorship unverified | Medium |
-| **Ruangguru** | Indonesian education technology | Mostly local/regional hiring; sponsorship unverified | Medium |
-
-HOT (Humanitarian OpenStreetMap Team) is a globally distributed NGO team using open mapping for humanitarian response. It is active in South Asia, mission-aligned, and lists engineering roles at hotosm.org/jobs. This is one of the cleanest mission fits on the entire list.
-
-UNICEF Innovation has a confirmed Dhaka office. Global engineering roles are listed through impactpool.org and unicef.org/careers. Java and cloud roles are documented.
-
-Altibbi is a Jordanian-founded Arabic telehealth platform with $44M raised, 10M+ patients, and offices in Jordan and the UAE. Jordan is currently absent from your relocation list and this is the primary reason to add it.
-
----
-
-# Revised mainstream company list
-
-## Tier 1 — Best combination of fit and plausible hiring route
-
-- Canonical
-- LaunchGood
-- Yaqeen Institute
-- Muslim Pro / Bitsmedia
-- Tarteel AI
-- Temporal.io
-- Rocket.Chat
-- Conduktor
-- JetBrains relocation-enabled roles
-- Alef Education
-- Elastic
-- Camunda
-- Grafana Labs
-- GitLab
-- Red Hat
-- Sonar
-- HERE Technologies
-- TomTom
-- Esri
-- Carto
-- Unifonic
-- Lean Business Services
-- Elm
-- Classera
-- Noon Academy
-- HOT (Humanitarian OpenStreetMap Team)
-- UNICEF Innovation
-- Tamara
-- Wahed Invest
-- Tarabut
-- Altibbi
-- Okadoc
-
-## Tier 2 — Good technical fit, but country or sponsorship uncertainty
-
-These should be retained as vacancy-level targets, not companies assumed to support Bangladesh remote work or relocation.
-
-- Redis
-- MongoDB
-- Confluent
-- JFrog
-- Snyk
-- Sentry
-- Postman
-- Docker
-- SUSE
-- Cloudflare
-- Akamai
-- Cockroach Labs
-- Neo4j
-- Celonis
-- Acronis
-- Atlassian
-- Contentful
-- Mattermost
-- Automattic
-- Sourcegraph
-- Nokia
-- Ericsson
-- Siemens Digital Industries Software
-- Bosch Digital
-- NCS
-- Synapxe
-- Aerodyne Group
-- RunCloud
-- ViTrox
-- Presight
-- Property Finder
-- Bayut
-- SITE
-- CNTXT
-- Picus Security
-- Mekari
-- Halodoc
-- Privy
-- Careem
-- Tabby
-- Foodics
-- Mozn
-- Salam Booking
-- HalalTrip
-- GoTo / Gojek
-- Grab
-- Xendit
-- Lalamove
-- Okadoc
-
-## Tier 3 — Aspirational or significant stack gap
-
-These remain valuable targets, but immediate evidence is stronger for enterprise Java, workflow, databases, security and application architecture than for compiler engineering, database internals or low-level distributed infrastructure.
-
-- JetBrains compiler/IDE engineering teams
-- Docker core engineering
-- Cockroach Labs database-internals roles
-- Cloudflare systems roles
-- Canonical low-level Linux roles
-- Vercel platform roles
-- HashiCorp product teams within IBM
-- Neo4j database-engine roles
-
----
-
-# Countries — coverage and gaps
-
-## Priority markets (from job-search.yml)
-
-Malaysia, Singapore, United Arab Emirates, Saudi Arabia, Qatar, Germany, Ireland, Global Remote
-
-## Strong secondary markets
-
-Netherlands, Sweden, Denmark, Norway, Finland, Turkey, Indonesia, Australia, New Zealand
-
-## Exploratory markets
-
-Poland, Czech Republic, Estonia, Lithuania, Portugal, Spain, Austria, Belgium, Switzerland, Oman, Bahrain, Kuwait
-
-## Countries added based on gap analysis
-
-| Country | Rationale | Key companies |
-| --- | --- | --- |
-| **Bahrain** | Promoted from exploratory — Bahrain FinTech Bay is a concrete Islamic fintech hub; visa process is more accessible than Saudi Arabia for a first Gulf move | Tarabut, Benefit (payment network), Gulf Air tech |
-| **Jordan** | Missing from all lists — Amman has a growing tech scene; Altibbi HQ is here; straightforward work permits; lower cost stepping stone to Gulf | Altibbi, Luminus Education tech, Makeen Technologies |
-| **Egypt** | Missing from all lists — Cairo has Vezeeta (10M patients, 6 countries), Paymob, Fawry; growing English-language tech presence; possible remote target | Vezeeta, Paymob |
-
-**Note on Egypt:** Paymob and Fawry operate conventional payment and financial products. Verify the specific team and product before applying. Vezeeta (healthtech) has the cleanest domain fit.
-
----
-
-# Companies requiring ethical or product-level review
-
-| Company | Reason |
+| Priority | Meaning |
 | --- | --- |
-| **G42 / Core42** | Government, geospatial, security, satellite or defence-adjacent activities may vary by business unit |
-| **Rohde & Schwarz** | Defence, communications and surveillance adjacency |
-| **Nokia / Ericsson** | Government, lawful-interception, security or defence-adjacent teams may exist |
-| **Amazon / Google / Microsoft / Oracle / SAP / IBM** | Very broad products and customers; role-level review required |
-| **Grab / Careem / GoTo** | Payments, lending and financial services may be integrated; verify the specific team product |
-| **Salla / Zid / StoreHub / Foodics** | Merchant products may support excluded product categories |
-| **Property Finder / Bayut / Dubizzle** | Marketplace listings and advertising need product-level review |
-| **Classera** | Includes payment and marketplace products in addition to education |
-| **Muslim Pro** | Its expanding ecosystem includes fintech; evaluate the exact team and product |
-| **LaunchGood** | Mission-aligned, but review payment processing and campaign-compliance responsibilities |
-| **Tamara / Tabby** | Verify that the specific engineering role does not directly support interest-bearing products |
-| **Wahed Invest** | Confirm Shariah compliance posture and that the role does not touch non-halal funds |
-| **Tarabut** | Open Banking infrastructure (not lending); confirm team scope excludes conventional credit products |
-| **GoTo / Gojek / Grab** | Super-apps with financial subsidiaries; apply only after verifying the specific team does not touch excluded financial products |
-| **Xendit** | Payment infrastructure, not lending; cleaner domain but confirm team scope |
-| **Dubizzle Group** | Classifieds platform with marketplace and property listings; product-level review required |
+| A1 | Strong technical fit with a plausible global or Bangladesh-remote route |
+| A2 | Strong company fit, but hiring eligibility must be verified per vacancy |
+| B | Primary route is visa-sponsored relocation |
+| C | Strategic watchlist or weaker immediate route |
+| Paused | Do not actively monitor |
+| Archived | No longer relevant |
 
-## Excluded sectors
+Ethical review means reviewing the exact product, team, customers, and duties
+before applying. Exclude roles that directly support the sectors or activities
+listed in `config/job-search.yml`.
 
-Do not target a company whose core business is conventional banking or
-insurance, interest-based lending or consumer credit, buy-now-pay-later,
-speculative trading or brokerage, cryptocurrency speculation, gambling or
-betting, alcohol, tobacco or vaping, recreational drugs, pornography or adult
-entertainment, dating or casual-hookup services, or weapons manufacturing and
-offensive military technology. Exclude pharmaceutical companies when
-drug-related businesses are outside the candidate's preferences.
+## Canonical company list
 
-## Role-level exclusions
-
-Reject a vacancy at an otherwise suitable company when the role directly
-supports lending or interest calculation, gambling or betting, alcohol sales,
-adult content, conventional insurance underwriting, casino infrastructure,
-prohibited-product advertising, weapons targeting, oppressive surveillance, or
-another product explicitly excluded by the candidate.
-
----
-
-# Recommended monitoring groups
-
-## Weekly: Bangladesh/global remote
-
-- Canonical
-- LaunchGood
-- Yaqeen Institute
-- Muslim Pro / Bitsmedia
-- Tarteel AI
-- Temporal.io
-- Rocket.Chat
-- GitLab
-- Grafana Labs
-- Elastic
-- Camunda
-- HOT (Humanitarian OpenStreetMap Team)
-- UNICEF Innovation
-
-## Weekly: relocation to Muslim-majority countries
-
-- Alef Education
-- Tamara
-- Wahed Invest
-- Tarabut
-- Classera
-- Noon Academy
-- Unifonic
-- Elm
-- Lean Business Services
-- Altibbi
-- Okadoc
-- SITE
-- CNTXT
-- Presight
-- Property Finder
-- Bayut
-- Aerodyne Group
-- RunCloud
-- Mekari
-- Halodoc
-- Picus Security
-- GoTo / Gojek
-- Grab
-
-## Monthly: European relocation and aspirational infrastructure
-
-- JetBrains
-- Red Hat
-- Sonar
-- SUSE
-- Confluent
-- MongoDB
-- Redis
-- Docker
-- JFrog
-- Snyk
-- Cloudflare
-- Cockroach Labs
-- Conduktor
-- Carto
-- Mattermost
-- Automattic
-
----
-
-# Company review record
-
-Copy this record for each researched company. Keep private contacts, compensation,
-and sensitive notes in ignored files.
-
-```markdown
-### Company Name — NEEDS REVIEW
-
-| Field | Notes |
-| --- | --- |
-| Last verified | YYYY-MM-DD |
-| Current vacancy | Exact official vacancy title and reference |
-| Vacancy location | |
-| Employing entity | |
-| Candidate geography | Worldwide / Named countries / Local only / Unclear |
-| Bangladesh remote | Confirmed / Not supported / Unclear |
-| International applicants | Confirmed / Vacancy-specific / Unclear |
-| Visa sponsorship | Confirmed / Possible / Not offered / Unclear |
-| Relocation support | Confirmed / Possible / Not offered / Unclear |
-| Employment arrangement | Employee / EOR / Contractor / Unclear |
-| Target role | Senior Backend / Lead Backend / Architect |
-| Technology match | |
-| Evidence match | Link to résumé or inventory evidence |
-| Product and team | |
-| Principal customers | |
-| Ethical screening | Suitable / Review required / Exclude |
-| Screening reason | |
-| Confidence | Confirmed / Probable / Unclear |
-| Recruiter confirmation needed | |
-| Application priority | High / Medium / Low |
-| Status | Monitor / Preparing / Applied / Interviewing / Closed |
-| Next action | |
-```
-
----
-
-# Final recommended priority
-
-Your highest-value strategy is not to search only for sponsorship.
-
-Use three parallel routes:
-
-1. **Worldwide remote from Bangladesh:** Canonical, LaunchGood, Temporal.io, Rocket.Chat, selected Yaqeen roles and genuinely global vacancies.
-2. **Bangladesh employment with international product work:** Muslim Pro/Bitsmedia and other global companies with a Bangladesh entity.
-3. **Relocation to UAE, Saudi Arabia, Bahrain, Malaysia, Singapore, Jordan or Europe:** Alef Education, Tamara, Wahed Invest, Tarabut, JetBrains and vacancy-specific regional companies.
-
-The strongest combination of technical relevance, ethical alignment and geographic feasibility:
-
-1. Muslim Pro / Bitsmedia
-2. LaunchGood
-3. Tarteel AI
-4. Yaqeen Institute
-5. Canonical
-6. Temporal.io
-7. Tamara
-8. Wahed Invest
-9. Tarabut
-10. Alef Education
-11. Camunda
-12. Elastic
-13. Sonar
-14. Red Hat
-15. Classera
-16. Noon Academy
-17. HOT (Humanitarian OpenStreetMap Team)
-18. UNICEF Innovation
-19. Conduktor
-20. Lean Business Services
-21. Elm
-22. Unifonic
-
-A company should enter your active application queue only after the current vacancy confirms at least one viable route: **Bangladesh remote, international contractor, local Bangladesh employment, or sponsored relocation**.
+| Company | Priority | Status | Domain | Target route | Role tracks | Careers URL | ATS | ATS identifier | Eligibility | Ethical review | Check frequency | Last verified | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Canonical | A1 | Active | Linux, cloud, Kubernetes | Global remote | Senior backend; platform; architect | https://canonical.com/careers | Unknown | Unknown | Needs verification | No | Weekly | 2026-07-26 | Prefer Java-adjacent roles; exclude unsupported Linux, Python, Go, or region-restricted roles. |
+| LaunchGood | A1 | Active | Crowdfunding and social impact | Global remote | Backend; platform; lead | https://launchgood.com/v4/careers | Unknown | Unknown | Needs verification | Yes | Weekly | 2026-07-26 | Review payment-processing and campaign-compliance scope. |
+| Yaqeen Institute | A1 | Monitor | Education and digital products | Vacancy-specific | Backend; platform; architect | https://yaqeeninstitute.org/careers | Unknown | Unknown | Needs verification | No | Weekly | 2026-07-26 | Some roles may be geographically restricted. |
+| Muslim Pro / Bitsmedia | A1 | Active | Muslim digital products | Bangladesh remote | Backend; platform; lead | https://career.muslimpro.com | Unknown | Unknown | Probably eligible | Yes | Weekly | 2026-07-26 | Bangladesh presence does not establish eligibility for every vacancy; review fintech scope. |
+| Tarteel AI | A1 | Monitor | Speech AI and education | Vacancy-specific | Backend; platform; architect | https://tarteel.ai | Unknown | Unknown | Needs verification | No | Weekly | 2026-07-26 | Confirm hiring geography and role requirements. |
+| Temporal.io | A1 | Active | Workflow orchestration | Global remote | Senior backend; platform | https://temporal.io/careers | Unknown | Unknown | Needs verification | No | Weekly | 2026-07-26 | Strong Java and distributed-systems fit; confirm each vacancy's hiring locations. |
+| Rocket.Chat | A1 | Monitor | Open-source communications | Global remote | Backend; platform; lead | https://www.rocket.chat/careers | Unknown | Unknown | Needs verification | No | Weekly | 2026-07-26 | Mixed technology stack; confirm Java relevance. |
+| HOT (Humanitarian OpenStreetMap Team) | A1 | Monitor | Humanitarian mapping | Global remote | Backend; platform | https://www.hotosm.org/jobs/ | Unknown | Unknown | Needs verification | No | Weekly | 2026-07-26 | Mission-aligned; monitor for relevant engineering roles. |
+| UNICEF Innovation | A1 | Monitor | Humanitarian technology | Vacancy-specific | Backend; architect | https://www.unicef.org/careers | Unknown | Unknown | Needs verification | No | Weekly | 2026-07-26 | Confirm employing entity, vacancy location, and work authorization. |
+| GitLab | A2 | Active | DevOps platform | International contractor | Backend; platform; lead | https://about.gitlab.com/jobs/ | Greenhouse | Unknown | Needs verification | No | Weekly | 2026-07-26 | All-remote does not mean every country can be employed. |
+| Grafana Labs | A2 | Active | Observability | Vacancy-specific | Backend; platform | https://grafana.com/about/careers/ | Greenhouse | Unknown | Needs verification | No | Weekly | 2026-07-26 | Prefer Java-adjacent roles; many backend roles are Go-first. |
+| Elastic | A2 | Active | Search and data platform | Vacancy-specific | Backend; platform; architect | https://www.elastic.co/careers | Unknown | Unknown | Needs verification | No | Weekly | 2026-07-26 | Check location and language requirements per role. |
+| Camunda | A2 | Active | Process automation | Global remote | Senior backend; architect | https://camunda.com/career/ | Ashby | Unknown | Needs verification | No | Weekly | 2026-07-26 | Confirm that the specific vacancy explicitly permits Bangladesh. |
+| Conduktor | A2 | Monitor | Kafka and data streaming | Visa-sponsored relocation | Backend; platform | https://www.conduktor.io/careers | Unknown | Unknown | Needs verification | No | Weekly | 2026-07-26 | European-route target; confirm vacancy geography. |
+| Sourcegraph | A2 | Monitor | Code intelligence | Global remote | Backend; platform | https://sourcegraph.com/jobs | Unknown | Unknown | Needs verification | No | Weekly | 2026-07-26 | Confirm legal employing locations and Java relevance. |
+| Mattermost | A2 | Monitor | Secure collaboration | Global remote | Backend; platform; security | https://mattermost.com/careers/ | Unknown | Unknown | Needs verification | No | Weekly | 2026-07-26 | Mixed Go and React stack; target only compatible roles. |
+| Automattic | A2 | Monitor | Web platform | Global remote | Backend; platform | https://automattic.com/work-with-us/ | Unknown | Unknown | Needs verification | No | Weekly | 2026-07-26 | PHP-heavy; monitor only Java-adjacent engineering roles. |
+| JetBrains | B | Active | Developer tools | Visa-sponsored relocation | Backend; platform; architect | https://www.jetbrains.com/careers/ | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Apply only where the vacancy explicitly offers relocation or sponsorship. |
+| Alef Education | B | Active | Education technology | Visa-sponsored relocation | Backend; architect | https://www.alefeducation.com/careers/ | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | UAE roles require vacancy-level sponsorship confirmation. |
+| Tarabut | B | Active | Open banking APIs | Visa-sponsored relocation | Backend; platform | https://www.tarabut.com/careers | Unknown | Unknown | Needs verification | Yes | Biweekly | 2026-07-26 | Review product scope and financial-services responsibilities. |
+| Tamara | B | Ethical review required | Fintech | Visa-sponsored relocation | Backend; distributed systems | https://tamara.co/careers | Greenhouse | Unknown | Needs verification | Yes | Biweekly | 2026-07-26 | Apply only after role-level review; exclude prohibited lending or credit work. |
+| Wahed Invest | B | Ethical review required | Investment platform | Visa-sponsored relocation | Backend; data | https://wahed.com/careers | Unknown | Unknown | Needs verification | Yes | Biweekly | 2026-07-26 | Confirm fund and product scope before applying. |
+| Salam Booking | B | Monitor | Travel technology | Visa-sponsored relocation | Backend; platform | https://salambooking.com | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Confirm current hiring route. |
+| HalalTrip | B | Monitor | Travel technology | Visa-sponsored relocation | Backend; platform | https://www.halaltrip.com | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Confirm current hiring route. |
+| Hala | B | Ethical review required | SME fintech | Visa-sponsored relocation | Backend; platform | Unknown | Unknown | Unknown | Needs verification | Yes | Biweekly | 2026-07-26 | Verify financial product mechanics and team scope. |
+| Noon Academy | B | Monitor | Education technology | Vacancy-specific | Backend; platform | https://www.noonacademy.com/careers | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Confirm work location and sponsorship for each role. |
+| Classera | B | Ethical review required | Education technology | Vacancy-specific | Backend; platform | https://www.classera.com/careers | Unknown | Unknown | Needs verification | Yes | Biweekly | 2026-07-26 | Review payment and marketplace product responsibilities. |
+| GovTech Singapore | B | Monitor | Public digital services | Visa-sponsored relocation | Backend; architect | https://www.tech.gov.sg/careers | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Sponsorship and foreign eligibility are vacancy-specific. |
+| Synapxe | B | Monitor | Public health technology | Visa-sponsored relocation | Backend; platform | https://www.synapxe.sg/careers | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Sponsorship and foreign eligibility are vacancy-specific. |
+| NCS | B | Monitor | Public and enterprise technology | Visa-sponsored relocation | Backend; platform | https://www.ncs.co/en-sg/careers/ | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Country and vacancy-specific eligibility. |
+| Altibbi | B | Monitor | Telehealth | Visa-sponsored relocation | Backend; platform | https://altibbi.com | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Confirm current careers route and sponsoring entity. |
+| Okadoc | B | Monitor | Health technology | Visa-sponsored relocation | Backend; platform | https://www.okadoc.com | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Confirm current careers route and sponsoring entity. |
+| Lean Business Services | B | Monitor | Health technology | Visa-sponsored relocation | Backend; platform | https://lean.sa/careers | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Confirm sponsorship for each vacancy. |
+| Elm | B | Monitor | Public digital services | Visa-sponsored relocation | Backend; architect | https://elm.sa/en/careers | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Confirm sponsorship for each vacancy. |
+| Takamol Holding | B | Monitor | Public platforms | Visa-sponsored relocation | Backend; platform | https://takamolholding.com/careers | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Confirm sponsorship for each vacancy. |
+| Thiqah | B | Monitor | Government and enterprise services | Visa-sponsored relocation | Backend; platform | https://thiqah.sa | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Confirm sponsorship for each vacancy. |
+| Unifonic | B | Monitor | Communications APIs | Visa-sponsored relocation | Backend; platform | https://www.unifonic.com/careers | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Confirm sponsorship and product team. |
+| SITE | B | Ethical review required | Digital government | Visa-sponsored relocation | Backend; platform | https://site.sa | Unknown | Unknown | Needs verification | Yes | Biweekly | 2026-07-26 | Review government, security, and surveillance adjacency. |
+| CNTXT | B | Monitor | Cloud services | Visa-sponsored relocation | Backend; platform | https://www.cntxt.com/careers | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Confirm sponsorship and role fit. |
+| Presight | B | Ethical review required | AI and analytics | Visa-sponsored relocation | Backend; platform | https://presight.ai/careers | Unknown | Unknown | Needs verification | Yes | Biweekly | 2026-07-26 | Review surveillance, government, and defence-adjacent scope. |
+| Aerodyne Group | B | Monitor | Drone and digital services | Visa-sponsored relocation | Backend; platform | https://aerodyne.group/careers | Unknown | Unknown | Needs verification | Yes | Biweekly | 2026-07-26 | Review drone and customer-use scope. |
+| RunCloud | B | Monitor | Developer tools | Visa-sponsored relocation | Backend; platform | https://runcloud.io/careers | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Confirm location and work authorization. |
+| Mekari | B | Monitor | Enterprise SaaS | Visa-sponsored relocation | Backend; platform | https://mekari.com/career/ | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Confirm location and work authorization. |
+| Picus Security | C | Monitor | Security platform | Visa-sponsored relocation | Backend; platform | https://www.picussecurity.com/careers/ | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm geography and role fit. |
+| Halodoc | B | Monitor | Health technology | Local or regional only | Backend; platform | https://www.halodoc.com/careers | Unknown | Unknown | Needs verification | No | Biweekly | 2026-07-26 | Local or regional hiring may be the primary route. |
+| Alodokter | C | Monitor | Health technology | Local or regional only | Backend; platform | https://www.alodokter.com/career | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Local or regional hiring may be the primary route. |
+| Ruangguru | C | Monitor | Education technology | Local or regional only | Backend; platform | https://career.ruangguru.com | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Local or regional hiring may be the primary route. |
+| Red Hat | C | Monitor | Enterprise software | Visa-sponsored relocation | Backend; platform | https://www.redhat.com/en/jobs | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Monitor compatible Java roles and explicit work routes. |
+| Sonar | C | Monitor | Code quality | Visa-sponsored relocation | Backend; platform | https://www.sonarsource.com/company/careers/ | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm geography and hiring route. |
+| HERE Technologies | C | Monitor | Mapping technology | Visa-sponsored relocation | Backend; platform | https://www.here.com/careers | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm geography and product scope. |
+| TomTom | C | Monitor | Mapping technology | Visa-sponsored relocation | Backend; platform | https://www.tomtom.com/careers/ | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm geography and product scope. |
+| Esri | C | Monitor | Geospatial software | Visa-sponsored relocation | Backend; platform | https://www.esri.com/en-us/about/careers/overview | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm geography and product scope. |
+| Carto | C | Monitor | Spatial data | Visa-sponsored relocation | Backend; platform | https://carto.com/careers/ | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm geography and product scope. |
+| Redis | C | Monitor | Data platform | Vacancy-specific | Backend; platform | https://redis.io/careers/ | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm geography and role fit. |
+| MongoDB | C | Monitor | Data platform | Visa-sponsored relocation | Backend; platform | https://www.mongodb.com/careers | Greenhouse | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm geography and role fit. |
+| Confluent | C | Monitor | Data streaming | Visa-sponsored relocation | Backend; platform | https://www.confluent.io/careers/ | Greenhouse | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm geography and role fit. |
+| JFrog | C | Monitor | DevOps platform | Visa-sponsored relocation | Backend; platform | https://jfrog.com/careers/ | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm geography and role fit. |
+| Snyk | C | Monitor | Security platform | Visa-sponsored relocation | Backend; platform | https://snyk.io/careers/ | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm geography and role fit. |
+| Sentry | C | Monitor | Developer tools | Vacancy-specific | Backend; platform | https://sentry.io/careers/ | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm geography and role fit. |
+| Postman | C | Monitor | API platform | Visa-sponsored relocation | Backend; platform | https://www.postman.com/careers/ | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm geography and role fit. |
+| Docker | C | Monitor | Container platform | Visa-sponsored relocation | Backend; platform | https://www.docker.com/career-openings/ | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Core engineering may require infrastructure evidence beyond the verified profile. |
+| SUSE | C | Monitor | Linux and cloud | Visa-sponsored relocation | Backend; platform | https://www.suse.com/careers/ | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm stack and geography. |
+| Cloudflare | C | Monitor | Internet infrastructure | Visa-sponsored relocation | Backend; platform | https://www.cloudflare.com/careers/jobs/ | Greenhouse | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Systems roles may exceed verified infrastructure evidence; review customer scope. |
+| Akamai | C | Monitor | Internet infrastructure | Visa-sponsored relocation | Backend; platform | https://www.akamai.com/careers | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm stack and geography. |
+| Cockroach Labs | C | Monitor | Distributed database | Visa-sponsored relocation | Backend; platform | https://www.cockroachlabs.com/careers/ | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Database-internals roles may exceed verified evidence. |
+| Neo4j | C | Monitor | Graph database | Visa-sponsored relocation | Backend; platform | https://neo4j.com/careers/ | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Database-engine roles may exceed verified evidence. |
+| Celonis | C | Monitor | Process intelligence | Visa-sponsored relocation | Backend; platform | https://www.celonis.com/careers/ | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm stack and geography. |
+| Acronis | C | Monitor | Cybersecurity | Visa-sponsored relocation | Backend; platform | https://careers.acronis.com/ | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm stack and geography. |
+| Atlassian | C | Monitor | Developer tools | Visa-sponsored relocation | Backend; platform | https://www.atlassian.com/company/careers | Greenhouse | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm employing location and work route. |
+| Contentful | C | Monitor | Content platform | Visa-sponsored relocation | Backend; platform | https://www.contentful.com/careers/ | Greenhouse | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm geography and role fit. |
+| Nokia | C | Ethical review required | Telecommunications | Visa-sponsored relocation | Backend; platform | https://www.nokia.com/about-us/careers/ | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review security, government, and lawful-interception scope. |
+| Ericsson | C | Ethical review required | Telecommunications | Visa-sponsored relocation | Backend; platform | https://www.ericsson.com/en/careers | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review security, government, and lawful-interception scope. |
+| Siemens Digital Industries Software | C | Monitor | Industrial software | Visa-sponsored relocation | Backend; platform | https://jobs.siemens.com/careers | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm product area and work route. |
+| Bosch Digital | C | Monitor | Industrial software | Visa-sponsored relocation | Backend; platform | https://www.bosch.com/careers/ | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm product area and work route. |
+| ViTrox | C | Monitor | Industrial technology | Visa-sponsored relocation | Backend; platform | https://www.vitrox.com/careers | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm role relevance and work route. |
+| Property Finder | C | Ethical review required | Property marketplace | Visa-sponsored relocation | Backend; platform | https://www.propertyfinder.ae/careers | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review marketplace and advertising responsibilities. |
+| Bayut | C | Ethical review required | Property marketplace | Visa-sponsored relocation | Backend; platform | https://www.bayut.com/careers/ | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review marketplace and advertising responsibilities. |
+| Privy | C | Monitor | Digital identity | Visa-sponsored relocation | Backend; platform | https://privy.id/career | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm geography and role fit. |
+| Careem | C | Ethical review required | Super-app | Visa-sponsored relocation | Backend; platform | https://www.careem.com/careers/ | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review financial-services and product scope. |
+| Tabby | C | Ethical review required | Fintech | Visa-sponsored relocation | Backend; platform | https://tabby.ai/careers | Greenhouse | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Exclude prohibited lending or credit work. |
+| Foodics | C | Ethical review required | Merchant platform | Visa-sponsored relocation | Backend; platform | https://www.foodics.com/careers | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review merchant product responsibilities. |
+| Mozn | C | Ethical review required | AI and security | Visa-sponsored relocation | Backend; platform | https://mozn.sa/careers | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review security and government customer scope. |
+| GoTo / Gojek | C | Ethical review required | Super-app | Visa-sponsored relocation | Backend; platform | https://www.gotocompany.com/careers | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review financial-services and product scope. |
+| Grab | C | Ethical review required | Super-app | Visa-sponsored relocation | Backend; platform | https://www.grab.careers/ | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review financial-services and product scope. |
+| Xendit | C | Ethical review required | Payment infrastructure | Visa-sponsored relocation | Backend; platform | https://www.xendit.co/careers | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Confirm team scope before applying. |
+| Lalamove | C | Monitor | Logistics technology | Visa-sponsored relocation | Backend; platform | https://www.lalamove.com/en/careers | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Confirm geography and work route. |
+| G42 / Core42 | C | Ethical review required | AI and cloud | Visa-sponsored relocation | Backend; platform | https://www.g42.ai/careers | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review government, surveillance, and defence-adjacent scope. |
+| Rohde & Schwarz | C | Ethical review required | Communications technology | Visa-sponsored relocation | Backend; platform | https://www.rohde-schwarz.com/career/ | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review defence and surveillance adjacency. |
+| Amazon | C | Ethical review required | Cloud and commerce | Visa-sponsored relocation | Backend; platform | https://www.amazon.jobs/ | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review business unit, customers, and role scope. |
+| Google | C | Ethical review required | Technology platform | Visa-sponsored relocation | Backend; platform | https://www.google.com/about/careers/ | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review business unit, customers, and role scope. |
+| Microsoft | C | Ethical review required | Technology platform | Visa-sponsored relocation | Backend; platform | https://jobs.careers.microsoft.com/ | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review business unit, customers, and role scope. |
+| Oracle | C | Ethical review required | Enterprise software | Visa-sponsored relocation | Backend; platform | https://www.oracle.com/careers/ | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review business unit, customers, and role scope. |
+| SAP | C | Ethical review required | Enterprise software | Visa-sponsored relocation | Backend; platform | https://www.sap.com/about/careers.html | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review business unit, customers, and role scope. |
+| IBM | C | Ethical review required | Enterprise software | Visa-sponsored relocation | Backend; platform | https://www.ibm.com/careers | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review business unit, customers, and role scope. |
+| Vercel | C | Monitor | Developer platform | Vacancy-specific | Backend; platform | https://vercel.com/careers | Unknown | Unknown | Needs verification | No | Monthly | 2026-07-26 | Platform roles may exceed verified infrastructure evidence. |
+| Salla | C | Ethical review required | Merchant platform | Visa-sponsored relocation | Backend; platform | https://salla.com/careers | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review merchant product responsibilities. |
+| Zid | C | Ethical review required | Merchant platform | Visa-sponsored relocation | Backend; platform | https://zid.sa/careers | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review merchant product responsibilities. |
+| StoreHub | C | Ethical review required | Merchant platform | Visa-sponsored relocation | Backend; platform | https://www.storehub.com/careers | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review merchant product responsibilities. |
+| Dubizzle Group | C | Ethical review required | Marketplace | Visa-sponsored relocation | Backend; platform | https://www.dubizzlegroup.com/careers | Unknown | Unknown | Needs verification | Yes | Monthly | 2026-07-26 | Review marketplace and advertising responsibilities. |
+| Quran.com / Quran Foundation | C | Monitor | Education and digital infrastructure | Unverified | Backend; platform | https://quran.foundation | Unknown | Unknown | Needs verification | No | Manual only | 2026-07-26 | Hiring route is unverified. |
+| Muslim Central | C | Monitor | Educational media | Unverified | Backend; platform | https://muslimcentral.com | Unknown | Unknown | Needs verification | No | Manual only | 2026-07-26 | Hiring route is unverified. |
+| Islamic Network | C | Monitor | Islamic APIs | Unverified | Backend; platform | https://www.islamicnetwork.com | Unknown | Unknown | Needs verification | No | Manual only | 2026-07-26 | Hiring route is unverified. |

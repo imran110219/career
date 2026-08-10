@@ -14,6 +14,10 @@ Always read:
 
 `config/job-search.yml`
 
+and the canonical company-monitoring table:
+
+`applications/target-companies.md`
+
 before performing a search.
 
 The configuration controls:
@@ -32,6 +36,12 @@ The configuration controls:
 - resume mapping
 - output structure
 - safety rules
+
+The target-company table supplies monitoring order and company-specific cautions.
+Skip companies with `Paused` or `Archived` status. A target-company priority
+boost may order otherwise qualified vacancies, but it must never override an
+eligibility exclusion, mandatory unsupported primary language, ethical sector
+exclusion, market minimum score, or an expired vacancy.
 
 Do not hardcode values already defined in the configuration.
 
@@ -70,7 +80,7 @@ Do not build:
 
 Search using role, technology, and market combinations derived from the configuration.
 
-Also inspect:
+Also inspect, in the monitoring order from the canonical company table:
 
 - original employer career pages
 - official applicant-tracking pages
@@ -112,6 +122,20 @@ Do not assume:
 
 When eligibility is uncertain but allowed by configuration, clearly mark the uncertainty.
 
+Classify eligibility separately from match score as one of:
+
+- `Confirmed eligible`
+- `Probably eligible`
+- `Needs verification`
+- `Not eligible`
+
+Classify evidence confidence separately as `High`, `Medium`, or `Low`, using
+the definitions in the configuration. Eligibility must rest on explicit vacancy
+or employer evidence. Do not infer Bangladesh eligibility from “remote”,
+sponsorship from an international employer, relocation from an office location,
+worldwide employment from a distributed workforce, or contractor eligibility
+from flexible-work wording.
+
 Reject roles that meet configured exclusion conditions.
 
 ## Scoring
@@ -129,6 +153,11 @@ For every selected job:
 - exclude roles marked `exclude`
 - never exceed category maximums
 - do not manipulate scores to force a result into the report
+
+The match score is candidate-role alignment only. Do not use it as a proxy for
+evidence confidence or employment eligibility. Apply the configured stricter
+location-feasibility rules: uncertain Bangladesh eligibility cannot receive full
+location points.
 
 For auditability, include this score breakdown:
 
@@ -165,6 +194,13 @@ Before generating the new report:
 4. Refresh their dates, eligibility notes, and scores where appropriate.
 5. Remove expired, filled, inaccessible, or duplicate roles.
 6. Prefer the official application URL.
+7. Prefer an official posting ID, then a normalized original URL, then normalized
+   employer, title, and location for duplicate detection.
+8. Remove tracking parameters from URLs and do not keep board reposts alongside
+   the official listing.
+9. Generate a stable Job ID: `company-slug__official-posting-id` when the ID is
+   present; otherwise `company-slug__normalized-role__normalized-location`.
+   Never invent a posting ID.
 
 Do not create multiple entries for the same vacancy posted by different sites.
 
@@ -208,6 +244,11 @@ Use this format for each job:
 
 - **Match score:** 88/100
 - **Classification:** Excellent Match
+- **Job ID:** company-slug__official-posting-id
+- **Evidence confidence:** High
+- **Eligibility:** Confirmed eligible
+- **Target-company priority:** A1, A2, B, C, or Not listed
+- **Last verified:** YYYY-MM-DD
 - **Location:** City, Country
 - **Work mode:** Remote, hybrid, or onsite
 - **Published:** YYYY-MM-DD or configured unspecified value
@@ -326,12 +367,12 @@ When instructed to run job discovery:
 1. Read `config/job-search.yml`.
 2. Validate the configuration structure.
 3. Read verified candidate evidence.
-4. Optionally read `applications/target-companies.md`.
+4. Read `applications/target-companies.md`; skip Paused and Archived companies.
 5. Read the prior output when available.
 6. Search current public vacancies.
 7. Open and validate original job pages.
 8. Reject unsuitable, expired, duplicate, or unverifiable vacancies.
-9. Score valid jobs.
+9. Generate stable Job IDs; score valid jobs; classify confidence and eligibility separately.
 10. Apply market thresholds and result limits.
 11. Recommend one resume per job.
 12. Generate the configured Markdown output.

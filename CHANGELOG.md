@@ -3,6 +3,21 @@
 ## Unreleased
 
 - Added CLAUDE.md with candidate snapshot, hard rules, repo layout, and common task prompts for future AI sessions.
+- Recorded professional pull-request-validation experience with JUnit, Mockito, Spring Boot Test, and Postman for unit, API, and integration testing; distinguished separate Testcontainers lab/personal-project practice from professional-project evidence and updated the interview roadmap and evidence backlog.
+- Added the Crossing Hurdles Senior Software Engineer contract job description and application-tracker entry; recorded the LinkedIn Easy Apply application as submitted on 2026-08-09 using the Senior Backend resume.
+- Reoriented the skill-gap backlog, Senior Backend preparation, shared distributed-systems guidance, interview question bank, and job-search profile toward production-owning senior backend roles: incident response, observability, measurable performance, distributed failure handling, architecture judgment, and critically evaluated AI-assisted development.
+- Added the Craftsmen Senior Backend Software Engineer job description, initial evidence mapping, and application-tracker entry; recorded it as researching without marking it applied.
+- Recorded Penta Global Election Management System evidence for PostgreSQL read-replica routing, automated SonarQube and Trivy CI checks, remediation of critical and high-severity dependency vulnerabilities, and 15 pre-election production deployments; synchronized the canonical, reusable, evidence, and role-targeted resume sources.
+- Expanded the main README with job-search workflow guidance and a complete top-level folder map.
+- Recorded verified RabbitMQ, CI/CD, GitHub Actions, Jenkins, Nginx configuration, and Locust load-testing experience; updated the evidence backlog to distinguish verified CI/CD use from unverified platform-engineering ownership.
+- Synchronized the InScale application package and ATS-alignment reports with the newly recorded CI/CD and RabbitMQ evidence.
+- Added an InScale / Teletrac Navman application workspace, a resume-safe evidence mapping, a tailored Senior Java Developer resume source, and a tailored cover letter; recorded the role as researching without marking it applied.
+- Refreshed the skill-gap backlog against the micro1 and InScale / Teletrac Navman backend job descriptions; added explicit AI-assisted-development and serverless evidence gaps.
+- Added the InScale / Teletrac Navman Senior Java Developer job description for future tailoring and ATS analysis.
+- Separated verified resume skills, market-demand terms, and evidence gaps. Added a skill-gap backlog, removed unverified/legacy terms from reusable resume skills, and updated job-search guidance to prevent market keywords from being treated as candidate claims.
+- Added a transparent, evidence-aware ATS alignment analyzer for Markdown resumes and job descriptions.
+- Expanded configuration-driven job positioning and market prioritization, added job-discovery instructions and workspace/report placeholder, and integrated discovery guidance with the existing `applications/tracker.csv`.
+- Replaced the target-company template with a product-domain shortlist, role-level screening guidance, and a repeatable company-review record.
 
 ## 2026-08-11
 
@@ -15,17 +30,6 @@
 
 - Aligned sadman-portfolio data files with career/master/ verified facts: fixed experience.json (added Jaliks role, corrected dates and descriptions), projects.json (removed fabricated stars, added FactLens, fixed Open-Care with real links), achievements.json (replaced project listings with verified achievements), skills.json and core-skills.json (removed unverified skills: GCP/AWS, Spring Cloud, gRPC, Redux, MySQL, MongoDB, Terraform, Helm, Prometheus, Grafana), detailed-projects.json (corrected Open-Care as personal open-source project, removed standalone Keycloak Auth Service project, corrected e-GP role title from "Lead Java Developer" to "Java Software Engineer", removed fabricated metrics), services.json (removed University Management System and Diagnostic Center case studies not in master files, replaced speculative prices with "Get in touch").
 - Cleared fake testimonial placeholders from portfolio (John Smith, Sarah Johnson, Michael Chen).
-
-- Expanded the main README with job-search workflow guidance and a complete top-level folder map.
-- Recorded verified RabbitMQ, CI/CD, GitHub Actions, Jenkins, Nginx configuration, and Locust load-testing experience; updated the evidence backlog to distinguish verified CI/CD use from unverified platform-engineering ownership.
-- Synchronized the InScale application package and ATS-alignment reports with the newly recorded CI/CD and RabbitMQ evidence.
-- Added an InScale / Teletrac Navman application workspace, a resume-safe evidence mapping, a tailored Senior Java Developer resume source, and a tailored cover letter; recorded the role as researching without marking it applied.
-- Refreshed the skill-gap backlog against the micro1 and InScale / Teletrac Navman backend job descriptions; added explicit AI-assisted-development and serverless evidence gaps.
-- Added the InScale / Teletrac Navman Senior Java Developer job description for future tailoring and ATS analysis.
-- Separated verified resume skills, market-demand terms, and evidence gaps. Added a skill-gap backlog, removed unverified/legacy terms from reusable resume skills, and updated job-search guidance to prevent market keywords from being treated as candidate claims.
-- Added a transparent, evidence-aware ATS alignment analyzer for Markdown resumes and job descriptions.
-- Expanded configuration-driven job positioning and market prioritization, added job-discovery instructions and workspace/report placeholder, and integrated discovery guidance with the existing `applications/tracker.csv`.
-- Replaced the target-company template with a product-domain shortlist, role-level screening guidance, and a repeatable company-review record.
 
 All notable updates to this career repository should be documented here.
 

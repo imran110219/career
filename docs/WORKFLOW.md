@@ -5,7 +5,7 @@
 3. Update reusable sections only when they remain accurate.
 4. Tailor one primary role track; do not copy every master bullet.
 5. Generate DOCX/PDF only after Markdown is finalized, using public or local private contact configuration.
-6. Record applications in `applications/tracker.csv`; store sensitive notes only in ignored files.
+6. Promote a discovered role manually only after reopening the official vacancy and reviewing eligibility: add its Job ID and compact state to `applications/tracker.csv`. Store a job description only when tailoring is needed and create `companies/applications/<company>/` only for a serious application; store sensitive notes only in ignored files.
 7. Add material updates to `CHANGELOG.md`.
 
 ## Claim Status

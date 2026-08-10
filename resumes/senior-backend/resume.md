@@ -33,12 +33,10 @@ Senior Backend Engineer with 9+ years of experience delivering secure, scalable 
 Dhaka, Bangladesh | August 2023 - Present
 
 - Lead backend engineering activities for an Election Management System, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
-- Key technologies: Java, Spring Boot, Hibernate, REST APIs, RabbitMQ, Docker, Kubernetes, Keycloak, CI/CD, GitHub Actions.
 - Design service interactions and REST API contracts across a microservices architecture of nearly 25 services, delivering secure, scalable Java and Spring Boot services.
-- Contribute to delivery of an internal system reported to support 50,000 users and approximately 100,000 daily requests during election periods.
-- Contribute to approximately 30 deployments by writing Dockerfiles and diagnosing deployment failures in the organization's self-managed Kubernetes data center.
-- Digitize result-center, voter, candidate, and percentage-calculation workflows for approximately 300 returning officers; strengthen validation and role-based access controls.
-- Use RabbitMQ for election-management workflows and CI/CD pipelines, including GitHub Actions, across projects.
+- Contribute to delivery of an internal system reported to support 50,000 users, alongside a public-facing application that does not require authentication.
+- Implemented application-level routing of center and polling-personnel search reads to PostgreSQL read replicas, improving search responsiveness and reducing load on the primary transactional database.
+- Configured SonarQube quality gates and Trivy dependency-vulnerability scanning in CI/CD, identifying and remediating critical and high-severity dependency vulnerabilities before release.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 

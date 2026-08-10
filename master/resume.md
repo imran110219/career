@@ -22,14 +22,14 @@ Experienced leading backend engineering work, designing security- and data-integ
 
 ## Core Skills
 
-| Category | Skills |
-| --- | --- |
-| Languages | Java, SQL, C# |
-| Backend | Spring Boot, Hibernate, REST APIs, RabbitMQ, PDF generation |
-| Architecture | Microservices, distributed systems, backend architecture, API design, database modeling |
-| Data & Performance | PostgreSQL, SQL Server, Redis, query optimization, relational database design |
-| Security | Keycloak, JWT token introspection, role-based authorization, data privacy, data integrity |
-| Infrastructure | Docker, Kubernetes, Nginx configuration, deployment troubleshooting |
+| Category              | Skills                                                                                                                                                               |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Languages             | Java, SQL, C#                                                                                                                                                        |
+| Backend               | Spring Boot, Hibernate, REST APIs, RabbitMQ, PDF generation                                                                                                          |
+| Architecture          | Microservices, distributed systems, backend architecture, API design, database modeling                                                                              |
+| Data & Performance    | PostgreSQL, SQL Server, Redis, query optimization, relational database design                                                                                        |
+| Security              | Keycloak, JWT token introspection, role-based authorization, data privacy, data integrity                                                                            |
+| Infrastructure        | Docker, Kubernetes, Nginx configuration, deployment troubleshooting                                                                                                  |
 | Leadership & Delivery | CI/CD, GitHub Actions, Jenkins, Locust load testing, technical leadership, mentoring, grooming, planning, code reviews, stakeholder collaboration, Agile development |
 
 ## Experience
@@ -39,12 +39,13 @@ Experienced leading backend engineering work, designing security- and data-integ
 Dhaka, Bangladesh | August 2023 - Present
 
 - Lead backend engineering activities for an Election Management System, including task allocation, grooming, planning, implementation guidance, and code reviews within a 30-person development team.
-- **Key technologies:** Java, Spring Boot, Hibernate, REST APIs, RabbitMQ, Docker, Kubernetes, Keycloak, CI/CD, GitHub Actions.
 - Lead backend delivery for candidate review, nomination lifecycle, verification, status-transition, and payment-linked submission workflows handling sensitive identity, disclosure, and election data.
 - Design service interactions, REST API contracts, and reporting workflows across a microservices architecture of nearly 25 services; own a reporting service that consolidates data to generate official nomination, candidate, schedule, and result PDF reports.
 - Contribute to delivery of an internal system reported to support 50,000 users and approximately 100,000 daily requests during election periods, compared with approximately 10,000 requests per day before elections.
-- Contribute to approximately 30 deployments by writing Dockerfiles, configuring Nginx, and diagnosing deployment failures in the organization's self-managed Kubernetes data center; use CI/CD pipelines, including GitHub Actions, across projects.
-- Digitize result-center, voter, candidate, and percentage-calculation workflows for approximately 300 returning officers; strengthen validation and role-based controls to prevent unwanted data changes.
+- Contributed to approximately 30 deployments by writing Dockerfiles, configuring Nginx, and diagnosing deployment failures in the organization's self-managed Kubernetes data center; supported 15 production deployments during the three months preceding elections.
+- Implemented application-level routing of center and polling-personnel search reads to PostgreSQL read replicas, improving search responsiveness and reducing load on the primary transactional database.
+- Configured SonarQube quality gates and Trivy dependency-vulnerability scanning in CI/CD, identifying and remediating critical and high-severity dependency vulnerabilities before release.
+- Digitized result-center, voter, candidate, and percentage-calculation workflows for approximately 300 returning officers; strengthened validation and role-based controls to prevent unwanted data changes.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
 

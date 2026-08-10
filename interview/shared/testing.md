@@ -1,6 +1,6 @@
 # Testing Preparation
 
-Testing is a high-priority evidence gap because [skill gaps](../../master/skill-gaps.md) records no project-specific test-suite ownership yet.
+Testing is a high-priority evidence-capture area, not an unsupported skill. Professional evidence records JUnit, Mockito, Spring Boot Test, and Postman use for unit, API, and integration testing during pull-request validation across multiple projects. A project-specific example and outcome still need capture.
 
 ## Focus Areas
 
@@ -36,4 +36,4 @@ Testing is a high-priority evidence gap because [skill gaps](../../master/skill-
 
 ## Evidence Notes
 
-Current repository evidence supports Locust load testing and Jenkins use for the exam-management system, but not broad automated test ownership. Treat this as `Practising` or `Implementing` until a concrete project example exists.
+Current evidence supports professional pull-request validation using JUnit, Mockito, Spring Boot Test, and Postman, alongside Locust load testing and Jenkins use for the exam-management system. Treat automated testing as `Practising` with professional evidence. Testcontainers is hands-on lab/personal-project evidence only; do not present it as professional-project use. Capture one representative PR, including its scope and outcome, before making broader ownership or quality-impact claims.

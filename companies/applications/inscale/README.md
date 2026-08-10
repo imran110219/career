@@ -3,6 +3,7 @@
 ## Application Status
 
 - Status: Researching — not submitted
+- Job ID: `inscale-teletrac-navman__senior-java-developer__malaysia`
 - Source: [InScale careers posting](https://careers.inscale.net/positions/5360-senior-java-developer)
 - Role location: Kuala Lumpur, Malaysia; listed as fully remote and permanent
 - Client: Teletrac Navman
