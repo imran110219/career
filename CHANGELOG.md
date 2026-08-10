@@ -2,6 +2,20 @@
 
 ## Unreleased
 
+- Added CLAUDE.md with candidate snapshot, hard rules, repo layout, and common task prompts for future AI sessions.
+
+## 2026-08-11
+
+### Fixed
+
+- Corrected tense inconsistency in master/resume.md Penta Global section: changed "Contributed to approximately 30 deployments...used CI/CD pipelines" to present tense ("Contribute", "use") to match the rest of the current-role bullets.
+- Strengthened senior-backend/resume.md Penta Global bullets: replaced weak "alongside a public-facing application that does not require authentication" with the election-period traffic metric (100,000 daily requests), split combined deployment/workflow bullet into two focused bullets, added "300 returning officers" digitization bullet.
+
+### Changed
+
+- Aligned sadman-portfolio data files with career/master/ verified facts: fixed experience.json (added Jaliks role, corrected dates and descriptions), projects.json (removed fabricated stars, added FactLens, fixed Open-Care with real links), achievements.json (replaced project listings with verified achievements), skills.json and core-skills.json (removed unverified skills: GCP/AWS, Spring Cloud, gRPC, Redux, MySQL, MongoDB, Terraform, Helm, Prometheus, Grafana), detailed-projects.json (corrected Open-Care as personal open-source project, removed standalone Keycloak Auth Service project, corrected e-GP role title from "Lead Java Developer" to "Java Software Engineer", removed fabricated metrics), services.json (removed University Management System and Diagnostic Center case studies not in master files, replaced speculative prices with "Get in touch").
+- Cleared fake testimonial placeholders from portfolio (John Smith, Sarah Johnson, Michael Chen).
+
 - Expanded the main README with job-search workflow guidance and a complete top-level folder map.
 - Recorded verified RabbitMQ, CI/CD, GitHub Actions, Jenkins, Nginx configuration, and Locust load-testing experience; updated the evidence backlog to distinguish verified CI/CD use from unverified platform-engineering ownership.
 - Synchronized the InScale application package and ATS-alignment reports with the newly recorded CI/CD and RabbitMQ evidence.

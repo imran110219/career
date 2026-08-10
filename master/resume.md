@@ -43,7 +43,7 @@ Dhaka, Bangladesh | August 2023 - Present
 - Lead backend delivery for candidate review, nomination lifecycle, verification, status-transition, and payment-linked submission workflows handling sensitive identity, disclosure, and election data.
 - Design service interactions, REST API contracts, and reporting workflows across a microservices architecture of nearly 25 services; own a reporting service that consolidates data to generate official nomination, candidate, schedule, and result PDF reports.
 - Contribute to delivery of an internal system reported to support 50,000 users and approximately 100,000 daily requests during election periods, compared with approximately 10,000 requests per day before elections.
-- Contributed to approximately 30 deployments by writing Dockerfiles, configuring Nginx, and diagnosing deployment failures in the organization's self-managed Kubernetes data center; used CI/CD pipelines, including GitHub Actions, across projects.
+- Contribute to approximately 30 deployments by writing Dockerfiles, configuring Nginx, and diagnosing deployment failures in the organization's self-managed Kubernetes data center; use CI/CD pipelines, including GitHub Actions, across projects.
 - Digitize result-center, voter, candidate, and percentage-calculation workflows for approximately 300 returning officers; strengthen validation and role-based controls to prevent unwanted data changes.
 
 ### Dynamic Solution Innovators Ltd. - Software Engineer
