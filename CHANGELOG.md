@@ -108,13 +108,13 @@ All notable updates to this career repository should be documented here.
 
 ## Conventions
 
-| Change Type | Description |
-| --- | --- |
-| Added | New resume versions, sections, templates, applications, or assets. |
-| Changed | Updates to positioning, wording, metrics, formatting, or workflows. |
-| Deprecated | Materials that should no longer be used but are not yet archived. |
-| Removed | Deleted obsolete files or abandoned drafts. |
-| Fixed | Corrected typos, formatting problems, broken links, or inaccurate details. |
+| Change Type | Description                                                                |
+| ----------- | -------------------------------------------------------------------------- |
+| Added       | New resume versions, sections, templates, applications, or assets.         |
+| Changed     | Updates to positioning, wording, metrics, formatting, or workflows.        |
+| Deprecated  | Materials that should no longer be used but are not yet archived.          |
+| Removed     | Deleted obsolete files or abandoned drafts.                                |
+| Fixed       | Corrected typos, formatting problems, broken links, or inaccurate details. |
 
 ## Release Notes Template
 
@@ -123,13 +123,13 @@ All notable updates to this career repository should be documented here.
 
 ### Added
 
-- 
+-
 
 ### Changed
 
-- 
+-
 
 ### Fixed
 
-- 
+-
 ```
