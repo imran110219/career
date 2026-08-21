@@ -112,6 +112,10 @@ Prefer the employer or official ATS page over copied listings.
 
 Apply the configured market and remote rules.
 
+For overseas roles, assume the candidate is based in Bangladesh, open to
+relocation, and requires visa sponsorship or work-authorization support unless
+the role is confirmed as Bangladesh-remote or globally remote eligible.
+
 Do not assume:
 
 - remote means worldwide

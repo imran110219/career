@@ -69,3 +69,7 @@ Always verify:
 - work-authorization requirements
 
 before applying.
+
+For overseas roles, assume the candidate is based in Bangladesh, open to
+relocation, and requires visa sponsorship or work-authorization support unless
+the role is confirmed as Bangladesh-remote or globally remote eligible.
