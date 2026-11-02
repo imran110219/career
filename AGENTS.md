@@ -59,6 +59,7 @@ Every resume version should satisfy this checklist:
 | --- | --- |
 | `senior-backend` | Hands-on Java/Spring backend delivery, APIs, PostgreSQL, reliability, performance. |
 | `lead-backend` | Backend delivery plus mentoring, planning, code review, ownership, stakeholder collaboration. |
+| `staff-backend` | Hands-on backend engineering with cross-service design influence, system quality, and technical guidance; do not imply direct reports or unverified organization-wide authority. |
 | `software-architect` | System design, distributed systems, API architecture, data modeling, security, scalability. |
 | `platform-engineer` | Developer experience, CI/CD, observability, automation, reliability, operational standards. |
 | `engineering-manager` | People leadership, delivery execution, planning, hiring, technical credibility. |

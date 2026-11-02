@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Added CLAUDE.md with candidate snapshot, hard rules, repo layout, and common task prompts for future AI sessions.
+- Added a selective Staff Backend Engineer resume track with Markdown source, public-safe DOCX/PDF exports, cover letter, and track guidance. Positioned around verified hands-on cross-service technical influence without implying direct reports or unsupported organization-wide authority.
 
 ## 2026-08-11
 

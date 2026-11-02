@@ -37,7 +37,7 @@ This repository stores professional career materials for **Sadman Sobhan**, a Se
 | Current role | Senior Software Engineer — Penta Global Ltd. (Aug 2023–Present) |
 | Total experience | ~9 years (Oct 2016–present) |
 | Core stack | Java, Spring Boot, REST APIs, PostgreSQL, Redis, Microservices, Docker |
-| Target roles | Senior Backend Engineer, Lead Backend Engineer, Backend Technical Lead |
+| Target roles | Senior Backend Engineer, Lead Backend Engineer, Staff Backend Engineer, Backend Technical Lead |
 | Target markets | Malaysia, Singapore, UAE, Saudi Arabia, Qatar, Germany, Ireland, Global Remote |
 | Based in | Bangladesh |
 
