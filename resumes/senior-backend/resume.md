@@ -24,7 +24,7 @@ Senior Backend Engineer with 9+ years of experience delivering secure, scalable 
 - **Backend:** Spring Boot, Hibernate, REST APIs, RabbitMQ, Microservices, Backend Architecture
 - **Data & Performance:** PostgreSQL, SQL Server, Redis, Database Modeling, Query Optimization
 - **Security & Platform:** Keycloak, Authentication, Authorization, Kubernetes, Data Integrity
-- **Delivery:** CI/CD, GitHub Actions, Jenkins, Nginx, Locust, Agile Development, Requirements Analysis, Deployment, Code Review, Mentoring
+- **Delivery:** AI-assisted agentic coding (OpenAI Codex, Claude), CI/CD, GitHub Actions, Jenkins, Nginx, Locust, Agile Development, Requirements Analysis, Deployment, Code Review, Mentoring
 
 ## Professional Experience
 

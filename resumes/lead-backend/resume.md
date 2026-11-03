@@ -17,7 +17,7 @@ Senior Backend Engineer with 9+ years of experience combining hands-on Java and 
 
 ## Technical Skills
 
-- Leadership & Delivery: Technical mentoring, grooming, planning, code review, stakeholder collaboration, Agile development
+- Leadership & Delivery: Technical mentoring, grooming, planning, code review, stakeholder collaboration, AI-assisted agentic coding (OpenAI Codex, Claude), Agile development
 - Backend & Architecture: Java, Spring Boot, Hibernate, REST APIs, RabbitMQ, Microservices, Backend Architecture
 - Data & Performance: PostgreSQL, SQL Server, Redis, Database Modeling, Query Optimization
 - Security & Platform: Keycloak, Authentication, Authorization, Kubernetes, Nginx, CI/CD, GitHub Actions, Jenkins, Locust, Data Integrity

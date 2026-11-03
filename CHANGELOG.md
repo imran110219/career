@@ -5,6 +5,15 @@
 - Added CLAUDE.md with candidate snapshot, hard rules, repo layout, and common task prompts for future AI sessions.
 - Added a selective Staff Backend Engineer resume track with Markdown source, public-safe DOCX/PDF exports, cover letter, and track guidance. Positioned around verified hands-on cross-service technical influence without implying direct reports or unsupported organization-wide authority.
 
+## 2026-11-02
+
+### Changed
+
+- Recorded the candidate preference to avoid fintech and gambling in job-search exclusions; paused fintech-focused target companies and clarified screening for financial-product roles at mixed-business companies.
+- Updated the private compensation note to mark the unsubmitted First Circle fintech application as no longer to pursue.
+
+- Added candidate-confirmed OpenAI Codex and Claude agentic-coding experience to the canonical, Senior Backend, and Lead Backend resume skills, reusable skill section, and verified skill inventory. Kept the claim at skills level because project-specific workflow, safeguards, and outcomes are not yet documented.
+
 ## 2026-08-11
 
 ### Fixed

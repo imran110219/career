@@ -30,7 +30,7 @@ Experienced leading backend engineering work, designing security- and data-integ
 | Data & Performance    | PostgreSQL, SQL Server, Redis, query optimization, relational database design                                                                                        |
 | Security              | Keycloak, JWT token introspection, role-based authorization, data privacy, data integrity                                                                            |
 | Infrastructure        | Docker, Kubernetes, Nginx configuration, deployment troubleshooting                                                                                                  |
-| Leadership & Delivery | CI/CD, GitHub Actions, Jenkins, Locust load testing, technical leadership, mentoring, grooming, planning, code reviews, stakeholder collaboration, Agile development |
+| Leadership & Delivery | CI/CD, GitHub Actions, Jenkins, Locust load testing, AI-assisted agentic coding (OpenAI Codex, Claude), technical leadership, mentoring, grooming, planning, code reviews, stakeholder collaboration, Agile development |
 
 ## Experience
 

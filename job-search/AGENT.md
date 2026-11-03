@@ -140,7 +140,13 @@ sponsorship from an international employer, relocation from an office location,
 worldwide employment from a distributed workforce, or contractor eligibility
 from flexible-work wording.
 
-Reject roles that meet configured exclusion conditions.
+Reject roles that meet configured exclusion conditions. The candidate excludes
+fintech-focused employers and roles, including roles directly supporting digital
+banking, payments, lending or credit, investment/trading platforms, or crypto
+exchanges. The candidate also excludes gambling businesses and roles directly
+supporting casinos, sports betting, online betting, or iGaming. At mixed-business
+companies, consider a vacancy only when the employer's primary business is not
+excluded and the exact team and duties are confirmed to be outside those products.
 
 ## Scoring
 

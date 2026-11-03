@@ -236,7 +236,6 @@ job_preferences:
     include:
       - product company
       - enterprise software company
-      - fintech
       - healthtech
       - govtech
       - edtech
@@ -253,6 +252,13 @@ job_preferences:
       - anonymous employer
       - candidate-paid recruitment
       - training program presented as employment
+
+  ethical_sector_exclusions:
+    exclude_company_or_product_domains:
+      - fintech-focused employers and roles, including digital banking, payments, lending or credit, investment or trading platforms, and crypto exchanges
+      - gambling businesses and roles, including casinos, sports betting, online betting, and iGaming
+    exclude_roles_directly_supporting_these_products: true
+    allow_unrelated_roles_at_mixed-business_companies_only_when_the_team_and_duties_are_confirmed: true
 
 freshness:
   preferred_published_within_days: 14
