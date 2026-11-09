@@ -4,6 +4,8 @@
 
 - Added a persistent job-application workspace under `job-search/` with candidate profile, job preferences, and application rules. The workspace separates verified career evidence from candidate-provided details pending confirmation and requires approval before application submission.
 - Added the 2026-11-09 LinkedIn opportunity report under `job-search/latest-jobs.md`, five evidence-based application packages under `companies/applications/`, and tracker entries with all applications left in `Preparing` status. No application was submitted.
+- Added `worldwide-remote-jobs.csv` with 21 screened remote vacancies and explicit eligibility categories, plus a Camunda global-remote architecture application package. Camunda was later submitted after user approval.
+- Refreshed `master/skill-gaps.md` against the latest remote search: added BPMN/process orchestration, customer-facing solution architecture, production agentic/LLM systems, and optional ML-platform/Rust-proxy signals; aligned AI-assisted-development wording with the verified Codex and Claude skills record.
 - Added CLAUDE.md with candidate snapshot, hard rules, repo layout, and common task prompts for future AI sessions.
 - Added a selective Staff Backend Engineer resume track with Markdown source, public-safe DOCX/PDF exports, cover letter, and track guidance. Positioned around verified hands-on cross-service technical influence without implying direct reports or unsupported organization-wide authority.
 
