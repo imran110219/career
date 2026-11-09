@@ -1,127 +1,41 @@
-# Latest Matching Jobs
+# LinkedIn job search — 2026-11-09
 
-**Generated:** 2026-07-28
-**Search focus:** Senior Java and backend engineering roles using Spring Boot, APIs, distributed systems, PostgreSQL/relational data, and technical leadership across priority markets and explicitly international remote work.
-**Jobs reviewed:** 12
-**Jobs selected:** 1
-**Jobs rejected:** 11
+Search scope: LinkedIn Jobs, roles posted within the past 7 days, using Senior Backend Engineer / Senior Java Engineer / Lead Backend Engineer and related backend-architecture terms. Screening prioritized Saudi Arabia, UAE, Malaysia, and APAC relocation. Sponsorship and Bangladesh eligibility were recorded only when visible in the posting.
 
-> Job availability and immigration eligibility can change. Verify each role on the employer's website before applying.
+## Ranked opportunities
 
-## Search summary
+| Rank | Company and role | Country / arrangement | Posted | Score | Visa / relocation | Salary | Decision |
+|---:|---|---|---|---:|---|---|---|
+| 1 | Agoda — Staff Software Engineer, Backend | Thailand / Bangkok-based | ~1 hour ago | 91 | Relocation provided; visa details unknown | Not published | Strongest overall fit; high-scale distributed systems and explicit relocation. |
+| 2 | Halian — Senior Backend / Workflow Engineer | UAE / Abu Dhabi; arrangement to confirm | ~2 days ago | 87 | Unknown | Not published | Strong workflow, integrations, APIs, distributed systems and Java overlap; confirm sponsorship. |
+| 3 | Swisslog — Software Technical Lead | Malaysia / Petaling Jaya, on-site | ~4 days ago | 86 | Unknown | Not published | Strong Java/Spring, architecture, delivery and mentoring fit; confirm relocation. |
+| 4 | Hays — Technical Lead, Java | Malaysia / Kuala Lumpur; arrangement to confirm | ~3 days ago | 78 | Unknown | MYR 15,000–23,000/month | Strong technical-lead fit; zSmart/BSS gap and eligibility need confirmation. |
+| 5 | Systems Arabia — Senior Java Software Engineer | Saudi Arabia / Riyadh, on-site | ~4 days ago | 75 | Unknown | Not published | Java/microservices/Kubernetes overlap; Quarkus, Angular, OpenShift and platform-tool gaps. |
+| 6 | Qatar Airways — Technical Lead | Qatar / Doha, on-site | ~15 hours ago | 74 | Unknown | Not published | Senior architecture/integration/security overlap, but Qatar is outside the stated priority countries and stack is broader than Java backend. |
+| 7 | Analog — Senior Backend Engineer | UAE / Abu Dhabi, on-site | ~6 days ago | Pending details | Unknown | Not published | Potential fit; full requirements were not available in the reviewed card. Verify before investing in an application. |
+| 8 | talabat — Senior Software Engineer, Backend | UAE / Dubai, on-site | within 7 days | Pending details | Unknown | Not published | Relevant senior backend title; requirements and sponsorship not verified. |
+| 9 | Virtusa — Lead Software Engineer | UAE / Dubai; arrangement to confirm | ~1 day ago | Pending details | Unknown | Not published | Relevant seniority; requirements and sponsorship not verified. |
 
-**Revalidation of the 2026-07-26 report:**
+Application URLs for ranked roles:
 
-- **Kestra – Senior Backend Engineer, AI Orchestration:** The original active page now labels the role `Europe` remote. Its general work-from-anywhere language does not explicitly establish Bangladesh eligibility. **Removed** under the region-restricted remote rule.
-- **Kestra – Lead Java Software Engineer:** The original posting no longer resolves to a role page, while current career search results label the role Remote / Europe. **Removed** as inaccessible and region-restricted.
-- **Camunda – Senior Software Engineer, Backend – Core/API & Process Automation:** The original Ashby posting remains active. It describes the company as fully remote and global, and says candidates based outside the listed markets are hired through Remote.com. **Retained and re-scored.**
+1. [Agoda](https://www.linkedin.com/jobs/view/4487670935/)
+2. [Halian](https://www.linkedin.com/jobs/view/4486962752/)
+3. [Swisslog](https://www.linkedin.com/jobs/view/4487719282/)
+4. [Hays](https://www.linkedin.com/jobs/view/4488113494/)
+5. [Systems Arabia](https://www.linkedin.com/jobs/view/4487246780/)
+6. [Qatar Airways](https://www.linkedin.com/jobs/view/4487664010/)
+7. [Analog](https://www.linkedin.com/jobs/view/4484648605/)
+8. [talabat](https://www.linkedin.com/jobs/view/4486041804/)
+9. [Virtusa](https://www.linkedin.com/jobs/view/4486646190/)
 
-The search prioritized official employer and ATS pages. No additional vacancy met the configured role, freshness, technical-fit, and explicit-location requirements in this run.
+## Excluded or held
 
----
+- CLPS Global — Java Solution Architect: excellent technical overlap, but the posting explicitly says Malaysia citizen or PR; not suitable without a sponsorship clarification.
+- Robert Walters — Solution Architect Java: posting says Malaysians only; excluded.
+- Core42 — Backend Engineer Java: UAE National requirement; excluded.
+- HungerStation — Senior Software Engineer, Backend: already applied in LinkedIn; not a new application.
+- Finance/fintech, PHP, SAP, support, junior, and unrelated roles were excluded even when recently posted.
 
-## Recommended first applications
+## Verification notes
 
-| Score | Role | Company | Location | Work mode | Recommended resume |
-|---:|---|---|---|---|---|
-| 76 | Senior Software Engineer, Backend – Core/API & Process Automation | Camunda | Global remote | Remote | `resumes/senior-backend/resume.pdf` |
-
----
-
-## Excellent matches
-
-No roles met the excellent-match threshold (80+) in this search cycle.
-
----
-
-## Good matches
-
-### 1. Senior Software Engineer, Backend – Core/API & Process Automation — Camunda
-
-- **Job ID:** camunda__57c7aef5-f043-4b3b-b88d-3180f18bbb9d
-- **Match score:** 76/100
-- **Classification:** Good Match
-- **Evidence confidence:** High
-- **Eligibility:** Confirmed eligible
-- **Target-company priority:** A2
-- **Last verified:** 2026-07-28
-- **Location:** Remote; Camunda states it is fully remote and global
-- **Work mode:** Remote
-- **Published:** Not specified
-- **Application status:** Open
-- **Experience requested:** 5+ years of professional backend engineering; deep distributed and event-driven systems knowledge
-- **Visa sponsorship:** Not specified
-- **Relocation support:** Not applicable; candidates outside listed markets may be hired through Remote.com
-- **Recommended resume:** `resumes/senior-backend/resume.pdf`
-- **Apply:** https://jobs.ashbyhq.com/camunda/57c7aef5-f043-4b3b-b88d-3180f18bbb9d
-
-**Score breakdown**
-
-| Category | Score |
-|---|---:|
-| Role alignment | 25/25 |
-| Technical alignment | 10/30 |
-| Seniority alignment | 15/15 |
-| Location feasibility | 15/15 |
-| Leadership and architecture | 10/10 |
-| Freshness | 1/5 |
-| Penalties | 0 |
-| **Final score** | **76/100** |
-
-**Matched requirements**
-
-- The role is senior backend engineering and requires 5+ years; the candidate has 9 verified years of experience.
-- The vacancy's distributed, event-driven execution, API evolution, PostgreSQL, performance, and technical-leadership themes align with verified distributed systems, API design, PostgreSQL, query optimization, code review, and mentoring evidence.
-- Camunda explicitly describes a global remote model and an employment route through Remote.com for candidates outside its listed compensation markets.
-
-**Potential gaps**
-
-- Deep event sourcing, distributed-execution failure modes, contract testing, RocksDB, and production incident leadership at this platform depth are not verified in the candidate evidence.
-- The vacancy emphasizes JVM performance, observability, Elasticsearch/OpenSearch, and workflow-automation depth that are only partially supported or unverified.
-- The public page does not provide a publication date; active status was verified directly on 2026-07-28.
-
-**Why it matches**
-
-Camunda's role is a strong senior-backend and systems-design match, particularly for API design, data integrity, distributed systems, and technical leadership. Its explicit global employment route makes it the only confirmed-eligible result in this sample; the application should address the event-sourcing and workflow-engine depth honestly rather than overstate it.
-
----
-
-## Possible matches
-
-No additional roles met the configured score and eligibility rules.
-
----
-
-## Market observations
-
-- In this search sample, many roles labelled remote were explicitly limited to the US, Europe, India/Pakistan, or other approved hiring countries; they were not treated as Bangladesh-eligible.
-- The selected Camunda role and the removed Kestra roles show continued demand for Java-adjacent distributed systems, but also for event sourcing, workflow orchestration, observability, cloud, and AI-production experience that is not fully verified in the repository.
-- Several otherwise relevant current roles were excluded because their primary language was Go, Python, PHP, or another unsupported stack, or because the employer, location, or work route was not sufficiently clear.
-
-## Suggested next actions
-
-1. Reopen the Camunda vacancy immediately before applying and confirm its active status and employment arrangement for Bangladesh.
-2. If proceeding, use the Senior Backend resume and address verified Java, API, PostgreSQL, distributed-systems, and mentoring evidence; do not claim event-sourcing, RocksDB, or production AI experience.
-3. Add a row to `applications/tracker.csv` only after deciding to apply; use `camunda__57c7aef5-f043-4b3b-b88d-3180f18bbb9d`.
-4. Continue weekly monitoring of A1/A2 companies, but keep regional-remote listings out unless the vacancy explicitly supports Bangladesh or an international employment route.
-
-## Sources reviewed
-
-**Selected and revalidated**
-
-- Camunda – Senior Software Engineer, Backend – Core/API & Process Automation (https://jobs.ashbyhq.com/camunda/57c7aef5-f043-4b3b-b88d-3180f18bbb9d) — active; global remote with Remote.com route for other locations; selected.
-
-**Revalidated and removed**
-
-- Kestra – Senior Backend Engineer, AI Orchestration (https://jobs.ashbyhq.com/kestra/811d671f-3f51-4527-95c7-625fc2481fb4) — active, but Europe remote; removed for unconfirmed Bangladesh eligibility.
-- Kestra – Lead Java Software Engineer (https://jobs.ashbyhq.com/kestra/835f4a16-0b12-4d15-899b-e0012b1e8f33) — original role URL no longer resolves to a vacancy; current career evidence identifies it as Europe remote; removed.
-
-**Current roles evaluated and rejected**
-
-- Real – Senior Backend Engineer, Java — USA remote; excluded because the vacancy does not establish Bangladesh eligibility and expects unverified AI-tool, AWS, testing, and NoSQL depth.
-- Secfix – Senior Backend Engineer (Java) — India/Pakistan remote; excluded because the location restriction does not include Bangladesh and the role requires unverified production AI-tool experience.
-- Close – Senior Backend Engineer, Agents — USA-only remote; excluded for location.
-- cargo.one – Senior Backend Engineer — EMEA remote with German-only visa-process support; excluded for location and primarily Python backend requirements.
-- Teamworks – Senior Software Engineer, Backend (Java) — US remote; excluded for location and mandatory AWS/infrastructure-as-code depth.
-- Frontify – Senior Backend Engineer roles — UK or Switzerland remote and PHP-first; excluded for location and primary-language mismatch.
-- Jobgether and OnHires listings — excluded because they are intermediary postings with an undisclosed or non-original employer route.
+LinkedIn showed relative posting times rather than calendar dates for these results. All listed roles were visible under a past-week search on 2026-11-09. “Pending details” means the role was visible in the search results but its full requirements were not reviewed deeply enough to assign a defensible score. “Unknown” means no sponsorship or Bangladesh-eligibility evidence was visible in the reviewed posting, not that support is unavailable. Confirm work authorization, relocation, and on-site expectations before submission.
