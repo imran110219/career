@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added a persistent job-application workspace under `job-search/` with candidate profile, job preferences, and application rules. The workspace separates verified career evidence from candidate-provided details pending confirmation and requires approval before application submission.
 - Added CLAUDE.md with candidate snapshot, hard rules, repo layout, and common task prompts for future AI sessions.
 - Added a selective Staff Backend Engineer resume track with Markdown source, public-safe DOCX/PDF exports, cover letter, and track guidance. Positioned around verified hands-on cross-service technical influence without implying direct reports or unsupported organization-wide authority.
 

@@ -5,6 +5,9 @@ This directory contains manually generated job-discovery reports.
 ## Files
 
 - `AGENT.md` — stable instructions for the job-discovery agent
+- `candidate-profile.md` — persistent evidence-aware candidate profile
+- `job-preferences.md` — target roles, markets, eligibility, and exclusions
+- `application-rules.md` — research, tailoring, privacy, and approval rules
 - `latest-jobs.md` — latest generated and validated job report
 
 Search positioning, scoring, markets, and filtering are configured in:
